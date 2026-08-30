@@ -12,6 +12,10 @@ jobs:
   update:
     runs-on: ubuntu-latest
 
+    env:
+      SUPABASE_URL: ${{ vars.SUPABASE_URL }}
+      SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
