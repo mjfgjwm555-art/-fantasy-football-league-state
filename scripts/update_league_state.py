@@ -122,9 +122,13 @@ def main():
             "starters": starters,
             "bench": bench,
             "taxi": [
-                player_info(pid, players)
-                for pid in roster.get("taxi", [])
-            ],
+    player_info(pid, players)
+    for pid in (roster.get("taxi") or [])
+],
+"reserve": [
+    player_info(pid, players)
+    for pid in (roster.get("reserve") or [])
+],
             "reserve": [
                 player_info(pid, players)
                 for pid in roster.get("reserve", [])
