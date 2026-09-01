@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-09-01T02:06:53.036923+00:00",
+  "generated_at_utc": "2026-09-01T02:24:26.831977+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-09-01T02:06:53.036923+00:00",
+    "generated_at_utc": "2026-09-01T02:24:26.831977+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -85,7 +85,6 @@
     "season": "2026",
     "season_type": "regular",
     "sport": "nfl",
-    "last_message_id": "1400325337367261184",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -141,15 +140,16 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
+    "last_message_id": "1400336125427466240",
+    "draft_id": "1332851598610690048",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1788226086517,
+    "last_message_time": 1788228658591,
     "last_pinned_message_id": null,
-    "draft_id": "1332851598610690048",
     "last_read_id": null,
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
@@ -3479,13 +3479,6 @@
           "status": "Active"
         },
         {
-          "player_id": "12536",
-          "name": "Jaylin Noel",
-          "position": "WR",
-          "team": "HOU",
-          "status": "Active"
-        },
-        {
           "player_id": "13274",
           "name": "Germie Bernard",
           "position": "WR",
@@ -3560,13 +3553,6 @@
           "name": "Jonathan Taylor",
           "position": "RB",
           "team": "IND",
-          "status": "Active"
-        },
-        {
-          "player_id": "7591",
-          "name": "Justin Fields",
-          "position": "QB",
-          "team": "KC",
           "status": "Active"
         },
         {
@@ -3763,13 +3749,6 @@
           "status": "Active"
         },
         {
-          "player_id": "7591",
-          "name": "Justin Fields",
-          "position": "QB",
-          "team": "KC",
-          "status": "Active"
-        },
-        {
           "player_id": "8132",
           "name": "Tyler Allgeier",
           "position": "RB",
@@ -3785,13 +3764,6 @@
         }
       ],
       "taxi": [
-        {
-          "player_id": "12536",
-          "name": "Jaylin Noel",
-          "position": "WR",
-          "team": "HOU",
-          "status": "Active"
-        },
         {
           "player_id": "13274",
           "name": "Germie Bernard",
