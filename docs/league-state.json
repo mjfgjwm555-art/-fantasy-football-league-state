@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-09-01T08:54:33.060009+00:00",
+  "generated_at_utc": "2026-09-01T09:07:46.179880+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-09-01T08:54:33.060009+00:00",
+    "generated_at_utc": "2026-09-01T09:07:46.179880+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -3011,13 +3011,6 @@
           "status": "Active"
         },
         {
-          "player_id": "13414",
-          "name": "Kaelon Black",
-          "position": "RB",
-          "team": "SF",
-          "status": "Active"
-        },
-        {
           "player_id": "4035",
           "name": "Alvin Kamara",
           "position": "RB",
@@ -3066,6 +3059,13 @@
           "name": "Kenyon Sadiq",
           "position": "TE",
           "team": "NYJ",
+          "status": "Active"
+        },
+        {
+          "player_id": "13414",
+          "name": "Kaelon Black",
+          "position": "RB",
+          "team": "SF",
           "status": "Active"
         }
       ],
