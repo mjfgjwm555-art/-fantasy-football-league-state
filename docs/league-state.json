@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-09-01T08:08:26.867591+00:00",
+  "generated_at_utc": "2026-09-01T08:28:03.378338+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-09-01T08:08:26.867591+00:00",
+    "generated_at_utc": "2026-09-01T08:28:03.378338+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -77,14 +77,14 @@
       "leg": 1,
       "reserve_slots": 2,
       "reserve_allow_cov": 1,
-      "daily_waivers_last_ran": 31
+      "daily_waivers_last_ran": 1
     },
     "avatar": null,
     "company_id": null,
-    "shard": 697,
-    "season": "2026",
-    "season_type": "regular",
     "sport": "nfl",
+    "shard": 697,
+    "season_type": "regular",
+    "season": "2026",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -140,15 +140,15 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1400342259597053952",
+    "last_message_id": "1400426479921176576",
+    "draft_id": "1332851598610690048",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
-    "draft_id": "1332851598610690048",
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1788230121091,
+    "last_message_time": 1788250200780,
     "last_pinned_message_id": null,
     "last_read_id": null,
     "league_id": "1332851598593908736",
@@ -156,8 +156,6 @@
     "bracket_id": null,
     "bracket_overrides_id": null,
     "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "QB",
@@ -181,6 +179,8 @@
       "BN",
       "BN"
     ],
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "my_roster": {
@@ -189,13 +189,6 @@
     "display_name": "Doctorie",
     "team_name": "Vicious Pernicious",
     "players": [
-      {
-        "player_id": "11610",
-        "name": "Malik Washington",
-        "position": "WR",
-        "team": "MIA",
-        "status": "Active"
-      },
       {
         "player_id": "11635",
         "name": "Ladd McConkey",
@@ -356,6 +349,13 @@
         "position": "WR",
         "team": "BAL",
         "status": "Active"
+      },
+      {
+        "player_id": "LAC",
+        "name": "Los Angeles Chargers",
+        "position": "DEF",
+        "team": "LAC",
+        "status": null
       }
     ],
     "starters": [
@@ -432,13 +432,6 @@
     ],
     "bench": [
       {
-        "player_id": "11610",
-        "name": "Malik Washington",
-        "position": "WR",
-        "team": "MIA",
-        "status": "Active"
-      },
-      {
         "player_id": "11635",
         "name": "Ladd McConkey",
         "position": "WR",
@@ -507,6 +500,13 @@
         "position": "QB",
         "team": "PIT",
         "status": "Active"
+      },
+      {
+        "player_id": "LAC",
+        "name": "Los Angeles Chargers",
+        "position": "DEF",
+        "team": "LAC",
+        "status": null
       }
     ],
     "taxi": [
@@ -540,8 +540,8 @@
       "losses": 0,
       "ties": 0,
       "total_moves": 0,
-      "waiver_budget_used": 58,
-      "waiver_position": 2,
+      "waiver_budget_used": 64,
+      "waiver_position": 7,
       "wins": 0
     }
   },
@@ -557,13 +557,6 @@
           "name": "Bucky Irving",
           "position": "RB",
           "team": "TB",
-          "status": "Active"
-        },
-        {
-          "player_id": "11627",
-          "name": "Troy Franklin",
-          "position": "WR",
-          "team": "DEN",
           "status": "Active"
         },
         {
@@ -627,6 +620,13 @@
           "name": "Jared Goff",
           "position": "QB",
           "team": "DET",
+          "status": "Active"
+        },
+        {
+          "player_id": "3257",
+          "name": "Jacoby Brissett",
+          "position": "QB",
+          "team": "ARI",
           "status": "Active"
         },
         {
@@ -802,13 +802,6 @@
       ],
       "bench": [
         {
-          "player_id": "11627",
-          "name": "Troy Franklin",
-          "position": "WR",
-          "team": "DEN",
-          "status": "Active"
-        },
-        {
           "player_id": "12511",
           "name": "Will Howard",
           "position": "QB",
@@ -820,6 +813,13 @@
           "name": "Stefon Diggs",
           "position": "WR",
           "team": "WAS",
+          "status": "Active"
+        },
+        {
+          "player_id": "3257",
+          "name": "Jacoby Brissett",
+          "position": "QB",
+          "team": "ARI",
           "status": "Active"
         },
         {
@@ -904,8 +904,8 @@
         "losses": 0,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 50,
-        "waiver_position": 8,
+        "waiver_budget_used": 100,
+        "waiver_position": 6,
         "wins": 0
       }
     },
@@ -915,13 +915,6 @@
       "display_name": "Doctorie",
       "team_name": "Vicious Pernicious",
       "players": [
-        {
-          "player_id": "11610",
-          "name": "Malik Washington",
-          "position": "WR",
-          "team": "MIA",
-          "status": "Active"
-        },
         {
           "player_id": "11635",
           "name": "Ladd McConkey",
@@ -1082,6 +1075,13 @@
           "position": "WR",
           "team": "BAL",
           "status": "Active"
+        },
+        {
+          "player_id": "LAC",
+          "name": "Los Angeles Chargers",
+          "position": "DEF",
+          "team": "LAC",
+          "status": null
         }
       ],
       "starters": [
@@ -1158,13 +1158,6 @@
       ],
       "bench": [
         {
-          "player_id": "11610",
-          "name": "Malik Washington",
-          "position": "WR",
-          "team": "MIA",
-          "status": "Active"
-        },
-        {
           "player_id": "11635",
           "name": "Ladd McConkey",
           "position": "WR",
@@ -1233,6 +1226,13 @@
           "position": "QB",
           "team": "PIT",
           "status": "Active"
+        },
+        {
+          "player_id": "LAC",
+          "name": "Los Angeles Chargers",
+          "position": "DEF",
+          "team": "LAC",
+          "status": null
         }
       ],
       "taxi": [
@@ -1266,8 +1266,8 @@
         "losses": 0,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 58,
-        "waiver_position": 2,
+        "waiver_budget_used": 64,
+        "waiver_position": 7,
         "wins": 0
       }
     },
@@ -1629,7 +1629,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 25,
-        "waiver_position": 3,
+        "waiver_position": 2,
         "wins": 0
       }
     },
@@ -1991,7 +1991,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 4,
+        "waiver_position": 3,
         "wins": 0
       }
     },
@@ -2353,7 +2353,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 100,
-        "waiver_position": 5,
+        "waiver_position": 4,
         "wins": 0
       }
     },
@@ -2403,6 +2403,13 @@
           "name": "Jalen Coker",
           "position": "WR",
           "team": "CAR",
+          "status": "Active"
+        },
+        {
+          "player_id": "11834",
+          "name": "Devaughn Vele",
+          "position": "WR",
+          "team": "NO",
           "status": "Active"
         },
         {
@@ -2624,6 +2631,13 @@
           "name": "Bo Nix",
           "position": "QB",
           "team": "DEN",
+          "status": "Active"
+        },
+        {
+          "player_id": "11834",
+          "name": "Devaughn Vele",
+          "position": "WR",
+          "team": "NO",
           "status": "Active"
         },
         {
@@ -2716,7 +2730,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 95,
-        "waiver_position": 7,
+        "waiver_position": 9,
         "wins": 0
       }
     },
@@ -2783,20 +2797,6 @@
           "status": "Active"
         },
         {
-          "player_id": "12457",
-          "name": "Jaydon Blue",
-          "position": "RB",
-          "team": "DAL",
-          "status": "Active"
-        },
-        {
-          "player_id": "12535",
-          "name": "Isaac TeSlaa",
-          "position": "WR",
-          "team": "DET",
-          "status": "Active"
-        },
-        {
           "player_id": "13276",
           "name": "Omar Cooper",
           "position": "WR",
@@ -2808,6 +2808,13 @@
           "name": "Kenyon Sadiq",
           "position": "TE",
           "team": "NYJ",
+          "status": "Active"
+        },
+        {
+          "player_id": "13414",
+          "name": "Kaelon Black",
+          "position": "RB",
+          "team": "SF",
           "status": "Active"
         },
         {
@@ -2857,6 +2864,13 @@
           "name": "J.K. Dobbins",
           "position": "RB",
           "team": "DEN",
+          "status": "Active"
+        },
+        {
+          "player_id": "7567",
+          "name": "Kenny Gainwell",
+          "position": "RB",
+          "team": "TB",
           "status": "Active"
         },
         {
@@ -2997,17 +3011,10 @@
           "status": "Active"
         },
         {
-          "player_id": "12457",
-          "name": "Jaydon Blue",
+          "player_id": "13414",
+          "name": "Kaelon Black",
           "position": "RB",
-          "team": "DAL",
-          "status": "Active"
-        },
-        {
-          "player_id": "12535",
-          "name": "Isaac TeSlaa",
-          "position": "WR",
-          "team": "DET",
+          "team": "SF",
           "status": "Active"
         },
         {
@@ -3015,6 +3022,13 @@
           "name": "Alvin Kamara",
           "position": "RB",
           "team": "NO",
+          "status": "Active"
+        },
+        {
+          "player_id": "7567",
+          "name": "Kenny Gainwell",
+          "position": "RB",
+          "team": "TB",
           "status": "Active"
         },
         {
@@ -3063,8 +3077,8 @@
         "losses": 0,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 10,
-        "waiver_position": 9,
+        "waiver_budget_used": 100,
+        "waiver_position": 10,
         "wins": 0
       }
     },
@@ -3426,7 +3440,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 38,
-        "waiver_position": 10,
+        "waiver_position": 5,
         "wins": 0
       }
     },
@@ -3497,6 +3511,13 @@
           "name": "Cyrus Allen",
           "position": "WR",
           "team": "KC",
+          "status": "Active"
+        },
+        {
+          "player_id": "13424",
+          "name": "Seth McGowan",
+          "position": "RB",
+          "team": "IND",
           "status": "Active"
         },
         {
@@ -3714,6 +3735,13 @@
           "status": "Active"
         },
         {
+          "player_id": "13424",
+          "name": "Seth McGowan",
+          "position": "RB",
+          "team": "IND",
+          "status": "Active"
+        },
+        {
           "player_id": "4943",
           "name": "Sam Darnold",
           "position": "QB",
@@ -3802,8 +3830,8 @@
         "losses": 0,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 91,
-        "waiver_position": 6,
+        "waiver_budget_used": 92,
+        "waiver_position": 8,
         "wins": 0
       }
     },
