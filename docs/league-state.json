@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-09-01T01:37:08.390967+00:00",
+  "generated_at_utc": "2026-09-01T01:50:55.189864+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-09-01T01:37:08.390967+00:00",
+    "generated_at_utc": "2026-09-01T01:50:55.189864+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -81,6 +81,7 @@
     },
     "avatar": null,
     "company_id": null,
+    "last_message_id": "1400325337367261184",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -136,12 +137,10 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "sport": "nfl",
-    "season_type": "regular",
     "season": "2026",
+    "season_type": "regular",
     "shard": 697,
-    "last_message_id": "1400325337367261184",
-    "draft_id": "1332851598610690048",
+    "sport": "nfl",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -150,9 +149,15 @@
     "last_message_text_map": null,
     "last_message_time": 1788226086517,
     "last_pinned_message_id": null,
+    "draft_id": "1332851598610690048",
     "last_read_id": null,
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "QB",
@@ -176,11 +181,6 @@
       "BN",
       "BN"
     ],
-    "group_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "my_roster": {
