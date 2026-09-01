@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-09-01T02:24:26.831977+00:00",
+  "generated_at_utc": "2026-09-01T02:38:09.015224+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-09-01T02:24:26.831977+00:00",
+    "generated_at_utc": "2026-09-01T02:38:09.015224+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -81,10 +81,10 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 697,
-    "season": "2026",
-    "season_type": "regular",
     "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
+    "shard": 697,
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -140,7 +140,7 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1400336125427466240",
+    "last_message_id": "1400342259597053952",
     "draft_id": "1332851598610690048",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
@@ -148,7 +148,7 @@
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1788228658591,
+    "last_message_time": 1788230121091,
     "last_pinned_message_id": null,
     "last_read_id": null,
     "league_id": "1332851598593908736",
@@ -3714,13 +3714,6 @@
           "status": "Active"
         },
         {
-          "player_id": "13294",
-          "name": "Makai Lemon",
-          "position": "WR",
-          "team": "PHI",
-          "status": "Active"
-        },
-        {
           "player_id": "4943",
           "name": "Sam Darnold",
           "position": "QB",
@@ -3769,6 +3762,13 @@
           "name": "Germie Bernard",
           "position": "WR",
           "team": "PIT",
+          "status": "Active"
+        },
+        {
+          "player_id": "13294",
+          "name": "Makai Lemon",
+          "position": "WR",
+          "team": "PHI",
           "status": "Active"
         },
         {
@@ -3835,13 +3835,6 @@
           "status": "Active"
         },
         {
-          "player_id": "12483",
-          "name": "Jack Bech",
-          "position": "WR",
-          "team": "LV",
-          "status": "Active"
-        },
-        {
           "player_id": "12519",
           "name": "Luther Burden",
           "position": "WR",
@@ -3895,13 +3888,6 @@
           "name": "Davante Adams",
           "position": "WR",
           "team": "LAR",
-          "status": "Active"
-        },
-        {
-          "player_id": "2505",
-          "name": "Darren Waller",
-          "position": "TE",
-          "team": "CAR",
           "status": "Active"
         },
         {
@@ -4047,10 +4033,17 @@
           "status": "Active"
         },
         {
-          "player_id": "5850",
-          "name": "Josh Jacobs",
-          "position": "RB",
-          "team": "GB",
+          "player_id": "12519",
+          "name": "Luther Burden",
+          "position": "WR",
+          "team": "CHI",
+          "status": "Active"
+        },
+        {
+          "player_id": "2133",
+          "name": "Davante Adams",
+          "position": "WR",
+          "team": "LAR",
           "status": "Active"
         },
         {
@@ -4077,20 +4070,6 @@
           "status": "Active"
         },
         {
-          "player_id": "12483",
-          "name": "Jack Bech",
-          "position": "WR",
-          "team": "LV",
-          "status": "Active"
-        },
-        {
-          "player_id": "12519",
-          "name": "Luther Burden",
-          "position": "WR",
-          "team": "CHI",
-          "status": "Active"
-        },
-        {
           "player_id": "13272",
           "name": "Carson Beck",
           "position": "QB",
@@ -4105,24 +4084,24 @@
           "status": "Active"
         },
         {
-          "player_id": "2133",
-          "name": "Davante Adams",
-          "position": "WR",
-          "team": "LAR",
-          "status": "Active"
-        },
-        {
-          "player_id": "2505",
-          "name": "Darren Waller",
-          "position": "TE",
-          "team": "CAR",
-          "status": "Active"
-        },
-        {
           "player_id": "4039",
           "name": "Cooper Kupp",
           "position": "WR",
           "team": "SEA",
+          "status": "Active"
+        },
+        {
+          "player_id": "4217",
+          "name": "George Kittle",
+          "position": "TE",
+          "team": "SF",
+          "status": "Active"
+        },
+        {
+          "player_id": "5850",
+          "name": "Josh Jacobs",
+          "position": "RB",
+          "team": "GB",
           "status": "Active"
         },
         {
@@ -4177,15 +4156,7 @@
           "status": "Active"
         }
       ],
-      "reserve": [
-        {
-          "player_id": "4217",
-          "name": "George Kittle",
-          "position": "TE",
-          "team": "SF",
-          "status": "Active"
-        }
-      ],
+      "reserve": [],
       "settings": {
         "division": 2,
         "fpts": 0,
