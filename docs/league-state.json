@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-09-01T12:54:12.473915+00:00",
+  "generated_at_utc": "2026-09-01T13:07:53.940929+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-09-01T12:54:12.473915+00:00",
+    "generated_at_utc": "2026-09-01T13:07:53.940929+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -3735,10 +3735,10 @@
           "status": "Active"
         },
         {
-          "player_id": "13424",
-          "name": "Seth McGowan",
-          "position": "RB",
-          "team": "IND",
+          "player_id": "13294",
+          "name": "Makai Lemon",
+          "position": "WR",
+          "team": "PHI",
           "status": "Active"
         },
         {
@@ -3793,17 +3793,17 @@
           "status": "Active"
         },
         {
-          "player_id": "13294",
-          "name": "Makai Lemon",
-          "position": "WR",
-          "team": "PHI",
-          "status": "Active"
-        },
-        {
           "player_id": "13413",
           "name": "Cyrus Allen",
           "position": "WR",
           "team": "KC",
+          "status": "Active"
+        },
+        {
+          "player_id": "13424",
+          "name": "Seth McGowan",
+          "position": "RB",
+          "team": "IND",
           "status": "Active"
         }
       ],
