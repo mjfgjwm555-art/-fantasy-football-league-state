@@ -1,18 +1,18 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-09-03T19:49:27.393811+00:00",
+  "generated_at_utc": "2026-09-03T20:07:18.961765+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-09-03T19:49:27.393811+00:00",
+    "generated_at_utc": "2026-09-03T20:07:18.961765+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
     "week": 1,
     "leg": 1,
-    "season_type": "regular",
     "season": "2026",
+    "season_type": "regular",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
