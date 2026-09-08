@@ -1,18 +1,18 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-09-08T07:54:12.576071+00:00",
+  "generated_at_utc": "2026-09-08T08:08:51.064665+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-09-08T07:54:12.576071+00:00",
+    "generated_at_utc": "2026-09-08T08:08:51.064665+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
     "week": 1,
     "leg": 1,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -78,15 +78,14 @@
       "leg": 1,
       "reserve_slots": 2,
       "reserve_allow_cov": 1,
-      "daily_waivers_last_ran": 7
+      "daily_waivers_last_ran": 8
     },
     "avatar": null,
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
     "shard": 697,
-    "last_message_id": "1401061720402698240",
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -142,19 +141,24 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "draft_id": "1332851598610690048",
-    "last_author_avatar": "82aec8e811b839b8ec25d7b458afd57b",
-    "last_author_display_name": "Jpitrelli",
-    "last_author_id": "1123700806793920512",
-    "last_author_is_bot": false,
+    "last_message_id": "1402961464288931840",
+    "last_author_avatar": null,
+    "last_author_display_name": "sys",
+    "last_author_id": "166666666666666666",
+    "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1788401653914,
+    "last_message_time": 1788854588151,
     "last_pinned_message_id": null,
+    "draft_id": "1332851598610690048",
     "last_read_id": null,
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
+    "bracket_id": null,
+    "bracket_overrides_id": null,
     "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "QB",
@@ -178,10 +182,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "my_roster": {
@@ -542,7 +542,7 @@
       "ties": 0,
       "total_moves": 0,
       "waiver_budget_used": 64,
-      "waiver_position": 7,
+      "waiver_position": 6,
       "wins": 0
     }
   },
@@ -553,6 +553,13 @@
       "display_name": "BuiltFoardTough",
       "team_name": "GrahamLikeTheCracker",
       "players": [
+        {
+          "player_id": "11557",
+          "name": "Joe Milton",
+          "position": "QB",
+          "team": "DAL",
+          "status": "Active"
+        },
         {
           "player_id": "11584",
           "name": "Bucky Irving",
@@ -635,6 +642,13 @@
           "name": "Ka'imi Fairbairn",
           "position": "K",
           "team": "HOU",
+          "status": "Active"
+        },
+        {
+          "player_id": "4017",
+          "name": "Deshaun Watson",
+          "position": "QB",
+          "team": "CLE",
           "status": "Active"
         },
         {
@@ -803,6 +817,13 @@
       ],
       "bench": [
         {
+          "player_id": "11557",
+          "name": "Joe Milton",
+          "position": "QB",
+          "team": "DAL",
+          "status": "Active"
+        },
+        {
           "player_id": "12511",
           "name": "Will Howard",
           "position": "QB",
@@ -821,6 +842,13 @@
           "name": "Jacoby Brissett",
           "position": "QB",
           "team": "ARI",
+          "status": "Active"
+        },
+        {
+          "player_id": "4017",
+          "name": "Deshaun Watson",
+          "position": "QB",
+          "team": "CLE",
           "status": "Active"
         },
         {
@@ -906,7 +934,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 100,
-        "waiver_position": 6,
+        "waiver_position": 10,
         "wins": 0
       }
     },
@@ -1268,7 +1296,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 64,
-        "waiver_position": 7,
+        "waiver_position": 6,
         "wins": 0
       }
     },
@@ -2731,7 +2759,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 95,
-        "waiver_position": 9,
+        "waiver_position": 7,
         "wins": 0
       }
     },
@@ -2795,6 +2823,13 @@
           "name": "Keon Coleman",
           "position": "WR",
           "team": "BUF",
+          "status": "Active"
+        },
+        {
+          "player_id": "12535",
+          "name": "Isaac TeSlaa",
+          "position": "WR",
+          "team": "DET",
           "status": "Active"
         },
         {
@@ -3012,6 +3047,13 @@
           "status": "Active"
         },
         {
+          "player_id": "12535",
+          "name": "Isaac TeSlaa",
+          "position": "WR",
+          "team": "DET",
+          "status": "Active"
+        },
+        {
           "player_id": "4035",
           "name": "Alvin Kamara",
           "position": "RB",
@@ -3079,7 +3121,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 100,
-        "waiver_position": 10,
+        "waiver_position": 9,
         "wins": 0
       }
     },
@@ -3487,6 +3529,13 @@
           "status": "Active"
         },
         {
+          "player_id": "12487",
+          "name": "Terrance Ferguson",
+          "position": "TE",
+          "team": "LAR",
+          "status": "Active"
+        },
+        {
           "player_id": "12492",
           "name": "Pat Bryant",
           "position": "WR",
@@ -3719,6 +3768,13 @@
           "name": "Kirk Cousins",
           "position": "QB",
           "team": "LV",
+          "status": "Active"
+        },
+        {
+          "player_id": "12487",
+          "name": "Terrance Ferguson",
+          "position": "TE",
+          "team": "LAR",
           "status": "Active"
         },
         {
