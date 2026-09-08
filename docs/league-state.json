@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-09-08T05:52:44.455073+00:00",
+  "generated_at_utc": "2026-09-08T06:09:51.508088+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-09-08T05:52:44.455073+00:00",
+    "generated_at_utc": "2026-09-08T06:09:51.508088+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -150,8 +150,8 @@
     "last_message_text_map": null,
     "last_message_time": 1788401653914,
     "last_pinned_message_id": null,
-    "draft_id": "1332851598610690048",
     "last_read_id": null,
+    "draft_id": "1332851598610690048",
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
     "bracket_id": null,
