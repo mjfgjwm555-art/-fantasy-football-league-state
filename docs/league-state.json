@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-09-09T02:52:27.609280+00:00",
+  "generated_at_utc": "2026-09-09T03:07:43.265934+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-09-09T02:52:27.609280+00:00",
+    "generated_at_utc": "2026-09-09T03:07:43.265934+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -154,7 +154,6 @@
     "last_read_id": null,
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
-    "group_id": null,
     "roster_positions": [
       "QB",
       "QB",
@@ -180,6 +179,7 @@
     ],
     "bracket_id": null,
     "bracket_overrides_id": null,
+    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
