@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-09-09T13:09:38.293088+00:00",
+  "generated_at_utc": "2026-09-09T13:28:17.206744+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-09-09T13:09:38.293088+00:00",
+    "generated_at_utc": "2026-09-09T13:28:17.206744+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -63,7 +63,7 @@
       "veto_show_votes": 0,
       "trade_deadline": 12,
       "taxi_years": 1,
-      "daily_waivers": 1,
+      "daily_waivers": 0,
       "faab_suggestions": 0,
       "disable_trades": 0,
       "pick_trading": 1,
@@ -141,19 +141,22 @@
     "season_type": "regular",
     "shard": 697,
     "sport": "nfl",
-    "last_message_id": "1403119760845094912",
+    "last_message_id": "1403404449312972800",
+    "draft_id": "1332851598610690048",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1788892328992,
+    "last_message_time": 1788960204011,
     "last_pinned_message_id": null,
-    "draft_id": "1332851598610690048",
     "last_read_id": null,
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
     "roster_positions": [
       "QB",
       "QB",
@@ -177,9 +180,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
@@ -542,7 +542,7 @@
       "ties": 0,
       "total_moves": 0,
       "waiver_budget_used": 64,
-      "waiver_position": 6,
+      "waiver_position": 5,
       "wins": 0
     }
   },
@@ -934,7 +934,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 100,
-        "waiver_position": 10,
+        "waiver_position": 9,
         "wins": 0
       }
     },
@@ -1296,7 +1296,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 64,
-        "waiver_position": 6,
+        "waiver_position": 5,
         "wins": 0
       }
     },
@@ -1388,6 +1388,13 @@
           "name": "Derrick Henry",
           "position": "RB",
           "team": "BAL",
+          "status": "Active"
+        },
+        {
+          "player_id": "5001",
+          "name": "Dalton Schultz",
+          "position": "TE",
+          "team": "HOU",
           "status": "Active"
         },
         {
@@ -1591,6 +1598,13 @@
           "status": "Active"
         },
         {
+          "player_id": "5001",
+          "name": "Dalton Schultz",
+          "position": "TE",
+          "team": "HOU",
+          "status": "Active"
+        },
+        {
           "player_id": "5012",
           "name": "Mark Andrews",
           "position": "TE",
@@ -1659,7 +1673,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 25,
-        "waiver_position": 2,
+        "waiver_position": 10,
         "wins": 0
       }
     },
@@ -2021,7 +2035,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 3,
+        "waiver_position": 2,
         "wins": 0
       }
     },
@@ -2383,7 +2397,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 100,
-        "waiver_position": 4,
+        "waiver_position": 3,
         "wins": 0
       }
     },
@@ -2760,7 +2774,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 95,
-        "waiver_position": 7,
+        "waiver_position": 6,
         "wins": 0
       }
     },
@@ -3122,7 +3136,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 100,
-        "waiver_position": 9,
+        "waiver_position": 8,
         "wins": 0
       }
     },
@@ -3484,7 +3498,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 38,
-        "waiver_position": 5,
+        "waiver_position": 4,
         "wins": 0
       }
     },
@@ -3875,7 +3889,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 92,
-        "waiver_position": 8,
+        "waiver_position": 7,
         "wins": 0
       }
     },
