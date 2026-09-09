@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-09-09T21:07:03.039388+00:00",
+  "generated_at_utc": "2026-09-09T21:24:26.141114+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-09-09T21:07:03.039388+00:00",
+    "generated_at_utc": "2026-09-09T21:24:26.141114+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -82,10 +82,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 697,
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -141,7 +137,11 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "last_message_id": "1403518647795789824",
+    "shard": 697,
     "last_author_avatar": "613b34adae9fb7799cea62ed1645ba96",
     "last_author_display_name": "Doctorie",
     "last_author_id": "731759054447321088",
@@ -150,8 +150,8 @@
     "last_message_text_map": null,
     "last_message_time": 1788987431052,
     "last_pinned_message_id": null,
-    "draft_id": "1332851598610690048",
     "last_read_id": null,
+    "draft_id": "1332851598610690048",
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
     "roster_positions": [
@@ -4112,10 +4112,10 @@
           "status": "Active"
         },
         {
-          "player_id": "11604",
-          "name": "Brock Bowers",
+          "player_id": "4217",
+          "name": "George Kittle",
           "position": "TE",
-          "team": "LV",
+          "team": "SF",
           "status": "Active"
         },
         {
@@ -4149,6 +4149,13 @@
       ],
       "bench": [
         {
+          "player_id": "11604",
+          "name": "Brock Bowers",
+          "position": "TE",
+          "team": "LV",
+          "status": "Active"
+        },
+        {
           "player_id": "11618",
           "name": "Jalen McMillan",
           "position": "WR",
@@ -4181,13 +4188,6 @@
           "name": "Cooper Kupp",
           "position": "WR",
           "team": "SEA",
-          "status": "Active"
-        },
-        {
-          "player_id": "4217",
-          "name": "George Kittle",
-          "position": "TE",
-          "team": "SF",
           "status": "Active"
         },
         {
