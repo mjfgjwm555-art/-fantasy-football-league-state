@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-09-10T22:36:46.999538+00:00",
+  "generated_at_utc": "2026-09-10T22:49:52.779500+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-09-10T22:36:46.999538+00:00",
+    "generated_at_utc": "2026-09-10T22:49:52.779500+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -82,10 +82,10 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 697,
-    "season": "2026",
-    "season_type": "regular",
     "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
+    "shard": 697,
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -141,20 +141,24 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1403808497509863424",
-    "draft_id": "1332851598610690048",
-    "last_author_avatar": "a614752331dd436cfb0399e82c64dda5",
-    "last_author_display_name": "CM4TheWin",
-    "last_author_id": "989979263640170496",
+    "last_message_id": "1403906885450493952",
+    "last_author_avatar": "f0edbf4278f53f9425db175073df6584",
+    "last_author_display_name": "FantasyPro2023",
+    "last_author_id": "991908009502650368",
     "last_author_is_bot": false,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1789056536609,
+    "last_message_time": 1789079994125,
+    "draft_id": "1332851598610690048",
     "last_pinned_message_id": null,
     "last_read_id": null,
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
     "group_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "QB",
@@ -178,10 +182,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "my_roster": {
