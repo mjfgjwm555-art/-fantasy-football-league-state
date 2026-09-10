@@ -1,18 +1,18 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-09-10T18:09:02.040937+00:00",
+  "generated_at_utc": "2026-09-10T18:27:02.957590+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-09-10T18:09:02.040937+00:00",
+    "generated_at_utc": "2026-09-10T18:27:02.957590+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
     "week": 1,
     "leg": 1,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -82,10 +82,10 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 697,
-    "season": "2026",
-    "season_type": "regular",
+    "last_message_id": "1403808497509863424",
     "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -141,8 +141,7 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1403808497509863424",
-    "draft_id": "1332851598610690048",
+    "shard": 697,
     "last_author_avatar": "a614752331dd436cfb0399e82c64dda5",
     "last_author_display_name": "CM4TheWin",
     "last_author_id": "989979263640170496",
@@ -151,6 +150,7 @@
     "last_message_text_map": null,
     "last_message_time": 1789056536609,
     "last_pinned_message_id": null,
+    "draft_id": "1332851598610690048",
     "last_read_id": null,
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
