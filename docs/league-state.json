@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-09-10T02:40:55.855028+00:00",
+  "generated_at_utc": "2026-09-10T02:52:53.762122+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-09-10T02:40:55.855028+00:00",
+    "generated_at_utc": "2026-09-10T02:52:53.762122+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -85,7 +85,6 @@
     "sport": "nfl",
     "season_type": "regular",
     "season": "2026",
-    "last_message_id": "1403604377863794688",
     "shard": 697,
     "scoring_settings": {
       "sack": 1.0,
@@ -142,13 +141,14 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "last_author_avatar": "82aec8e811b839b8ec25d7b458afd57b",
-    "last_author_display_name": "Jpitrelli",
-    "last_author_id": "1123700806793920512",
+    "last_message_id": "1403608005227876352",
+    "last_author_avatar": "6e71df1e19eda1d4be9fdacaaa09a9ea",
+    "last_author_display_name": "WagerWishes",
+    "last_author_id": "992854997039689728",
     "last_author_is_bot": false,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1789007870692,
+    "last_message_time": 1789008735524,
     "last_pinned_message_id": null,
     "last_read_id": null,
     "draft_id": "1332851598610690048",
@@ -417,10 +417,10 @@
         "status": "Active"
       },
       {
-        "player_id": "7526",
-        "name": "Jaylen Waddle",
+        "player_id": "11635",
+        "name": "Ladd McConkey",
         "position": "WR",
-        "team": "DEN",
+        "team": "LAC",
         "status": "Active"
       },
       {
@@ -439,13 +439,6 @@
       }
     ],
     "bench": [
-      {
-        "player_id": "11635",
-        "name": "Ladd McConkey",
-        "position": "WR",
-        "team": "LAC",
-        "status": "Active"
-      },
       {
         "player_id": "12490",
         "name": "Bhayshul Tuten",
@@ -479,6 +472,13 @@
         "name": "Rico Dowdle",
         "position": "RB",
         "team": "PIT",
+        "status": "Active"
+      },
+      {
+        "player_id": "7526",
+        "name": "Jaylen Waddle",
+        "position": "WR",
+        "team": "DEN",
         "status": "Active"
       },
       {
@@ -1171,10 +1171,10 @@
           "status": "Active"
         },
         {
-          "player_id": "7526",
-          "name": "Jaylen Waddle",
+          "player_id": "11635",
+          "name": "Ladd McConkey",
           "position": "WR",
-          "team": "DEN",
+          "team": "LAC",
           "status": "Active"
         },
         {
@@ -1193,13 +1193,6 @@
         }
       ],
       "bench": [
-        {
-          "player_id": "11635",
-          "name": "Ladd McConkey",
-          "position": "WR",
-          "team": "LAC",
-          "status": "Active"
-        },
         {
           "player_id": "12490",
           "name": "Bhayshul Tuten",
@@ -1233,6 +1226,13 @@
           "name": "Rico Dowdle",
           "position": "RB",
           "team": "PIT",
+          "status": "Active"
+        },
+        {
+          "player_id": "7526",
+          "name": "Jaylen Waddle",
+          "position": "WR",
+          "team": "DEN",
           "status": "Active"
         },
         {
