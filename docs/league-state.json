@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-09-15T15:53:04.235265+00:00",
+  "generated_at_utc": "2026-09-15T16:07:52.135150+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-09-15T15:53:04.235265+00:00",
+    "generated_at_utc": "2026-09-15T16:07:52.135150+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -4161,10 +4161,10 @@
           "status": "Active"
         },
         {
-          "player_id": "4217",
-          "name": "George Kittle",
+          "player_id": "11604",
+          "name": "Brock Bowers",
           "position": "TE",
-          "team": "SF",
+          "team": "LV",
           "status": "Active"
         },
         {
@@ -4175,10 +4175,10 @@
           "status": "Active"
         },
         {
-          "player_id": "2133",
-          "name": "Davante Adams",
+          "player_id": "12519",
+          "name": "Luther Burden",
           "position": "WR",
-          "team": "LAR",
+          "team": "CHI",
           "status": "Active"
         },
         {
@@ -4205,13 +4205,6 @@
           "status": "Active"
         },
         {
-          "player_id": "12519",
-          "name": "Luther Burden",
-          "position": "WR",
-          "team": "CHI",
-          "status": "Active"
-        },
-        {
           "player_id": "13272",
           "name": "Carson Beck",
           "position": "QB",
@@ -4226,10 +4219,24 @@
           "status": "Active"
         },
         {
+          "player_id": "2133",
+          "name": "Davante Adams",
+          "position": "WR",
+          "team": "LAR",
+          "status": "Active"
+        },
+        {
           "player_id": "4039",
           "name": "Cooper Kupp",
           "position": "WR",
           "team": "SEA",
+          "status": "Active"
+        },
+        {
+          "player_id": "4217",
+          "name": "George Kittle",
+          "position": "TE",
+          "team": "SF",
           "status": "Active"
         },
         {
@@ -4244,13 +4251,6 @@
           "name": "Chase McLaughlin",
           "position": "K",
           "team": "TB",
-          "status": "Active"
-        },
-        {
-          "player_id": "6768",
-          "name": "Tua Tagovailoa",
-          "position": "QB",
-          "team": "ATL",
           "status": "Active"
         },
         {
@@ -4286,17 +4286,17 @@
       ],
       "reserve": [
         {
-          "player_id": "11604",
-          "name": "Brock Bowers",
-          "position": "TE",
-          "team": "LV",
-          "status": "Active"
-        },
-        {
           "player_id": "11618",
           "name": "Jalen McMillan",
           "position": "WR",
           "team": "TB",
+          "status": "Active"
+        },
+        {
+          "player_id": "6768",
+          "name": "Tua Tagovailoa",
+          "position": "QB",
+          "team": "ATL",
           "status": "Active"
         }
       ],
