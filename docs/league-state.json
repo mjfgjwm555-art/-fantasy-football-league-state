@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-09-15T19:23:45.528129+00:00",
+  "generated_at_utc": "2026-09-15T19:37:58.041183+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-09-15T19:23:45.528129+00:00",
+    "generated_at_utc": "2026-09-15T19:37:58.041183+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -398,10 +398,10 @@
         "status": "Active"
       },
       {
-        "player_id": "5859",
-        "name": "A.J. Brown",
+        "player_id": "7526",
+        "name": "Jaylen Waddle",
         "position": "WR",
-        "team": "NE",
+        "team": "DEN",
         "status": "Active"
       },
       {
@@ -412,10 +412,10 @@
         "status": "Active"
       },
       {
-        "player_id": "9997",
-        "name": "Zay Flowers",
-        "position": "WR",
-        "team": "BAL",
+        "player_id": "12490",
+        "name": "Bhayshul Tuten",
+        "position": "RB",
+        "team": "JAX",
         "status": "Active"
       },
       {
@@ -442,13 +442,6 @@
     ],
     "bench": [
       {
-        "player_id": "12490",
-        "name": "Bhayshul Tuten",
-        "position": "RB",
-        "team": "JAX",
-        "status": "Active"
-      },
-      {
         "player_id": "13311",
         "name": "Chris Bell",
         "position": "WR",
@@ -474,13 +467,6 @@
         "name": "Rico Dowdle",
         "position": "RB",
         "team": "PIT",
-        "status": "Active"
-      },
-      {
-        "player_id": "7526",
-        "name": "Jaylen Waddle",
-        "position": "WR",
-        "team": "DEN",
         "status": "Active"
       },
       {
@@ -535,7 +521,22 @@
         "status": "Active"
       }
     ],
-    "reserve": [],
+    "reserve": [
+      {
+        "player_id": "5859",
+        "name": "A.J. Brown",
+        "position": "WR",
+        "team": "NE",
+        "status": "Active"
+      },
+      {
+        "player_id": "9997",
+        "name": "Zay Flowers",
+        "position": "WR",
+        "team": "BAL",
+        "status": "Active"
+      }
+    ],
     "settings": {
       "division": 2,
       "fpts": 218,
@@ -1160,10 +1161,10 @@
           "status": "Active"
         },
         {
-          "player_id": "5859",
-          "name": "A.J. Brown",
+          "player_id": "7526",
+          "name": "Jaylen Waddle",
           "position": "WR",
-          "team": "NE",
+          "team": "DEN",
           "status": "Active"
         },
         {
@@ -1174,10 +1175,10 @@
           "status": "Active"
         },
         {
-          "player_id": "9997",
-          "name": "Zay Flowers",
-          "position": "WR",
-          "team": "BAL",
+          "player_id": "12490",
+          "name": "Bhayshul Tuten",
+          "position": "RB",
+          "team": "JAX",
           "status": "Active"
         },
         {
@@ -1204,13 +1205,6 @@
       ],
       "bench": [
         {
-          "player_id": "12490",
-          "name": "Bhayshul Tuten",
-          "position": "RB",
-          "team": "JAX",
-          "status": "Active"
-        },
-        {
           "player_id": "13311",
           "name": "Chris Bell",
           "position": "WR",
@@ -1236,13 +1230,6 @@
           "name": "Rico Dowdle",
           "position": "RB",
           "team": "PIT",
-          "status": "Active"
-        },
-        {
-          "player_id": "7526",
-          "name": "Jaylen Waddle",
-          "position": "WR",
-          "team": "DEN",
           "status": "Active"
         },
         {
@@ -1297,7 +1284,22 @@
           "status": "Active"
         }
       ],
-      "reserve": [],
+      "reserve": [
+        {
+          "player_id": "5859",
+          "name": "A.J. Brown",
+          "position": "WR",
+          "team": "NE",
+          "status": "Active"
+        },
+        {
+          "player_id": "9997",
+          "name": "Zay Flowers",
+          "position": "WR",
+          "team": "BAL",
+          "status": "Active"
+        }
+      ],
       "settings": {
         "division": 2,
         "fpts": 218,
