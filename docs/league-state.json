@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-09-16T07:09:16.542605+00:00",
+  "generated_at_utc": "2026-09-16T07:27:08.250190+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-09-16T07:09:16.542605+00:00",
+    "generated_at_utc": "2026-09-16T07:27:08.250190+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -77,18 +77,15 @@
       "trade_review_days": 0,
       "bench_lock": 1,
       "offseason_adds": 1,
-      "leg": 1,
+      "leg": 2,
       "reserve_slots": 2,
       "reserve_allow_cov": 1,
       "daily_waivers_last_ran": 9
     },
     "avatar": null,
     "company_id": null,
+    "last_message_id": "1405851041559298048",
     "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
-    "shard": 697,
-    "last_message_id": "1405621058261835776",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -144,16 +141,19 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 697,
+    "draft_id": "1332851598610690048",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1789488684767,
+    "last_message_time": 1789543517059,
     "last_pinned_message_id": null,
     "last_read_id": null,
-    "draft_id": "1332851598610690048",
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
     "bracket_id": null,
@@ -249,6 +249,13 @@
         "status": "Active"
       },
       {
+        "player_id": "13545",
+        "name": "Trey Smack",
+        "position": "K",
+        "team": "GB",
+        "status": "Active"
+      },
+      {
         "player_id": "2747",
         "name": "Jason Myers",
         "position": "K",
@@ -354,10 +361,10 @@
         "status": "Active"
       },
       {
-        "player_id": "LAC",
-        "name": "Los Angeles Chargers",
+        "player_id": "SF",
+        "name": "San Francisco 49ers",
         "position": "DEF",
-        "team": "LAC",
+        "team": "SF",
         "status": null
       }
     ],
@@ -431,13 +438,6 @@
         "position": "K",
         "team": "SEA",
         "status": "Active"
-      },
-      {
-        "player_id": "LAC",
-        "name": "Los Angeles Chargers",
-        "position": "DEF",
-        "team": "LAC",
-        "status": null
       }
     ],
     "bench": [
@@ -453,6 +453,13 @@
         "name": "Demond Claiborne",
         "position": "RB",
         "team": "MIN",
+        "status": "Active"
+      },
+      {
+        "player_id": "13545",
+        "name": "Trey Smack",
+        "position": "K",
+        "team": "GB",
         "status": "Active"
       },
       {
@@ -496,6 +503,13 @@
         "position": "QB",
         "team": "PIT",
         "status": "Active"
+      },
+      {
+        "player_id": "SF",
+        "name": "San Francisco 49ers",
+        "position": "DEF",
+        "team": "SF",
+        "status": null
       }
     ],
     "taxi": [
@@ -548,8 +562,8 @@
       "ppts_decimal": 76,
       "ties": 0,
       "total_moves": 0,
-      "waiver_budget_used": 0,
-      "waiver_position": 5,
+      "waiver_budget_used": 11,
+      "waiver_position": 7,
       "wins": 2
     }
   },
@@ -645,17 +659,17 @@
           "status": "Active"
         },
         {
+          "player_id": "3634",
+          "name": "Kalif Raymond",
+          "position": "WR",
+          "team": "CHI",
+          "status": "Active"
+        },
+        {
           "player_id": "4017",
           "name": "Deshaun Watson",
           "position": "QB",
           "team": "CLE",
-          "status": "Active"
-        },
-        {
-          "player_id": "4574",
-          "name": "Cooper Rush",
-          "position": "QB",
-          "team": "ATL",
           "status": "Active"
         },
         {
@@ -736,10 +750,10 @@
           "status": "Active"
         },
         {
-          "player_id": "PIT",
-          "name": "Pittsburgh Steelers",
+          "player_id": "TB",
+          "name": "Tampa Bay Buccaneers",
           "position": "DEF",
-          "team": "PIT",
+          "team": "TB",
           "status": null
         }
       ],
@@ -813,13 +827,6 @@
           "position": "K",
           "team": "HOU",
           "status": "Active"
-        },
-        {
-          "player_id": "PIT",
-          "name": "Pittsburgh Steelers",
-          "position": "DEF",
-          "team": "PIT",
-          "status": null
         }
       ],
       "bench": [
@@ -852,17 +859,17 @@
           "status": "Active"
         },
         {
+          "player_id": "3634",
+          "name": "Kalif Raymond",
+          "position": "WR",
+          "team": "CHI",
+          "status": "Active"
+        },
+        {
           "player_id": "4017",
           "name": "Deshaun Watson",
           "position": "QB",
           "team": "CLE",
-          "status": "Active"
-        },
-        {
-          "player_id": "4574",
-          "name": "Cooper Rush",
-          "position": "QB",
-          "team": "ATL",
           "status": "Active"
         },
         {
@@ -892,6 +899,13 @@
           "position": "WR",
           "team": "JAX",
           "status": "Active"
+        },
+        {
+          "player_id": "TB",
+          "name": "Tampa Bay Buccaneers",
+          "position": "DEF",
+          "team": "TB",
+          "status": null
         }
       ],
       "taxi": [
@@ -945,7 +959,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 9,
+        "waiver_position": 10,
         "wins": 2
       }
     },
@@ -1009,6 +1023,13 @@
           "name": "Kaytron Allen",
           "position": "RB",
           "team": "WAS",
+          "status": "Active"
+        },
+        {
+          "player_id": "13545",
+          "name": "Trey Smack",
+          "position": "K",
+          "team": "GB",
           "status": "Active"
         },
         {
@@ -1117,10 +1138,10 @@
           "status": "Active"
         },
         {
-          "player_id": "LAC",
-          "name": "Los Angeles Chargers",
+          "player_id": "SF",
+          "name": "San Francisco 49ers",
           "position": "DEF",
-          "team": "LAC",
+          "team": "SF",
           "status": null
         }
       ],
@@ -1194,13 +1215,6 @@
           "position": "K",
           "team": "SEA",
           "status": "Active"
-        },
-        {
-          "player_id": "LAC",
-          "name": "Los Angeles Chargers",
-          "position": "DEF",
-          "team": "LAC",
-          "status": null
         }
       ],
       "bench": [
@@ -1216,6 +1230,13 @@
           "name": "Demond Claiborne",
           "position": "RB",
           "team": "MIN",
+          "status": "Active"
+        },
+        {
+          "player_id": "13545",
+          "name": "Trey Smack",
+          "position": "K",
+          "team": "GB",
           "status": "Active"
         },
         {
@@ -1259,6 +1280,13 @@
           "position": "QB",
           "team": "PIT",
           "status": "Active"
+        },
+        {
+          "player_id": "SF",
+          "name": "San Francisco 49ers",
+          "position": "DEF",
+          "team": "SF",
+          "status": null
         }
       ],
       "taxi": [
@@ -1311,8 +1339,8 @@
         "ppts_decimal": 76,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 0,
-        "waiver_position": 5,
+        "waiver_budget_used": 11,
+        "waiver_position": 7,
         "wins": 2
       }
     },
@@ -1693,7 +1721,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 10,
+        "waiver_position": 5,
         "wins": 2
       }
     },
@@ -2059,7 +2087,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 2,
+        "waiver_position": 1,
         "wins": 1
       }
     },
@@ -2144,6 +2172,13 @@
           "name": "KC Concepcion",
           "position": "WR",
           "team": "CLE",
+          "status": "Active"
+        },
+        {
+          "player_id": "13302",
+          "name": "Adam Randall",
+          "position": "RB",
+          "team": "BAL",
           "status": "Active"
         },
         {
@@ -2235,6 +2270,13 @@
           "name": "Houston Texans",
           "position": "DEF",
           "team": "HOU",
+          "status": null
+        },
+        {
+          "player_id": "KC",
+          "name": "Kansas City Chiefs",
+          "position": "DEF",
+          "team": "KC",
           "status": null
         }
       ],
@@ -2380,6 +2422,13 @@
           "position": "RB",
           "team": "MIN",
           "status": "Active"
+        },
+        {
+          "player_id": "KC",
+          "name": "Kansas City Chiefs",
+          "position": "DEF",
+          "team": "KC",
+          "status": null
         }
       ],
       "taxi": [
@@ -2412,6 +2461,13 @@
           "position": "RB",
           "team": "CLE",
           "status": "Active"
+        },
+        {
+          "player_id": "13302",
+          "name": "Adam Randall",
+          "position": "RB",
+          "team": "BAL",
+          "status": "Active"
         }
       ],
       "settings": {
@@ -2426,7 +2482,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 3,
+        "waiver_position": 9,
         "wins": 0
       }
     },
@@ -2807,7 +2863,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 6,
+        "waiver_position": 3,
         "wins": 1
       }
     },
@@ -2867,13 +2923,6 @@
           "status": "Active"
         },
         {
-          "player_id": "11637",
-          "name": "Keon Coleman",
-          "position": "WR",
-          "team": "BUF",
-          "status": "Active"
-        },
-        {
           "player_id": "12535",
           "name": "Isaac TeSlaa",
           "position": "WR",
@@ -2927,6 +2976,13 @@
           "name": "Patrick Mahomes",
           "position": "QB",
           "team": "KC",
+          "status": "Active"
+        },
+        {
+          "player_id": "5854",
+          "name": "Drew Lock",
+          "position": "QB",
+          "team": "SEA",
           "status": "Active"
         },
         {
@@ -3088,13 +3144,6 @@
           "status": "Active"
         },
         {
-          "player_id": "11637",
-          "name": "Keon Coleman",
-          "position": "WR",
-          "team": "BUF",
-          "status": "Active"
-        },
-        {
           "player_id": "12535",
           "name": "Isaac TeSlaa",
           "position": "WR",
@@ -3106,6 +3155,13 @@
           "name": "Alvin Kamara",
           "position": "RB",
           "team": "NO",
+          "status": "Active"
+        },
+        {
+          "player_id": "5854",
+          "name": "Drew Lock",
+          "position": "QB",
+          "team": "SEA",
           "status": "Active"
         },
         {
@@ -3172,8 +3228,8 @@
         "ppts_decimal": 4,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 0,
-        "waiver_position": 8,
+        "waiver_budget_used": 15,
+        "waiver_position": 6,
         "wins": 0
       }
     },
@@ -3539,7 +3595,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 4,
+        "waiver_position": 2,
         "wins": 1
       }
     },
@@ -3934,7 +3990,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 7,
+        "waiver_position": 4,
         "wins": 0
       }
     },
@@ -4015,17 +4071,17 @@
           "status": "Active"
         },
         {
-          "player_id": "19",
-          "name": "Joe Flacco",
-          "position": "QB",
-          "team": "CIN",
-          "status": "Active"
-        },
-        {
           "player_id": "2133",
           "name": "Davante Adams",
           "position": "WR",
           "team": "LAR",
+          "status": "Active"
+        },
+        {
+          "player_id": "3161",
+          "name": "Carson Wentz",
+          "position": "QB",
+          "team": "MIN",
           "status": "Active"
         },
         {
@@ -4215,17 +4271,17 @@
           "status": "Active"
         },
         {
-          "player_id": "19",
-          "name": "Joe Flacco",
-          "position": "QB",
-          "team": "CIN",
-          "status": "Active"
-        },
-        {
           "player_id": "2133",
           "name": "Davante Adams",
           "position": "WR",
           "team": "LAR",
+          "status": "Active"
+        },
+        {
+          "player_id": "3161",
+          "name": "Carson Wentz",
+          "position": "QB",
+          "team": "MIN",
           "status": "Active"
         },
         {
@@ -4315,7 +4371,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 1,
+        "waiver_position": 8,
         "wins": 1
       }
     }
