@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-09-16T07:41:16.071076+00:00",
+  "generated_at_utc": "2026-09-16T07:53:17.108178+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-09-16T07:41:16.071076+00:00",
+    "generated_at_utc": "2026-09-16T07:53:17.108178+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -2289,10 +2289,10 @@
           "status": "Active"
         },
         {
-          "player_id": "5849",
-          "name": "Kyler Murray",
+          "player_id": "12522",
+          "name": "Cam Ward",
           "position": "QB",
-          "team": "MIN",
+          "team": "TEN",
           "status": "Active"
         },
         {
@@ -2396,17 +2396,17 @@
           "status": "Active"
         },
         {
-          "player_id": "12522",
-          "name": "Cam Ward",
-          "position": "QB",
-          "team": "TEN",
-          "status": "Active"
-        },
-        {
           "player_id": "5045",
           "name": "Courtland Sutton",
           "position": "WR",
           "team": "DEN",
+          "status": "Active"
+        },
+        {
+          "player_id": "5849",
+          "name": "Kyler Murray",
+          "position": "QB",
+          "team": "MIN",
           "status": "Active"
         },
         {
