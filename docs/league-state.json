@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-09-16T20:52:22.827947+00:00",
+  "generated_at_utc": "2026-09-16T21:08:09.161544+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-09-16T20:52:22.827947+00:00",
+    "generated_at_utc": "2026-09-16T21:08:09.161544+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -179,9 +179,9 @@
       "BN",
       "BN"
     ],
-    "group_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
+    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
