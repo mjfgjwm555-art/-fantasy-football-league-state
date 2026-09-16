@@ -1,18 +1,18 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-09-16T11:25:54.622472+00:00",
+  "generated_at_utc": "2026-09-16T11:40:35.417917+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-09-16T11:25:54.622472+00:00",
+    "generated_at_utc": "2026-09-16T11:40:35.417917+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
     "week": 2,
-    "leg": 2,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
+    "leg": 2,
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -505,6 +505,13 @@
         "status": "Active"
       },
       {
+        "player_id": "9997",
+        "name": "Zay Flowers",
+        "position": "WR",
+        "team": "BAL",
+        "status": "Active"
+      },
+      {
         "player_id": "SF",
         "name": "San Francisco 49ers",
         "position": "DEF",
@@ -541,13 +548,6 @@
         "name": "A.J. Brown",
         "position": "WR",
         "team": "NE",
-        "status": "Active"
-      },
-      {
-        "player_id": "9997",
-        "name": "Zay Flowers",
-        "position": "WR",
-        "team": "BAL",
         "status": "Active"
       }
     ],
@@ -1282,6 +1282,13 @@
           "status": "Active"
         },
         {
+          "player_id": "9997",
+          "name": "Zay Flowers",
+          "position": "WR",
+          "team": "BAL",
+          "status": "Active"
+        },
+        {
           "player_id": "SF",
           "name": "San Francisco 49ers",
           "position": "DEF",
@@ -1318,13 +1325,6 @@
           "name": "A.J. Brown",
           "position": "WR",
           "team": "NE",
-          "status": "Active"
-        },
-        {
-          "player_id": "9997",
-          "name": "Zay Flowers",
-          "position": "WR",
-          "team": "BAL",
           "status": "Active"
         }
       ],
