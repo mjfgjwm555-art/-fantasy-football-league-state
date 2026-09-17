@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-09-17T20:08:11.038470+00:00",
+  "generated_at_utc": "2026-09-17T20:25:50.983121+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-09-17T20:08:11.038470+00:00",
+    "generated_at_utc": "2026-09-17T20:25:50.983121+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -84,10 +84,11 @@
     },
     "avatar": null,
     "company_id": null,
+    "last_message_id": "1406036351702351872",
     "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
     "shard": 697,
+    "season": "2026",
+    "season_type": "regular",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -143,7 +144,6 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1406036351702351872",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -153,12 +153,12 @@
     "last_message_time": 1789587698441,
     "last_pinned_message_id": null,
     "draft_id": "1332851598610690048",
+    "last_read_id": null,
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
-    "last_read_id": null,
+    "group_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
-    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "roster_positions": [
@@ -377,17 +377,17 @@
         "status": "Active"
       },
       {
-        "player_id": "12508",
-        "name": "Jaxson Dart",
+        "player_id": "8183",
+        "name": "Brock Purdy",
         "position": "QB",
-        "team": "NYG",
+        "team": "SF",
         "status": "Active"
       },
       {
-        "player_id": "12490",
-        "name": "Bhayshul Tuten",
+        "player_id": "4199",
+        "name": "Aaron Jones",
         "position": "RB",
-        "team": "JAX",
+        "team": "MIN",
         "status": "Active"
       },
       {
@@ -449,6 +449,20 @@
     ],
     "bench": [
       {
+        "player_id": "12490",
+        "name": "Bhayshul Tuten",
+        "position": "RB",
+        "team": "JAX",
+        "status": "Active"
+      },
+      {
+        "player_id": "12508",
+        "name": "Jaxson Dart",
+        "position": "QB",
+        "team": "NYG",
+        "status": "Active"
+      },
+      {
         "player_id": "13311",
         "name": "Chris Bell",
         "position": "WR",
@@ -470,13 +484,6 @@
         "status": "Active"
       },
       {
-        "player_id": "4199",
-        "name": "Aaron Jones",
-        "position": "RB",
-        "team": "MIN",
-        "status": "Active"
-      },
-      {
         "player_id": "7021",
         "name": "Rico Dowdle",
         "position": "RB",
@@ -488,13 +495,6 @@
         "name": "Jake Ferguson",
         "position": "TE",
         "team": "DAL",
-        "status": "Active"
-      },
-      {
-        "player_id": "8183",
-        "name": "Brock Purdy",
-        "position": "QB",
-        "team": "SF",
         "status": "Active"
       },
       {
@@ -1154,17 +1154,17 @@
           "status": "Active"
         },
         {
-          "player_id": "12508",
-          "name": "Jaxson Dart",
+          "player_id": "8183",
+          "name": "Brock Purdy",
           "position": "QB",
-          "team": "NYG",
+          "team": "SF",
           "status": "Active"
         },
         {
-          "player_id": "12490",
-          "name": "Bhayshul Tuten",
+          "player_id": "4199",
+          "name": "Aaron Jones",
           "position": "RB",
-          "team": "JAX",
+          "team": "MIN",
           "status": "Active"
         },
         {
@@ -1226,6 +1226,20 @@
       ],
       "bench": [
         {
+          "player_id": "12490",
+          "name": "Bhayshul Tuten",
+          "position": "RB",
+          "team": "JAX",
+          "status": "Active"
+        },
+        {
+          "player_id": "12508",
+          "name": "Jaxson Dart",
+          "position": "QB",
+          "team": "NYG",
+          "status": "Active"
+        },
+        {
           "player_id": "13311",
           "name": "Chris Bell",
           "position": "WR",
@@ -1247,13 +1261,6 @@
           "status": "Active"
         },
         {
-          "player_id": "4199",
-          "name": "Aaron Jones",
-          "position": "RB",
-          "team": "MIN",
-          "status": "Active"
-        },
-        {
           "player_id": "7021",
           "name": "Rico Dowdle",
           "position": "RB",
@@ -1265,13 +1272,6 @@
           "name": "Jake Ferguson",
           "position": "TE",
           "team": "DAL",
-          "status": "Active"
-        },
-        {
-          "player_id": "8183",
-          "name": "Brock Purdy",
-          "position": "QB",
-          "team": "SF",
           "status": "Active"
         },
         {
