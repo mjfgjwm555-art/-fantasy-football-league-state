@@ -1,18 +1,18 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-09-20T15:36:51.076152+00:00",
+  "generated_at_utc": "2026-09-20T15:49:38.861544+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-09-20T15:36:51.076152+00:00",
+    "generated_at_utc": "2026-09-20T15:49:38.861544+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
     "week": 2,
-    "leg": 2,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
+    "leg": 2,
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -84,11 +84,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 697,
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
-    "last_message_id": "1407410209328021504",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -144,6 +139,12 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 697,
+    "sport": "nfl",
+    "last_message_id": "1407410209328021504",
+    "draft_id": "1332851598610690048",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -152,7 +153,6 @@
     "last_message_text_map": null,
     "last_message_time": 1789915251623,
     "last_pinned_message_id": null,
-    "draft_id": "1332851598610690048",
     "last_read_id": null,
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
@@ -179,9 +179,9 @@
       "BN",
       "BN"
     ],
-    "group_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
+    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
@@ -4213,17 +4213,17 @@
           "status": "Active"
         },
         {
-          "player_id": "9493",
-          "name": "Puka Nacua",
+          "player_id": "12519",
+          "name": "Luther Burden",
           "position": "WR",
-          "team": "LAR",
+          "team": "CHI",
           "status": "Active"
         },
         {
-          "player_id": "11604",
-          "name": "Brock Bowers",
+          "player_id": "4217",
+          "name": "George Kittle",
           "position": "TE",
-          "team": "LV",
+          "team": "SF",
           "status": "Active"
         },
         {
@@ -4234,10 +4234,10 @@
           "status": "Active"
         },
         {
-          "player_id": "12519",
-          "name": "Luther Burden",
+          "player_id": "2133",
+          "name": "Davante Adams",
           "position": "WR",
-          "team": "CHI",
+          "team": "LAR",
           "status": "Active"
         },
         {
@@ -4256,6 +4256,13 @@
         }
       ],
       "bench": [
+        {
+          "player_id": "11604",
+          "name": "Brock Bowers",
+          "position": "TE",
+          "team": "LV",
+          "status": "Active"
+        },
         {
           "player_id": "11610",
           "name": "Malik Washington",
@@ -4278,13 +4285,6 @@
           "status": "Active"
         },
         {
-          "player_id": "2133",
-          "name": "Davante Adams",
-          "position": "WR",
-          "team": "LAR",
-          "status": "Active"
-        },
-        {
           "player_id": "3161",
           "name": "Carson Wentz",
           "position": "QB",
@@ -4299,13 +4299,6 @@
           "status": "Active"
         },
         {
-          "player_id": "4217",
-          "name": "George Kittle",
-          "position": "TE",
-          "team": "SF",
-          "status": "Active"
-        },
-        {
           "player_id": "5850",
           "name": "Josh Jacobs",
           "position": "RB",
@@ -4317,6 +4310,13 @@
           "name": "Chase McLaughlin",
           "position": "K",
           "team": "TB",
+          "status": "Active"
+        },
+        {
+          "player_id": "9493",
+          "name": "Puka Nacua",
+          "position": "WR",
+          "team": "LAR",
           "status": "Active"
         },
         {
