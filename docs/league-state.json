@@ -1,18 +1,18 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-09-20T14:36:47.439968+00:00",
+  "generated_at_utc": "2026-09-20T14:49:42.390631+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-09-20T14:36:47.439968+00:00",
+    "generated_at_utc": "2026-09-20T14:49:42.390631+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
     "week": 2,
-    "season_type": "regular",
-    "season": "2026",
     "leg": 2,
+    "season": "2026",
+    "season_type": "regular",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -84,10 +84,10 @@
     },
     "avatar": null,
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
     "shard": 697,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -143,20 +143,19 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1406036351702351872",
+    "last_message_id": "1407410209328021504",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
+    "draft_id": "1332851598610690048",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1789587698441,
+    "last_message_time": 1789915251623,
     "last_pinned_message_id": null,
-    "draft_id": "1332851598610690048",
     "last_read_id": null,
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
-    "bracket_id": null,
     "roster_positions": [
       "QB",
       "QB",
@@ -180,8 +179,9 @@
       "BN",
       "BN"
     ],
-    "bracket_overrides_id": null,
     "group_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
@@ -3240,6 +3240,13 @@
       "team_name": null,
       "players": [
         {
+          "player_id": "10218",
+          "name": "Xavier Hutchinson",
+          "position": "WR",
+          "team": "HOU",
+          "status": "Active"
+        },
+        {
           "player_id": "11586",
           "name": "Blake Corum",
           "position": "RB",
@@ -3314,13 +3321,6 @@
           "name": "Geno Smith",
           "position": "QB",
           "team": "NYJ",
-          "status": "Active"
-        },
-        {
-          "player_id": "2078",
-          "name": "Odell Beckham",
-          "position": "WR",
-          "team": "NYG",
           "status": "Active"
         },
         {
@@ -3438,10 +3438,10 @@
           "status": "Active"
         },
         {
-          "player_id": "6819",
-          "name": "Michael Pittman",
+          "player_id": "8121",
+          "name": "Romeo Doubs",
           "position": "WR",
-          "team": "PIT",
+          "team": "NE",
           "status": "Active"
         },
         {
@@ -3459,10 +3459,10 @@
           "status": "Active"
         },
         {
-          "player_id": "8121",
-          "name": "Romeo Doubs",
-          "position": "WR",
-          "team": "NE",
+          "player_id": "12534",
+          "name": "Kyle Monangai",
+          "position": "RB",
+          "team": "CHI",
           "status": "Active"
         },
         {
@@ -3489,6 +3489,13 @@
       ],
       "bench": [
         {
+          "player_id": "10218",
+          "name": "Xavier Hutchinson",
+          "position": "WR",
+          "team": "HOU",
+          "status": "Active"
+        },
+        {
           "player_id": "11647",
           "name": "Kimani Vidal",
           "position": "RB",
@@ -3510,13 +3517,6 @@
           "status": "Active"
         },
         {
-          "player_id": "12534",
-          "name": "Kyle Monangai",
-          "position": "RB",
-          "team": "CHI",
-          "status": "Active"
-        },
-        {
           "player_id": "12545",
           "name": "Tyler Shough",
           "position": "QB",
@@ -3531,17 +3531,17 @@
           "status": "Active"
         },
         {
-          "player_id": "2078",
-          "name": "Odell Beckham",
-          "position": "WR",
-          "team": "NYG",
-          "status": "Active"
-        },
-        {
           "player_id": "4033",
           "name": "David Njoku",
           "position": "TE",
           "team": "LAC",
+          "status": "Active"
+        },
+        {
+          "player_id": "6819",
+          "name": "Michael Pittman",
+          "position": "WR",
+          "team": "PIT",
           "status": "Active"
         },
         {
