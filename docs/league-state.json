@@ -1,18 +1,18 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-09-20T16:24:44.406616+00:00",
+  "generated_at_utc": "2026-09-20T16:37:41.235534+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-09-20T16:24:44.406616+00:00",
+    "generated_at_utc": "2026-09-20T16:37:41.235534+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
     "week": 2,
+    "leg": 2,
     "season_type": "regular",
     "season": "2026",
-    "leg": 2,
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -152,8 +152,8 @@
     "last_message_text_map": null,
     "last_message_time": 1789915251623,
     "last_pinned_message_id": null,
-    "last_read_id": null,
     "draft_id": "1332851598610690048",
+    "last_read_id": null,
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
     "bracket_id": null,
@@ -2303,10 +2303,10 @@
           "status": "Active"
         },
         {
-          "player_id": "12474",
-          "name": "Woody Marks",
+          "player_id": "8136",
+          "name": "Rachaad White",
           "position": "RB",
-          "team": "HOU",
+          "team": "WAS",
           "status": "Active"
         },
         {
@@ -2368,6 +2368,13 @@
           "status": "Active"
         },
         {
+          "player_id": "12474",
+          "name": "Woody Marks",
+          "position": "RB",
+          "team": "HOU",
+          "status": "Active"
+        },
+        {
           "player_id": "12489",
           "name": "RJ Harvey",
           "position": "RB",
@@ -2407,13 +2414,6 @@
           "name": "Nico Collins",
           "position": "WR",
           "team": "HOU",
-          "status": "Active"
-        },
-        {
-          "player_id": "8136",
-          "name": "Rachaad White",
-          "position": "RB",
-          "team": "WAS",
           "status": "Active"
         },
         {
