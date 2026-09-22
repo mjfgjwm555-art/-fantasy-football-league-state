@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-09-22T11:50:29.496031+00:00",
+  "generated_at_utc": "2026-09-22T12:09:29.073313+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-09-22T11:50:29.496031+00:00",
+    "generated_at_utc": "2026-09-22T12:09:29.073313+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -88,7 +88,6 @@
     "season": "2026",
     "season_type": "regular",
     "sport": "nfl",
-    "last_message_id": "1407554563711504384",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -144,6 +143,7 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
+    "last_message_id": "1407554563711504384",
     "last_author_avatar": "15d7cf259bc30eab8f6120f45f652fb6",
     "last_author_display_name": "BuiltFoardTough",
     "last_author_id": "727024339593056256",
@@ -1584,6 +1584,27 @@
           "status": "Active"
         },
         {
+          "player_id": "8167",
+          "name": "Christian Watson",
+          "position": "WR",
+          "team": "GB",
+          "status": "Active"
+        },
+        {
+          "player_id": "12501",
+          "name": "Matthew Golden",
+          "position": "WR",
+          "team": "GB",
+          "status": "Active"
+        },
+        {
+          "player_id": "5001",
+          "name": "Dalton Schultz",
+          "position": "TE",
+          "team": "HOU",
+          "status": "Active"
+        },
+        {
           "player_id": "6786",
           "name": "CeeDee Lamb",
           "position": "WR",
@@ -1595,27 +1616,6 @@
           "name": "Chris Olave",
           "position": "WR",
           "team": "NO",
-          "status": "Active"
-        },
-        {
-          "player_id": "5012",
-          "name": "Mark Andrews",
-          "position": "TE",
-          "team": "BAL",
-          "status": "Active"
-        },
-        {
-          "player_id": "8167",
-          "name": "Christian Watson",
-          "position": "WR",
-          "team": "GB",
-          "status": "Active"
-        },
-        {
-          "player_id": "2216",
-          "name": "Mike Evans",
-          "position": "WR",
-          "team": "SF",
           "status": "Active"
         },
         {
@@ -1635,24 +1635,17 @@
       ],
       "bench": [
         {
-          "player_id": "10222",
-          "name": "Jayden Reed",
-          "position": "WR",
-          "team": "GB",
-          "status": "Active"
-        },
-        {
-          "player_id": "12501",
-          "name": "Matthew Golden",
-          "position": "WR",
-          "team": "GB",
-          "status": "Active"
-        },
-        {
           "player_id": "12506",
           "name": "Harold Fannin",
           "position": "TE",
           "team": "CLE",
+          "status": "Active"
+        },
+        {
+          "player_id": "12529",
+          "name": "TreVeyon Henderson",
+          "position": "RB",
+          "team": "NE",
           "status": "Active"
         },
         {
@@ -1670,10 +1663,17 @@
           "status": "Active"
         },
         {
-          "player_id": "5001",
-          "name": "Dalton Schultz",
+          "player_id": "2216",
+          "name": "Mike Evans",
+          "position": "WR",
+          "team": "SF",
+          "status": "Active"
+        },
+        {
+          "player_id": "5012",
+          "name": "Mark Andrews",
           "position": "TE",
-          "team": "HOU",
+          "team": "BAL",
           "status": "Active"
         },
         {
@@ -1730,10 +1730,10 @@
       ],
       "reserve": [
         {
-          "player_id": "12529",
-          "name": "TreVeyon Henderson",
-          "position": "RB",
-          "team": "NE",
+          "player_id": "10222",
+          "name": "Jayden Reed",
+          "position": "WR",
+          "team": "GB",
           "status": "Active"
         }
       ],
