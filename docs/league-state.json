@@ -1,18 +1,18 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-09-22T10:08:33.577313+00:00",
+  "generated_at_utc": "2026-09-22T10:26:29.130515+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-09-22T10:08:33.577313+00:00",
+    "generated_at_utc": "2026-09-22T10:26:29.130515+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
     "week": 3,
-    "leg": 3,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
+    "leg": 3,
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -84,10 +84,10 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 697,
-    "season": "2026",
-    "season_type": "regular",
     "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
+    "shard": 697,
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -157,10 +157,6 @@
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
     "group_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "QB",
@@ -184,6 +180,10 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "my_roster": {
@@ -3559,13 +3559,6 @@
           "status": "Active"
         },
         {
-          "player_id": "4033",
-          "name": "David Njoku",
-          "position": "TE",
-          "team": "LAC",
-          "status": "Active"
-        },
-        {
           "player_id": "6819",
           "name": "Michael Pittman",
           "position": "WR",
@@ -3610,7 +3603,15 @@
           "status": "Active"
         }
       ],
-      "reserve": [],
+      "reserve": [
+        {
+          "player_id": "4033",
+          "name": "David Njoku",
+          "position": "TE",
+          "team": "LAC",
+          "status": "Active"
+        }
+      ],
       "settings": {
         "division": 2,
         "fpts": 292,
