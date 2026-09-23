@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-09-23T12:30:38.599584+00:00",
+  "generated_at_utc": "2026-09-23T12:54:50.542691+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-09-23T12:30:38.599584+00:00",
+    "generated_at_utc": "2026-09-23T12:54:50.542691+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -84,9 +84,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -142,6 +139,9 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "last_message_id": "1408384835940003840",
     "shard": 697,
     "last_author_avatar": null,
@@ -156,9 +156,9 @@
     "draft_id": "1332851598610690048",
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
-    "group_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
+    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "roster_positions": [
