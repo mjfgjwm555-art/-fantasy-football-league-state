@@ -1,22 +1,22 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-09-23T06:54:27.387856+00:00",
+  "generated_at_utc": "2026-09-23T07:08:25.010181+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-09-23T06:54:27.387856+00:00",
+    "generated_at_utc": "2026-09-23T07:08:25.010181+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
     "week": 3,
-    "season_type": "regular",
-    "season": "2026",
     "leg": 3,
+    "season": "2026",
+    "season_type": "regular",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
-    "display_week": 2,
+    "display_week": 3,
     "league_create_season": "2026",
     "season_has_scores": true
   },
@@ -84,9 +84,7 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 697,
-    "season": "2026",
-    "season_type": "regular",
+    "last_message_id": "1408330322809987072",
     "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
@@ -143,7 +141,9 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1408330322809987072",
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 697,
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -152,8 +152,8 @@
     "last_message_text_map": null,
     "last_message_time": 1790134623771,
     "last_pinned_message_id": null,
-    "last_read_id": null,
     "draft_id": "1332851598610690048",
+    "last_read_id": null,
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
     "roster_positions": [
