@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-09-23T18:55:38.887838+00:00",
+  "generated_at_utc": "2026-09-23T19:07:48.190793+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-09-23T18:55:38.887838+00:00",
+    "generated_at_utc": "2026-09-23T19:07:48.190793+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -143,16 +143,16 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1408384835940003840",
+    "last_message_id": "1408563105738285056",
+    "draft_id": "1332851598610690048",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1790147620715,
+    "last_message_time": 1790190123546,
     "last_pinned_message_id": null,
-    "draft_id": "1332851598610690048",
     "last_read_id": null,
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
@@ -3699,6 +3699,13 @@
           "status": "Active"
         },
         {
+          "player_id": "12015",
+          "name": "Harrison Mevis",
+          "position": "K",
+          "team": "LAR",
+          "status": "Active"
+        },
+        {
           "player_id": "12487",
           "name": "Terrance Ferguson",
           "position": "TE",
@@ -3738,13 +3745,6 @@
           "name": "Seth McGowan",
           "position": "RB",
           "team": "IND",
-          "status": "Active"
-        },
-        {
-          "player_id": "4195",
-          "name": "Jake Elliott",
-          "position": "K",
-          "team": "PHI",
           "status": "Active"
         },
         {
@@ -3890,10 +3890,10 @@
           "status": "Active"
         },
         {
-          "player_id": "5022",
-          "name": "Dallas Goedert",
+          "player_id": "9484",
+          "name": "Tucker Kraft",
           "position": "TE",
-          "team": "PHI",
+          "team": "GB",
           "status": "Active"
         },
         {
@@ -3911,10 +3911,10 @@
           "status": "Active"
         },
         {
-          "player_id": "4195",
-          "name": "Jake Elliott",
+          "player_id": "12015",
+          "name": "Harrison Mevis",
           "position": "K",
-          "team": "PHI",
+          "team": "LAR",
           "status": "Active"
         },
         {
@@ -3969,6 +3969,13 @@
           "status": "Active"
         },
         {
+          "player_id": "5022",
+          "name": "Dallas Goedert",
+          "position": "TE",
+          "team": "PHI",
+          "status": "Active"
+        },
+        {
           "player_id": "5947",
           "name": "Jakobi Meyers",
           "position": "WR",
@@ -3987,13 +3994,6 @@
           "name": "Tyler Allgeier",
           "position": "RB",
           "team": "ARI",
-          "status": "Active"
-        },
-        {
-          "player_id": "9484",
-          "name": "Tucker Kraft",
-          "position": "TE",
-          "team": "GB",
           "status": "Active"
         }
       ],
