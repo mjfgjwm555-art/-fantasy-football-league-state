@@ -1,18 +1,18 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-09-23T19:07:48.190793+00:00",
+  "generated_at_utc": "2026-09-23T19:24:08.385198+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-09-23T19:07:48.190793+00:00",
+    "generated_at_utc": "2026-09-23T19:24:08.385198+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
     "week": 3,
-    "leg": 3,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
+    "leg": 3,
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -144,23 +144,18 @@
       "st_ff": 1.0
     },
     "last_message_id": "1408563105738285056",
-    "draft_id": "1332851598610690048",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
+    "draft_id": "1332851598610690048",
     "last_message_text_map": null,
     "last_message_time": 1790190123546,
     "last_pinned_message_id": null,
     "last_read_id": null,
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "QB",
@@ -184,6 +179,11 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "my_roster": {
@@ -3848,17 +3848,17 @@
       ],
       "starters": [
         {
-          "player_id": "11560",
-          "name": "Caleb Williams",
-          "position": "QB",
-          "team": "CHI",
-          "status": "Active"
-        },
-        {
           "player_id": "5870",
           "name": "Daniel Jones",
           "position": "QB",
           "team": "IND",
+          "status": "Active"
+        },
+        {
+          "player_id": "1166",
+          "name": "Kirk Cousins",
+          "position": "QB",
+          "team": "LV",
           "status": "Active"
         },
         {
@@ -3904,10 +3904,10 @@
           "status": "Active"
         },
         {
-          "player_id": "11620",
-          "name": "Rome Odunze",
+          "player_id": "5947",
+          "name": "Jakobi Meyers",
           "position": "WR",
-          "team": "CHI",
+          "team": "JAX",
           "status": "Active"
         },
         {
@@ -3927,17 +3927,24 @@
       ],
       "bench": [
         {
+          "player_id": "11560",
+          "name": "Caleb Williams",
+          "position": "QB",
+          "team": "CHI",
+          "status": "Active"
+        },
+        {
+          "player_id": "11620",
+          "name": "Rome Odunze",
+          "position": "WR",
+          "team": "CHI",
+          "status": "Active"
+        },
+        {
           "player_id": "11643",
           "name": "Jaylen Wright",
           "position": "RB",
           "team": "MIA",
-          "status": "Active"
-        },
-        {
-          "player_id": "1166",
-          "name": "Kirk Cousins",
-          "position": "QB",
-          "team": "LV",
           "status": "Active"
         },
         {
@@ -3973,13 +3980,6 @@
           "name": "Dallas Goedert",
           "position": "TE",
           "team": "PHI",
-          "status": "Active"
-        },
-        {
-          "player_id": "5947",
-          "name": "Jakobi Meyers",
-          "position": "WR",
-          "team": "JAX",
           "status": "Active"
         },
         {
