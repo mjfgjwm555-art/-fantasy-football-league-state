@@ -1,18 +1,18 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-09-24T20:41:43.506327+00:00",
+  "generated_at_utc": "2026-09-24T20:53:40.478280+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-09-24T20:41:43.506327+00:00",
+    "generated_at_utc": "2026-09-24T20:53:40.478280+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
     "week": 3,
-    "leg": 3,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
+    "leg": 3,
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -84,11 +84,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "last_message_id": "1408867188361687040",
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
-    "shard": 697,
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -144,13 +139,18 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
+    "shard": 697,
+    "last_message_id": "1408951332320063488",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1790262622493,
+    "last_message_time": 1790282683977,
     "last_pinned_message_id": null,
     "draft_id": "1332851598610690048",
     "last_read_id": null,
@@ -4150,13 +4150,6 @@
           "status": "Active"
         },
         {
-          "player_id": "3161",
-          "name": "Carson Wentz",
-          "position": "QB",
-          "team": "MIN",
-          "status": "Active"
-        },
-        {
           "player_id": "4039",
           "name": "Cooper Kupp",
           "position": "WR",
@@ -4285,10 +4278,17 @@
           "status": "Active"
         },
         {
-          "player_id": "12519",
-          "name": "Luther Burden",
+          "player_id": "9493",
+          "name": "Puka Nacua",
           "position": "WR",
-          "team": "CHI",
+          "team": "LAR",
+          "status": "Active"
+        },
+        {
+          "player_id": "11604",
+          "name": "Brock Bowers",
+          "position": "TE",
+          "team": "LV",
           "status": "Active"
         },
         {
@@ -4296,13 +4296,6 @@
           "name": "George Kittle",
           "position": "TE",
           "team": "SF",
-          "status": "Active"
-        },
-        {
-          "player_id": "8228",
-          "name": "Jaylen Warren",
-          "position": "RB",
-          "team": "PIT",
           "status": "Active"
         },
         {
@@ -4343,17 +4336,17 @@
           "status": "Active"
         },
         {
+          "player_id": "12519",
+          "name": "Luther Burden",
+          "position": "WR",
+          "team": "CHI",
+          "status": "Active"
+        },
+        {
           "player_id": "13272",
           "name": "Carson Beck",
           "position": "QB",
           "team": "ARI",
-          "status": "Active"
-        },
-        {
-          "player_id": "3161",
-          "name": "Carson Wentz",
-          "position": "QB",
-          "team": "MIN",
           "status": "Active"
         },
         {
@@ -4378,10 +4371,17 @@
           "status": "Active"
         },
         {
-          "player_id": "9493",
-          "name": "Puka Nacua",
-          "position": "WR",
-          "team": "LAR",
+          "player_id": "6768",
+          "name": "Tua Tagovailoa",
+          "position": "QB",
+          "team": "ATL",
+          "status": "Active"
+        },
+        {
+          "player_id": "8228",
+          "name": "Jaylen Warren",
+          "position": "RB",
+          "team": "PIT",
           "status": "Active"
         },
         {
@@ -4415,22 +4415,7 @@
           "status": "Active"
         }
       ],
-      "reserve": [
-        {
-          "player_id": "11604",
-          "name": "Brock Bowers",
-          "position": "TE",
-          "team": "LV",
-          "status": "Active"
-        },
-        {
-          "player_id": "6768",
-          "name": "Tua Tagovailoa",
-          "position": "QB",
-          "team": "ATL",
-          "status": "Active"
-        }
-      ],
+      "reserve": [],
       "settings": {
         "division": 2,
         "fpts": 335,
