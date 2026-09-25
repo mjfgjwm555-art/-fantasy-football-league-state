@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-09-25T16:27:29.266543+00:00",
+  "generated_at_utc": "2026-09-25T16:43:45.847815+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-09-25T16:27:29.266543+00:00",
+    "generated_at_utc": "2026-09-25T16:43:45.847815+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -144,7 +144,6 @@
       "st_ff": 1.0
     },
     "last_message_id": "1408951332320063488",
-    "draft_id": "1332851598610690048",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -154,6 +153,7 @@
     "last_message_time": 1790282683977,
     "last_pinned_message_id": null,
     "last_read_id": null,
+    "draft_id": "1332851598610690048",
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
     "roster_positions": [
