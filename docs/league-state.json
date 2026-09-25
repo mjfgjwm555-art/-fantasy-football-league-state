@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-09-25T22:38:05.494460+00:00",
+  "generated_at_utc": "2026-09-25T22:51:32.587396+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-09-25T22:38:05.494460+00:00",
+    "generated_at_utc": "2026-09-25T22:51:32.587396+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -84,10 +84,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 697,
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -143,17 +139,21 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1409342012481646592",
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 697,
+    "sport": "nfl",
+    "last_message_id": "1409342391667687424",
+    "draft_id": "1332851598610690048",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1790375829386,
+    "last_message_time": 1790375919791,
     "last_pinned_message_id": null,
     "last_read_id": null,
-    "draft_id": "1332851598610690048",
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
     "bracket_id": null,
@@ -2993,6 +2993,13 @@
           "status": "Active"
         },
         {
+          "player_id": "2505",
+          "name": "Darren Waller",
+          "position": "TE",
+          "team": "CAR",
+          "status": "Active"
+        },
+        {
           "player_id": "3257",
           "name": "Jacoby Brissett",
           "position": "QB",
@@ -3070,13 +3077,6 @@
           "status": "Active"
         },
         {
-          "player_id": "9482",
-          "name": "Michael Mayer",
-          "position": "TE",
-          "team": "LV",
-          "status": "Active"
-        },
-        {
           "player_id": "9508",
           "name": "Tyjae Spears",
           "position": "RB",
@@ -3128,17 +3128,17 @@
           "status": "Active"
         },
         {
-          "player_id": "11628",
-          "name": "Marvin Harrison",
+          "player_id": "11625",
+          "name": "Adonai Mitchell",
           "position": "WR",
-          "team": "ARI",
+          "team": "NYJ",
           "status": "Active"
         },
         {
-          "player_id": "9482",
-          "name": "Michael Mayer",
+          "player_id": "2505",
+          "name": "Darren Waller",
           "position": "TE",
-          "team": "LV",
+          "team": "CAR",
           "status": "Active"
         },
         {
@@ -3186,10 +3186,10 @@
           "status": "Active"
         },
         {
-          "player_id": "11625",
-          "name": "Adonai Mitchell",
+          "player_id": "11628",
+          "name": "Marvin Harrison",
           "position": "WR",
-          "team": "NYJ",
+          "team": "ARI",
           "status": "Active"
         },
         {
