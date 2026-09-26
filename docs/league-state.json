@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-09-26T17:50:26.633781+00:00",
+  "generated_at_utc": "2026-09-26T18:08:48.428954+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-09-26T17:50:26.633781+00:00",
+    "generated_at_utc": "2026-09-26T18:08:48.428954+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -83,10 +83,6 @@
       "daily_waivers_last_ran": 9
     },
     "avatar": null,
-    "shard": 697,
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
     "company_id": null,
     "scoring_settings": {
       "sack": 1.0,
@@ -143,6 +139,10 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 697,
+    "sport": "nfl",
     "last_message_id": "1409342391667687424",
     "draft_id": "1332851598610690048",
     "last_author_avatar": null,
