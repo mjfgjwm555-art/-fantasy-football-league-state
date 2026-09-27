@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-09-27T12:47:37.875669+00:00",
+  "generated_at_utc": "2026-09-27T13:06:44.845065+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-09-27T12:47:37.875669+00:00",
+    "generated_at_utc": "2026-09-27T13:06:44.845065+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -143,17 +143,17 @@
     "season_type": "regular",
     "shard": 697,
     "sport": "nfl",
-    "last_message_id": "1409897941275021312",
-    "last_author_avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
-    "last_author_display_name": "jschultz1414",
-    "last_author_id": "735494799083352064",
-    "last_author_is_bot": false,
+    "last_message_id": "1409918923217846272",
+    "last_author_avatar": null,
+    "last_author_display_name": "sys",
+    "last_author_id": "166666666666666666",
+    "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1790508373144,
+    "last_message_time": 1790513375623,
     "last_pinned_message_id": null,
-    "draft_id": "1332851598610690048",
     "last_read_id": null,
+    "draft_id": "1332851598610690048",
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
     "bracket_id": null,
@@ -197,13 +197,6 @@
         "name": "Ladd McConkey",
         "position": "WR",
         "team": "LAC",
-        "status": "Active"
-      },
-      {
-        "player_id": "12048",
-        "name": "George Holani",
-        "position": "RB",
-        "team": "SEA",
         "status": "Active"
       },
       {
@@ -340,6 +333,13 @@
         "status": "Active"
       },
       {
+        "player_id": "8188",
+        "name": "Tyquan Thornton",
+        "position": "WR",
+        "team": "KC",
+        "status": "Active"
+      },
+      {
         "player_id": "9486",
         "name": "Dontayvion Wicks",
         "position": "WR",
@@ -456,13 +456,6 @@
     ],
     "bench": [
       {
-        "player_id": "12048",
-        "name": "George Holani",
-        "position": "RB",
-        "team": "SEA",
-        "status": "Active"
-      },
-      {
         "player_id": "12490",
         "name": "Bhayshul Tuten",
         "position": "RB",
@@ -502,6 +495,13 @@
         "name": "Jake Ferguson",
         "position": "TE",
         "team": "DAL",
+        "status": "Active"
+      },
+      {
+        "player_id": "8188",
+        "name": "Tyquan Thornton",
+        "position": "WR",
+        "team": "KC",
         "status": "Active"
       },
       {
@@ -991,13 +991,6 @@
           "status": "Active"
         },
         {
-          "player_id": "12048",
-          "name": "George Holani",
-          "position": "RB",
-          "team": "SEA",
-          "status": "Active"
-        },
-        {
           "player_id": "12490",
           "name": "Bhayshul Tuten",
           "position": "RB",
@@ -1131,6 +1124,13 @@
           "status": "Active"
         },
         {
+          "player_id": "8188",
+          "name": "Tyquan Thornton",
+          "position": "WR",
+          "team": "KC",
+          "status": "Active"
+        },
+        {
           "player_id": "9486",
           "name": "Dontayvion Wicks",
           "position": "WR",
@@ -1247,13 +1247,6 @@
       ],
       "bench": [
         {
-          "player_id": "12048",
-          "name": "George Holani",
-          "position": "RB",
-          "team": "SEA",
-          "status": "Active"
-        },
-        {
           "player_id": "12490",
           "name": "Bhayshul Tuten",
           "position": "RB",
@@ -1293,6 +1286,13 @@
           "name": "Jake Ferguson",
           "position": "TE",
           "team": "DAL",
+          "status": "Active"
+        },
+        {
+          "player_id": "8188",
+          "name": "Tyquan Thornton",
+          "position": "WR",
+          "team": "KC",
           "status": "Active"
         },
         {
