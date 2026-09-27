@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-09-27T16:26:09.603558+00:00",
+  "generated_at_utc": "2026-09-27T16:39:42.855597+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-09-27T16:26:09.603558+00:00",
+    "generated_at_utc": "2026-09-27T16:39:42.855597+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -3128,10 +3128,10 @@
           "status": "Active"
         },
         {
-          "player_id": "11625",
-          "name": "Adonai Mitchell",
+          "player_id": "10232",
+          "name": "Michael Wilson",
           "position": "WR",
-          "team": "NYJ",
+          "team": "ARI",
           "status": "Active"
         },
         {
@@ -3142,8 +3142,8 @@
           "status": "Active"
         },
         {
-          "player_id": "10232",
-          "name": "Michael Wilson",
+          "player_id": "11628",
+          "name": "Marvin Harrison",
           "position": "WR",
           "team": "ARI",
           "status": "Active"
@@ -3186,10 +3186,10 @@
           "status": "Active"
         },
         {
-          "player_id": "11628",
-          "name": "Marvin Harrison",
+          "player_id": "11625",
+          "name": "Adonai Mitchell",
           "position": "WR",
-          "team": "ARI",
+          "team": "NYJ",
           "status": "Active"
         },
         {
@@ -3918,10 +3918,10 @@
           "status": "Active"
         },
         {
-          "player_id": "5947",
-          "name": "Jakobi Meyers",
-          "position": "WR",
-          "team": "JAX",
+          "player_id": "5967",
+          "name": "Tony Pollard",
+          "position": "RB",
+          "team": "TEN",
           "status": "Active"
         },
         {
@@ -3990,10 +3990,10 @@
           "status": "Active"
         },
         {
-          "player_id": "5967",
-          "name": "Tony Pollard",
-          "position": "RB",
-          "team": "TEN",
+          "player_id": "5947",
+          "name": "Jakobi Meyers",
+          "position": "WR",
+          "team": "JAX",
           "status": "Active"
         },
         {
