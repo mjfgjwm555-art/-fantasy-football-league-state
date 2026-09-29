@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-09-29T19:05:19.016774+00:00",
+  "generated_at_utc": "2026-09-29T22:56:36.336574+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-09-29T19:05:19.016774+00:00",
+    "generated_at_utc": "2026-09-29T22:56:36.336574+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -84,6 +84,10 @@
     },
     "avatar": null,
     "company_id": null,
+    "shard": 697,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -139,10 +143,6 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "shard": 697,
-    "sport": "nfl",
     "last_message_id": "1410694693385203712",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
@@ -3502,10 +3502,10 @@
           "status": "Active"
         },
         {
-          "player_id": "8121",
-          "name": "Romeo Doubs",
+          "player_id": "6819",
+          "name": "Michael Pittman",
           "position": "WR",
-          "team": "NE",
+          "team": "PIT",
           "status": "Active"
         },
         {
@@ -3523,10 +3523,10 @@
           "status": "Active"
         },
         {
-          "player_id": "10218",
-          "name": "Xavier Hutchinson",
-          "position": "WR",
-          "team": "HOU",
+          "player_id": "12534",
+          "name": "Kyle Monangai",
+          "position": "RB",
+          "team": "CHI",
           "status": "Active"
         },
         {
@@ -3553,6 +3553,13 @@
       ],
       "bench": [
         {
+          "player_id": "10218",
+          "name": "Xavier Hutchinson",
+          "position": "WR",
+          "team": "HOU",
+          "status": "Active"
+        },
+        {
           "player_id": "11435",
           "name": "Emanuel Wilson",
           "position": "RB",
@@ -3574,24 +3581,10 @@
           "status": "Active"
         },
         {
-          "player_id": "12498",
-          "name": "Mason Taylor",
-          "position": "TE",
-          "team": "NYJ",
-          "status": "Active"
-        },
-        {
           "player_id": "12530",
           "name": "Travis Hunter",
           "position": "WR",
           "team": "JAX",
-          "status": "Active"
-        },
-        {
-          "player_id": "12534",
-          "name": "Kyle Monangai",
-          "position": "RB",
-          "team": "CHI",
           "status": "Active"
         },
         {
@@ -3609,10 +3602,10 @@
           "status": "Active"
         },
         {
-          "player_id": "6819",
-          "name": "Michael Pittman",
+          "player_id": "8121",
+          "name": "Romeo Doubs",
           "position": "WR",
-          "team": "PIT",
+          "team": "NE",
           "status": "Active"
         },
         {
@@ -3647,6 +3640,13 @@
         }
       ],
       "reserve": [
+        {
+          "player_id": "12498",
+          "name": "Mason Taylor",
+          "position": "TE",
+          "team": "NYJ",
+          "status": "Active"
+        },
         {
           "player_id": "4033",
           "name": "David Njoku",
