@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-09-30T14:32:10.600583+00:00",
+  "generated_at_utc": "2026-09-30T19:37:50.556136+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-09-30T14:32:10.600583+00:00",
+    "generated_at_utc": "2026-09-30T19:37:50.556136+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -84,11 +84,11 @@
     },
     "avatar": null,
     "company_id": null,
+    "last_message_id": "1411075349344792576",
+    "sport": "nfl",
     "shard": 697,
     "season": "2026",
     "season_type": "regular",
-    "sport": "nfl",
-    "last_message_id": "1410990720432537600",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -144,18 +144,23 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "draft_id": "1332851598610690048",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1790768911992,
+    "last_message_time": 1790789089098,
     "last_pinned_message_id": null,
     "last_read_id": null,
+    "draft_id": "1332851598610690048",
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "QB",
@@ -179,11 +184,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "my_roster": {
@@ -1547,10 +1547,10 @@
           "status": "Active"
         },
         {
-          "player_id": "CIN",
-          "name": "Cincinnati Bengals",
+          "player_id": "CHI",
+          "name": "Chicago Bears",
           "position": "DEF",
-          "team": "CIN",
+          "team": "CHI",
           "status": null
         }
       ],
@@ -1626,10 +1626,10 @@
           "status": "Active"
         },
         {
-          "player_id": "CIN",
-          "name": "Cincinnati Bengals",
+          "player_id": "CHI",
+          "name": "Chicago Bears",
           "position": "DEF",
-          "team": "CIN",
+          "team": "CHI",
           "status": null
         }
       ],
@@ -3706,13 +3706,6 @@
           "status": "Active"
         },
         {
-          "player_id": "12015",
-          "name": "Harrison Mevis",
-          "position": "K",
-          "team": "LAR",
-          "status": "Active"
-        },
-        {
           "player_id": "12487",
           "name": "Terrance Ferguson",
           "position": "TE",
@@ -3804,6 +3797,13 @@
           "status": "Active"
         },
         {
+          "player_id": "7839",
+          "name": "Evan McPherson",
+          "position": "K",
+          "team": "CIN",
+          "status": "Active"
+        },
+        {
           "player_id": "8112",
           "name": "Drake London",
           "position": "WR",
@@ -3869,10 +3869,10 @@
           "status": "Active"
         },
         {
-          "player_id": "1166",
-          "name": "Kirk Cousins",
+          "player_id": "5870",
+          "name": "Daniel Jones",
           "position": "QB",
-          "team": "LV",
+          "team": "IND",
           "status": "Active"
         },
         {
@@ -3918,17 +3918,17 @@
           "status": "Active"
         },
         {
-          "player_id": "11620",
-          "name": "Rome Odunze",
+          "player_id": "5947",
+          "name": "Jakobi Meyers",
           "position": "WR",
-          "team": "CHI",
+          "team": "JAX",
           "status": "Active"
         },
         {
-          "player_id": "12015",
-          "name": "Harrison Mevis",
+          "player_id": "7839",
+          "name": "Evan McPherson",
           "position": "K",
-          "team": "LAR",
+          "team": "CIN",
           "status": "Active"
         },
         {
@@ -3948,10 +3948,24 @@
           "status": "Active"
         },
         {
+          "player_id": "11620",
+          "name": "Rome Odunze",
+          "position": "WR",
+          "team": "CHI",
+          "status": "Active"
+        },
+        {
           "player_id": "11643",
           "name": "Jaylen Wright",
           "position": "RB",
           "team": "MIA",
+          "status": "Active"
+        },
+        {
+          "player_id": "1166",
+          "name": "Kirk Cousins",
+          "position": "QB",
+          "team": "LV",
           "status": "Active"
         },
         {
@@ -3980,20 +3994,6 @@
           "name": "Dallas Goedert",
           "position": "TE",
           "team": "PHI",
-          "status": "Active"
-        },
-        {
-          "player_id": "5870",
-          "name": "Daniel Jones",
-          "position": "QB",
-          "team": "IND",
-          "status": "Active"
-        },
-        {
-          "player_id": "5947",
-          "name": "Jakobi Meyers",
-          "position": "WR",
-          "team": "JAX",
           "status": "Active"
         },
         {
