@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-09-30T07:51:54.561259+00:00",
+  "generated_at_utc": "2026-09-30T14:32:10.600583+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-09-30T07:51:54.561259+00:00",
+    "generated_at_utc": "2026-09-30T14:32:10.600583+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -88,6 +88,7 @@
     "season": "2026",
     "season_type": "regular",
     "sport": "nfl",
+    "last_message_id": "1410990720432537600",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -143,15 +144,14 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1410922076893638656",
+    "draft_id": "1332851598610690048",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "draft_id": "1332851598610690048",
-    "last_message_time": 1790752546098,
+    "last_message_time": 1790768911992,
     "last_pinned_message_id": null,
     "last_read_id": null,
     "league_id": "1332851598593908736",
@@ -368,10 +368,10 @@
         "status": "Active"
       },
       {
-        "player_id": "SF",
-        "name": "San Francisco 49ers",
+        "player_id": "GB",
+        "name": "Green Bay Packers",
         "position": "DEF",
-        "team": "SF",
+        "team": "GB",
         "status": null
       }
     ],
@@ -445,13 +445,6 @@
         "position": "K",
         "team": "SEA",
         "status": "Active"
-      },
-      {
-        "player_id": "SF",
-        "name": "San Francisco 49ers",
-        "position": "DEF",
-        "team": "SF",
-        "status": null
       }
     ],
     "bench": [
@@ -524,6 +517,13 @@
         "position": "QB",
         "team": "PIT",
         "status": "Active"
+      },
+      {
+        "player_id": "GB",
+        "name": "Green Bay Packers",
+        "position": "DEF",
+        "team": "GB",
+        "status": null
       }
     ],
     "taxi": [
@@ -764,19 +764,19 @@
           "status": "Active"
         },
         {
-          "player_id": "KC",
-          "name": "Kansas City Chiefs",
+          "player_id": "LV",
+          "name": "Las Vegas Raiders",
           "position": "DEF",
-          "team": "KC",
+          "team": "LV",
           "status": null
         }
       ],
       "starters": [
         {
-          "player_id": "6904",
-          "name": "Jalen Hurts",
+          "player_id": "3163",
+          "name": "Jared Goff",
           "position": "QB",
-          "team": "PHI",
+          "team": "DET",
           "status": "Active"
         },
         {
@@ -794,10 +794,10 @@
           "status": "Active"
         },
         {
-          "player_id": "8155",
-          "name": "Breece Hall",
+          "player_id": "11584",
+          "name": "Bucky Irving",
           "position": "RB",
-          "team": "NYJ",
+          "team": "TB",
           "status": "Active"
         },
         {
@@ -815,17 +815,17 @@
           "status": "Active"
         },
         {
-          "player_id": "1466",
-          "name": "Travis Kelce",
+          "player_id": "12518",
+          "name": "Tyler Warren",
           "position": "TE",
-          "team": "KC",
+          "team": "IND",
           "status": "Active"
         },
         {
-          "player_id": "11584",
-          "name": "Bucky Irving",
-          "position": "RB",
-          "team": "TB",
+          "player_id": "11632",
+          "name": "Malik Nabers",
+          "position": "WR",
+          "team": "NYG",
           "status": "Active"
         },
         {
@@ -843,21 +843,14 @@
           "status": "Active"
         },
         {
-          "player_id": "KC",
-          "name": "Kansas City Chiefs",
+          "player_id": "LV",
+          "name": "Las Vegas Raiders",
           "position": "DEF",
-          "team": "KC",
+          "team": "LV",
           "status": null
         }
       ],
       "bench": [
-        {
-          "player_id": "11632",
-          "name": "Malik Nabers",
-          "position": "WR",
-          "team": "NYG",
-          "status": "Active"
-        },
         {
           "player_id": "12512",
           "name": "Quinshon Judkins",
@@ -866,10 +859,10 @@
           "status": "Active"
         },
         {
-          "player_id": "12518",
-          "name": "Tyler Warren",
+          "player_id": "1466",
+          "name": "Travis Kelce",
           "position": "TE",
-          "team": "IND",
+          "team": "KC",
           "status": "Active"
         },
         {
@@ -877,13 +870,6 @@
           "name": "Stefon Diggs",
           "position": "WR",
           "team": "WAS",
-          "status": "Active"
-        },
-        {
-          "player_id": "3163",
-          "name": "Jared Goff",
-          "position": "QB",
-          "team": "DET",
           "status": "Active"
         },
         {
@@ -919,6 +905,20 @@
           "name": "Terry McLaurin",
           "position": "WR",
           "team": "WAS",
+          "status": "Active"
+        },
+        {
+          "player_id": "6904",
+          "name": "Jalen Hurts",
+          "position": "QB",
+          "team": "PHI",
+          "status": "Active"
+        },
+        {
+          "player_id": "8155",
+          "name": "Breece Hall",
+          "position": "RB",
+          "team": "NYJ",
           "status": "Active"
         }
       ],
@@ -1159,10 +1159,10 @@
           "status": "Active"
         },
         {
-          "player_id": "SF",
-          "name": "San Francisco 49ers",
+          "player_id": "GB",
+          "name": "Green Bay Packers",
           "position": "DEF",
-          "team": "SF",
+          "team": "GB",
           "status": null
         }
       ],
@@ -1236,13 +1236,6 @@
           "position": "K",
           "team": "SEA",
           "status": "Active"
-        },
-        {
-          "player_id": "SF",
-          "name": "San Francisco 49ers",
-          "position": "DEF",
-          "team": "SF",
-          "status": null
         }
       ],
       "bench": [
@@ -1315,6 +1308,13 @@
           "position": "QB",
           "team": "PIT",
           "status": "Active"
+        },
+        {
+          "player_id": "GB",
+          "name": "Green Bay Packers",
+          "position": "DEF",
+          "team": "GB",
+          "status": null
         }
       ],
       "taxi": [
