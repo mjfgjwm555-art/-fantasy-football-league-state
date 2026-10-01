@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-10-01T15:56:57.397071+00:00",
+  "generated_at_utc": "2026-10-01T20:49:58.585133+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-10-01T15:56:57.397071+00:00",
+    "generated_at_utc": "2026-10-01T20:49:58.585133+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -83,10 +83,7 @@
       "daily_waivers_last_ran": 9
     },
     "avatar": null,
-    "shard": 697,
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
+    "company_id": null,
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -142,12 +139,15 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "last_message_id": "1411353946630508544",
-    "company_id": null,
-    "draft_id": "1332851598610690048",
+    "shard": 697,
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
+    "draft_id": "1332851598610690048",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
@@ -156,6 +156,11 @@
     "last_read_id": null,
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "QB",
@@ -179,11 +184,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "my_roster": {
@@ -3149,10 +3149,10 @@
           "status": "Active"
         },
         {
-          "player_id": "4037",
-          "name": "Chris Godwin",
-          "position": "WR",
-          "team": "TB",
+          "player_id": "11576",
+          "name": "Braelon Allen",
+          "position": "RB",
+          "team": "NYJ",
           "status": "Active"
         },
         {
@@ -3179,13 +3179,6 @@
           "status": "Active"
         },
         {
-          "player_id": "11576",
-          "name": "Braelon Allen",
-          "position": "RB",
-          "team": "NYJ",
-          "status": "Active"
-        },
-        {
           "player_id": "11625",
           "name": "Adonai Mitchell",
           "position": "WR",
@@ -3204,6 +3197,13 @@
           "name": "Alvin Kamara",
           "position": "RB",
           "team": "NO",
+          "status": "Active"
+        },
+        {
+          "player_id": "4037",
+          "name": "Chris Godwin",
+          "position": "WR",
+          "team": "TB",
           "status": "Active"
         },
         {
