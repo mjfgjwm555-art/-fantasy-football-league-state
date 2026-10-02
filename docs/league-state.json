@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-10-01T20:49:58.585133+00:00",
+  "generated_at_utc": "2026-10-02T00:28:38.252815+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-10-01T20:49:58.585133+00:00",
+    "generated_at_utc": "2026-10-02T00:28:38.252815+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -141,18 +141,18 @@
     },
     "season": "2026",
     "season_type": "regular",
-    "sport": "nfl",
-    "last_message_id": "1411353946630508544",
     "shard": 697,
+    "sport": "nfl",
+    "last_message_id": "1411523038251356160",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
-    "draft_id": "1332851598610690048",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1790855511866,
+    "last_message_time": 1790895826451,
     "last_pinned_message_id": null,
+    "draft_id": "1332851598610690048",
     "last_read_id": null,
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
@@ -1965,17 +1965,17 @@
           "status": "Active"
         },
         {
-          "player_id": "5872",
-          "name": "Deebo Samuel",
+          "player_id": "13346",
+          "name": "Denzel Boston",
           "position": "WR",
-          "team": "SF",
+          "team": "CLE",
           "status": "Active"
         },
         {
-          "player_id": "3214",
-          "name": "Hunter Henry",
+          "player_id": "9480",
+          "name": "Brenton Strange",
           "position": "TE",
-          "team": "NE",
+          "team": "JAX",
           "status": "Active"
         },
         {
@@ -2030,10 +2030,10 @@
           "status": "Active"
         },
         {
-          "player_id": "13346",
-          "name": "Denzel Boston",
-          "position": "WR",
-          "team": "CLE",
+          "player_id": "3214",
+          "name": "Hunter Henry",
+          "position": "TE",
+          "team": "NE",
           "status": "Active"
         },
         {
@@ -2041,6 +2041,13 @@
           "name": "Tyreek Hill",
           "position": "WR",
           "team": null,
+          "status": "Active"
+        },
+        {
+          "player_id": "5872",
+          "name": "Deebo Samuel",
+          "position": "WR",
+          "team": "SF",
           "status": "Active"
         },
         {
@@ -2070,13 +2077,6 @@
           "position": "RB",
           "team": "WAS",
           "status": "Inactive"
-        },
-        {
-          "player_id": "9480",
-          "name": "Brenton Strange",
-          "position": "TE",
-          "team": "JAX",
-          "status": "Active"
         }
       ],
       "taxi": [
@@ -2619,13 +2619,6 @@
           "status": "Active"
         },
         {
-          "player_id": "13285",
-          "name": "Malachi Fields",
-          "position": "WR",
-          "team": "NYG",
-          "status": "Active"
-        },
-        {
           "player_id": "13301",
           "name": "Antonio Williams",
           "position": "WR",
@@ -2705,10 +2698,10 @@
       ],
       "starters": [
         {
-          "player_id": "4892",
-          "name": "Baker Mayfield",
+          "player_id": "2307",
+          "name": "Marcus Mariota",
           "position": "QB",
-          "team": "TB",
+          "team": "WAS",
           "status": "Active"
         },
         {
@@ -2798,6 +2791,13 @@
           "status": "Active"
         },
         {
+          "player_id": "11566",
+          "name": "Jayden Daniels",
+          "position": "QB",
+          "team": "WAS",
+          "status": "Active"
+        },
+        {
           "player_id": "11631",
           "name": "Brian Thomas",
           "position": "WR",
@@ -2812,17 +2812,10 @@
           "status": "Active"
         },
         {
-          "player_id": "13285",
-          "name": "Malachi Fields",
-          "position": "WR",
-          "team": "NYG",
-          "status": "Active"
-        },
-        {
-          "player_id": "2307",
-          "name": "Marcus Mariota",
+          "player_id": "4892",
+          "name": "Baker Mayfield",
           "position": "QB",
-          "team": "WAS",
+          "team": "TB",
           "status": "Active"
         },
         {
@@ -2878,13 +2871,6 @@
         }
       ],
       "reserve": [
-        {
-          "player_id": "11566",
-          "name": "Jayden Daniels",
-          "position": "QB",
-          "team": "WAS",
-          "status": "Active"
-        },
         {
           "player_id": "12484",
           "name": "Jayden Higgins",
@@ -3581,6 +3567,13 @@
           "status": "Active"
         },
         {
+          "player_id": "12498",
+          "name": "Mason Taylor",
+          "position": "TE",
+          "team": "NYJ",
+          "status": "Active"
+        },
+        {
           "player_id": "12530",
           "name": "Travis Hunter",
           "position": "WR",
@@ -3640,13 +3633,6 @@
         }
       ],
       "reserve": [
-        {
-          "player_id": "12498",
-          "name": "Mason Taylor",
-          "position": "TE",
-          "team": "NYJ",
-          "status": "Active"
-        },
         {
           "player_id": "4033",
           "name": "David Njoku",
@@ -4299,10 +4285,10 @@
           "status": "Active"
         },
         {
-          "player_id": "4217",
-          "name": "George Kittle",
-          "position": "TE",
-          "team": "SF",
+          "player_id": "9493",
+          "name": "Puka Nacua",
+          "position": "WR",
+          "team": "LAR",
           "status": "Active"
         },
         {
@@ -4313,17 +4299,17 @@
           "status": "Active"
         },
         {
-          "player_id": "12711",
-          "name": "Tyler Loop",
+          "player_id": "6650",
+          "name": "Chase McLaughlin",
           "position": "K",
-          "team": "BAL",
+          "team": "TB",
           "status": "Active"
         },
         {
-          "player_id": "PHI",
-          "name": "Philadelphia Eagles",
+          "player_id": "PIT",
+          "name": "Pittsburgh Steelers",
           "position": "DEF",
-          "team": "PHI",
+          "team": "PIT",
           "status": null
         }
       ],
@@ -4343,10 +4329,31 @@
           "status": "Active"
         },
         {
+          "player_id": "12711",
+          "name": "Tyler Loop",
+          "position": "K",
+          "team": "BAL",
+          "status": "Active"
+        },
+        {
+          "player_id": "13272",
+          "name": "Carson Beck",
+          "position": "QB",
+          "team": "ARI",
+          "status": "Active"
+        },
+        {
           "player_id": "4039",
           "name": "Cooper Kupp",
           "position": "WR",
           "team": "SEA",
+          "status": "Active"
+        },
+        {
+          "player_id": "4217",
+          "name": "George Kittle",
+          "position": "TE",
+          "team": "SF",
           "status": "Active"
         },
         {
@@ -4357,24 +4364,10 @@
           "status": "Active"
         },
         {
-          "player_id": "6650",
-          "name": "Chase McLaughlin",
-          "position": "K",
-          "team": "TB",
-          "status": "Active"
-        },
-        {
           "player_id": "6768",
           "name": "Tua Tagovailoa",
           "position": "QB",
           "team": "ATL",
-          "status": "Active"
-        },
-        {
-          "player_id": "9493",
-          "name": "Puka Nacua",
-          "position": "WR",
-          "team": "LAR",
           "status": "Active"
         },
         {
@@ -4385,10 +4378,10 @@
           "status": "Active"
         },
         {
-          "player_id": "PIT",
-          "name": "Pittsburgh Steelers",
+          "player_id": "PHI",
+          "name": "Philadelphia Eagles",
           "position": "DEF",
-          "team": "PIT",
+          "team": "PHI",
           "status": null
         }
       ],
@@ -4421,13 +4414,6 @@
           "name": "Jalen McMillan",
           "position": "WR",
           "team": "TB",
-          "status": "Active"
-        },
-        {
-          "player_id": "13272",
-          "name": "Carson Beck",
-          "position": "QB",
-          "team": "ARI",
           "status": "Active"
         }
       ],
