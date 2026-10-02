@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-10-02T00:28:38.252815+00:00",
+  "generated_at_utc": "2026-10-02T06:02:30.071600+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-10-02T00:28:38.252815+00:00",
+    "generated_at_utc": "2026-10-02T06:02:30.071600+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -84,6 +84,10 @@
     },
     "avatar": null,
     "company_id": null,
+    "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
+    "shard": 697,
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -139,28 +143,20 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "shard": 697,
-    "sport": "nfl",
-    "last_message_id": "1411523038251356160",
+    "last_message_id": "1411568347157430272",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1790895826451,
+    "last_message_time": 1790906628935,
     "last_pinned_message_id": null,
     "draft_id": "1332851598610690048",
     "last_read_id": null,
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
-    "bracket_id": null,
-    "bracket_overrides_id": null,
     "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "QB",
@@ -184,6 +180,10 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "my_roster": {
@@ -794,10 +794,10 @@
           "status": "Active"
         },
         {
-          "player_id": "11584",
-          "name": "Bucky Irving",
+          "player_id": "7594",
+          "name": "Chuba Hubbard",
           "position": "RB",
-          "team": "TB",
+          "team": "CAR",
           "status": "Active"
         },
         {
@@ -822,17 +822,17 @@
           "status": "Active"
         },
         {
-          "player_id": "11632",
-          "name": "Malik Nabers",
-          "position": "WR",
-          "team": "NYG",
+          "player_id": "1466",
+          "name": "Travis Kelce",
+          "position": "TE",
+          "team": "KC",
           "status": "Active"
         },
         {
-          "player_id": "7594",
-          "name": "Chuba Hubbard",
+          "player_id": "11584",
+          "name": "Bucky Irving",
           "position": "RB",
-          "team": "CAR",
+          "team": "TB",
           "status": "Active"
         },
         {
@@ -852,17 +852,17 @@
       ],
       "bench": [
         {
+          "player_id": "11632",
+          "name": "Malik Nabers",
+          "position": "WR",
+          "team": "NYG",
+          "status": "Active"
+        },
+        {
           "player_id": "12512",
           "name": "Quinshon Judkins",
           "position": "RB",
           "team": "CLE",
-          "status": "Active"
-        },
-        {
-          "player_id": "1466",
-          "name": "Travis Kelce",
-          "position": "TE",
-          "team": "KC",
           "status": "Active"
         },
         {
@@ -2612,6 +2612,13 @@
           "status": "Active"
         },
         {
+          "player_id": "12718",
+          "name": "Konata Mumpfield",
+          "position": "WR",
+          "team": "LAR",
+          "status": "Active"
+        },
+        {
           "player_id": "13281",
           "name": "Jordyn Tyson",
           "position": "WR",
@@ -2733,10 +2740,10 @@
           "status": "Active"
         },
         {
-          "player_id": "11646",
-          "name": "Jalen Coker",
+          "player_id": "10213",
+          "name": "Tre Tucker",
           "position": "WR",
-          "team": "CAR",
+          "team": "LV",
           "status": "Active"
         },
         {
@@ -2747,9 +2754,9 @@
           "status": "Active"
         },
         {
-          "player_id": "7543",
-          "name": "Travis Etienne",
-          "position": "RB",
+          "player_id": "7002",
+          "name": "Juwan Johnson",
+          "position": "TE",
           "team": "NO",
           "status": "Active"
         },
@@ -2777,13 +2784,6 @@
       ],
       "bench": [
         {
-          "player_id": "10213",
-          "name": "Tre Tucker",
-          "position": "WR",
-          "team": "LV",
-          "status": "Active"
-        },
-        {
           "player_id": "10219",
           "name": "Chris Rodriguez",
           "position": "RB",
@@ -2805,6 +2805,13 @@
           "status": "Active"
         },
         {
+          "player_id": "11646",
+          "name": "Jalen Coker",
+          "position": "WR",
+          "team": "CAR",
+          "status": "Active"
+        },
+        {
           "player_id": "12524",
           "name": "Shedeur Sanders",
           "position": "QB",
@@ -2812,17 +2819,17 @@
           "status": "Active"
         },
         {
+          "player_id": "12718",
+          "name": "Konata Mumpfield",
+          "position": "WR",
+          "team": "LAR",
+          "status": "Active"
+        },
+        {
           "player_id": "4892",
           "name": "Baker Mayfield",
           "position": "QB",
           "team": "TB",
-          "status": "Active"
-        },
-        {
-          "player_id": "7002",
-          "name": "Juwan Johnson",
-          "position": "TE",
-          "team": "NO",
           "status": "Active"
         },
         {
@@ -2877,6 +2884,13 @@
           "position": "WR",
           "team": "HOU",
           "status": "Inactive"
+        },
+        {
+          "player_id": "7543",
+          "name": "Travis Etienne",
+          "position": "RB",
+          "team": "NO",
+          "status": "Active"
         }
       ],
       "settings": {
