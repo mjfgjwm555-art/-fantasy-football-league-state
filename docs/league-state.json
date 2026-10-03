@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-10-03T01:12:03.460813+00:00",
+  "generated_at_utc": "2026-10-03T06:33:18.229406+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-10-03T01:12:03.460813+00:00",
+    "generated_at_utc": "2026-10-03T06:33:18.229406+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -3530,10 +3530,10 @@
           "status": "Active"
         },
         {
-          "player_id": "11586",
-          "name": "Blake Corum",
+          "player_id": "11435",
+          "name": "Emanuel Wilson",
           "position": "RB",
-          "team": "LAR",
+          "team": "SEA",
           "status": "Active"
         },
         {
@@ -3560,10 +3560,10 @@
           "status": "Active"
         },
         {
-          "player_id": "11435",
-          "name": "Emanuel Wilson",
+          "player_id": "11586",
+          "name": "Blake Corum",
           "position": "RB",
-          "team": "SEA",
+          "team": "LAR",
           "status": "Active"
         },
         {
@@ -3578,13 +3578,6 @@
           "name": "Kimani Vidal",
           "position": "RB",
           "team": "LAC",
-          "status": "Active"
-        },
-        {
-          "player_id": "12498",
-          "name": "Mason Taylor",
-          "position": "TE",
-          "team": "NYJ",
           "status": "Active"
         },
         {
@@ -3647,6 +3640,13 @@
         }
       ],
       "reserve": [
+        {
+          "player_id": "12498",
+          "name": "Mason Taylor",
+          "position": "TE",
+          "team": "NYJ",
+          "status": "Active"
+        },
         {
           "player_id": "4033",
           "name": "David Njoku",
