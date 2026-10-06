@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-10-06T19:33:58.014852+00:00",
+  "generated_at_utc": "2026-10-06T23:15:11.437218+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-10-06T19:33:58.014852+00:00",
+    "generated_at_utc": "2026-10-06T23:15:11.437218+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -84,6 +84,10 @@
     },
     "avatar": null,
     "company_id": null,
+    "shard": 697,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -139,10 +143,6 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
-    "shard": 697,
     "last_message_id": "1413231673952235520",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
@@ -152,10 +152,15 @@
     "last_message_text_map": null,
     "last_message_time": 1791303196947,
     "last_pinned_message_id": null,
-    "last_read_id": null,
     "draft_id": "1332851598610690048",
+    "last_read_id": null,
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "QB",
@@ -179,11 +184,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "my_roster": {
@@ -3474,17 +3474,17 @@
       ],
       "starters": [
         {
-          "player_id": "4881",
-          "name": "Lamar Jackson",
-          "position": "QB",
-          "team": "BAL",
-          "status": "Active"
-        },
-        {
           "player_id": "12545",
           "name": "Tyler Shough",
           "position": "QB",
           "team": "NO",
+          "status": "Active"
+        },
+        {
+          "player_id": "421",
+          "name": "Matthew Stafford",
+          "position": "QB",
+          "team": "LAR",
           "status": "Active"
         },
         {
@@ -3502,10 +3502,10 @@
           "status": "Active"
         },
         {
-          "player_id": "6819",
-          "name": "Michael Pittman",
+          "player_id": "11637",
+          "name": "Keon Coleman",
           "position": "WR",
-          "team": "PIT",
+          "team": "BUF",
           "status": "Active"
         },
         {
@@ -3523,10 +3523,10 @@
           "status": "Active"
         },
         {
-          "player_id": "12534",
-          "name": "Kyle Monangai",
-          "position": "RB",
-          "team": "CHI",
+          "player_id": "8121",
+          "name": "Romeo Doubs",
+          "position": "WR",
+          "team": "NE",
           "status": "Active"
         },
         {
@@ -3567,13 +3567,6 @@
           "status": "Active"
         },
         {
-          "player_id": "11637",
-          "name": "Keon Coleman",
-          "position": "WR",
-          "team": "BUF",
-          "status": "Active"
-        },
-        {
           "player_id": "11647",
           "name": "Kimani Vidal",
           "position": "RB",
@@ -3588,6 +3581,13 @@
           "status": "Active"
         },
         {
+          "player_id": "12534",
+          "name": "Kyle Monangai",
+          "position": "RB",
+          "team": "CHI",
+          "status": "Active"
+        },
+        {
           "player_id": "1373",
           "name": "Geno Smith",
           "position": "QB",
@@ -3595,17 +3595,17 @@
           "status": "Active"
         },
         {
-          "player_id": "421",
-          "name": "Matthew Stafford",
+          "player_id": "4881",
+          "name": "Lamar Jackson",
           "position": "QB",
-          "team": "LAR",
+          "team": "BAL",
           "status": "Active"
         },
         {
-          "player_id": "8121",
-          "name": "Romeo Doubs",
+          "player_id": "6819",
+          "name": "Michael Pittman",
           "position": "WR",
-          "team": "NE",
+          "team": "PIT",
           "status": "Active"
         },
         {
