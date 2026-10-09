@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-10-09T13:48:38.519590+00:00",
+  "generated_at_utc": "2026-10-09T19:12:58.204333+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-10-09T13:48:38.519590+00:00",
+    "generated_at_utc": "2026-10-09T19:12:58.204333+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -143,15 +143,15 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1414063831826563072",
-    "last_author_avatar": null,
-    "last_author_display_name": "sys",
+    "last_message_id": "1414327427957608448",
     "draft_id": "1332851598610690048",
-    "last_author_id": "166666666666666666",
-    "last_author_is_bot": true,
+    "last_author_avatar": "6e71df1e19eda1d4be9fdacaaa09a9ea",
+    "last_author_display_name": "WagerWishes",
+    "last_author_id": "992854997039689728",
+    "last_author_is_bot": false,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1791501598845,
+    "last_message_time": 1791564445798,
     "last_pinned_message_id": null,
     "last_read_id": null,
     "league_id": "1332851598593908736",
