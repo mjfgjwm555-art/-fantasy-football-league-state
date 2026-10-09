@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-10-08T20:32:36.364472+00:00",
+  "generated_at_utc": "2026-10-09T00:39:15.823505+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-10-08T20:32:36.364472+00:00",
+    "generated_at_utc": "2026-10-09T00:39:15.823505+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -84,7 +84,9 @@
     },
     "avatar": null,
     "company_id": null,
-    "last_message_id": "1413750398564499456",
+    "shard": 697,
+    "season": "2026",
+    "season_type": "regular",
     "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
@@ -141,24 +143,19 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "shard": 697,
+    "last_message_id": "1414063831826563072",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1791426870532,
+    "last_message_time": 1791501598845,
     "last_pinned_message_id": null,
-    "last_read_id": null,
     "draft_id": "1332851598610690048",
+    "last_read_id": null,
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
     "roster_positions": [
       "QB",
       "QB",
@@ -182,6 +179,9 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
@@ -1781,6 +1781,13 @@
           "status": "Active"
         },
         {
+          "player_id": "12185",
+          "name": "Spencer Shrader",
+          "position": "K",
+          "team": "IND",
+          "status": "Active"
+        },
+        {
           "player_id": "12497",
           "name": "Tory Horton",
           "position": "WR",
@@ -1893,13 +1900,6 @@
           "status": "Active"
         },
         {
-          "player_id": "8143",
-          "name": "Jerome Ford",
-          "position": "RB",
-          "team": "WAS",
-          "status": "Inactive"
-        },
-        {
           "player_id": "8151",
           "name": "Kenneth Walker",
           "position": "RB",
@@ -1937,10 +1937,10 @@
           "status": "Active"
         },
         {
-          "player_id": "9228",
-          "name": "Bryce Young",
+          "player_id": "11559",
+          "name": "Michael Penix",
           "position": "QB",
-          "team": "CAR",
+          "team": "ATL",
           "status": "Active"
         },
         {
@@ -1958,10 +1958,10 @@
           "status": "Active"
         },
         {
-          "player_id": "10229",
-          "name": "Rashee Rice",
+          "player_id": "5872",
+          "name": "Deebo Samuel",
           "position": "WR",
-          "team": "KC",
+          "team": "SF",
           "status": "Active"
         },
         {
@@ -1979,24 +1979,24 @@
           "status": "Active"
         },
         {
-          "player_id": "4866",
-          "name": "Saquon Barkley",
-          "position": "RB",
-          "team": "PHI",
+          "player_id": "3214",
+          "name": "Hunter Henry",
+          "position": "TE",
+          "team": "NE",
           "status": "Active"
         },
         {
-          "player_id": "8151",
-          "name": "Kenneth Walker",
-          "position": "RB",
-          "team": "KC",
+          "player_id": "8126",
+          "name": "Wan'Dale Robinson",
+          "position": "WR",
+          "team": "TEN",
           "status": "Active"
         },
         {
-          "player_id": "4227",
-          "name": "Harrison Butker",
+          "player_id": "12185",
+          "name": "Spencer Shrader",
           "position": "K",
-          "team": "KC",
+          "team": "IND",
           "status": "Active"
         },
         {
@@ -2009,10 +2009,10 @@
       ],
       "bench": [
         {
-          "player_id": "11559",
-          "name": "Michael Penix",
-          "position": "QB",
-          "team": "ATL",
+          "player_id": "10229",
+          "name": "Rashee Rice",
+          "position": "WR",
+          "team": "KC",
           "status": "Active"
         },
         {
@@ -2030,13 +2030,6 @@
           "status": "Active"
         },
         {
-          "player_id": "3214",
-          "name": "Hunter Henry",
-          "position": "TE",
-          "team": "NE",
-          "status": "Active"
-        },
-        {
           "player_id": "3321",
           "name": "Tyreek Hill",
           "position": "WR",
@@ -2044,10 +2037,17 @@
           "status": "Active"
         },
         {
-          "player_id": "5872",
-          "name": "Deebo Samuel",
-          "position": "WR",
-          "team": "SF",
+          "player_id": "4227",
+          "name": "Harrison Butker",
+          "position": "K",
+          "team": "KC",
+          "status": "Active"
+        },
+        {
+          "player_id": "4866",
+          "name": "Saquon Barkley",
+          "position": "RB",
+          "team": "PHI",
           "status": "Active"
         },
         {
@@ -2065,18 +2065,18 @@
           "status": "Active"
         },
         {
-          "player_id": "8126",
-          "name": "Wan'Dale Robinson",
-          "position": "WR",
-          "team": "TEN",
+          "player_id": "8151",
+          "name": "Kenneth Walker",
+          "position": "RB",
+          "team": "KC",
           "status": "Active"
         },
         {
-          "player_id": "8143",
-          "name": "Jerome Ford",
-          "position": "RB",
-          "team": "WAS",
-          "status": "Inactive"
+          "player_id": "9228",
+          "name": "Bryce Young",
+          "position": "QB",
+          "team": "CAR",
+          "status": "Active"
         }
       ],
       "taxi": [
@@ -2359,10 +2359,10 @@
           "status": "Active"
         },
         {
-          "player_id": "7525",
-          "name": "DeVonta Smith",
+          "player_id": "12514",
+          "name": "Emeka Egbuka",
           "position": "WR",
-          "team": "PHI",
+          "team": "TB",
           "status": "Active"
         },
         {
@@ -2424,13 +2424,6 @@
           "status": "Active"
         },
         {
-          "player_id": "12514",
-          "name": "Emeka Egbuka",
-          "position": "WR",
-          "team": "TB",
-          "status": "Active"
-        },
-        {
           "player_id": "12522",
           "name": "Cam Ward",
           "position": "QB",
@@ -2449,6 +2442,13 @@
           "name": "Justin Herbert",
           "position": "QB",
           "team": "LAC",
+          "status": "Active"
+        },
+        {
+          "player_id": "7525",
+          "name": "DeVonta Smith",
+          "position": "WR",
+          "team": "PHI",
           "status": "Active"
         },
         {
@@ -3346,13 +3346,6 @@
           "status": "Active"
         },
         {
-          "player_id": "12498",
-          "name": "Mason Taylor",
-          "position": "TE",
-          "team": "NYJ",
-          "status": "Active"
-        },
-        {
           "player_id": "12530",
           "name": "Travis Hunter",
           "position": "WR",
@@ -3509,10 +3502,10 @@
           "status": "Active"
         },
         {
-          "player_id": "7611",
-          "name": "Rhamondre Stevenson",
+          "player_id": "11435",
+          "name": "Emanuel Wilson",
           "position": "RB",
-          "team": "NE",
+          "team": "SEA",
           "status": "Active"
         },
         {
@@ -3551,10 +3544,10 @@
           "status": "Active"
         },
         {
-          "player_id": "11435",
-          "name": "Emanuel Wilson",
+          "player_id": "9511",
+          "name": "Keaton Mitchell",
           "position": "RB",
-          "team": "SEA",
+          "team": "LAC",
           "status": "Active"
         },
         {
@@ -3565,10 +3558,10 @@
           "status": "Active"
         },
         {
-          "player_id": "LAR",
-          "name": "Los Angeles Rams",
+          "player_id": "CIN",
+          "name": "Cincinnati Bengals",
           "position": "DEF",
-          "team": "LAR",
+          "team": "CIN",
           "status": null
         }
       ],
@@ -3630,17 +3623,17 @@
           "status": "Active"
         },
         {
-          "player_id": "9511",
-          "name": "Keaton Mitchell",
+          "player_id": "7611",
+          "name": "Rhamondre Stevenson",
           "position": "RB",
-          "team": "LAC",
+          "team": "NE",
           "status": "Active"
         },
         {
-          "player_id": "CIN",
-          "name": "Cincinnati Bengals",
+          "player_id": "LAR",
+          "name": "Los Angeles Rams",
           "position": "DEF",
-          "team": "CIN",
+          "team": "LAR",
           "status": null
         }
       ],
@@ -3668,13 +3661,6 @@
         }
       ],
       "reserve": [
-        {
-          "player_id": "12498",
-          "name": "Mason Taylor",
-          "position": "TE",
-          "team": "NYJ",
-          "status": "Active"
-        },
         {
           "player_id": "4033",
           "name": "David Njoku",
