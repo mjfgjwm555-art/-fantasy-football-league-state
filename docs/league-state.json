@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-10-10T19:24:57.976482+00:00",
+  "generated_at_utc": "2026-10-10T22:47:11.400459+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-10-10T19:24:57.976482+00:00",
+    "generated_at_utc": "2026-10-10T22:47:11.400459+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -139,21 +139,21 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "sport": "nfl",
     "season": "2026",
     "season_type": "regular",
     "shard": 697,
-    "last_message_id": "1414413721182187520",
-    "draft_id": "1332851598610690048",
+    "sport": "nfl",
+    "last_message_id": "1414731707000610816",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1791585018968,
+    "last_message_time": 1791660832695,
     "last_pinned_message_id": null,
     "last_read_id": null,
+    "draft_id": "1332851598610690048",
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
     "roster_positions": [
@@ -1393,6 +1393,13 @@
           "status": "Active"
         },
         {
+          "player_id": "11630",
+          "name": "Roman Wilson",
+          "position": "WR",
+          "team": "PIT",
+          "status": "Active"
+        },
+        {
           "player_id": "12501",
           "name": "Matthew Golden",
           "position": "WR",
@@ -1591,8 +1598,8 @@
           "status": "Active"
         },
         {
-          "player_id": "12501",
-          "name": "Matthew Golden",
+          "player_id": "8167",
+          "name": "Christian Watson",
           "position": "WR",
           "team": "GB",
           "status": "Active"
@@ -1605,8 +1612,8 @@
           "status": "Active"
         },
         {
-          "player_id": "8167",
-          "name": "Christian Watson",
+          "player_id": "12501",
+          "name": "Matthew Golden",
           "position": "WR",
           "team": "GB",
           "status": "Active"
@@ -1634,6 +1641,13 @@
         }
       ],
       "bench": [
+        {
+          "player_id": "11630",
+          "name": "Roman Wilson",
+          "position": "WR",
+          "team": "PIT",
+          "status": "Active"
+        },
         {
           "player_id": "12529",
           "name": "TreVeyon Henderson",
@@ -1696,13 +1710,6 @@
           "position": "TE",
           "team": "LV",
           "status": "Active"
-        },
-        {
-          "player_id": "9754",
-          "name": "Quentin Johnston",
-          "position": "WR",
-          "team": "LAC",
-          "status": "Active"
         }
       ],
       "taxi": [
@@ -1734,6 +1741,13 @@
           "name": "Jayden Reed",
           "position": "WR",
           "team": "GB",
+          "status": "Active"
+        },
+        {
+          "player_id": "9754",
+          "name": "Quentin Johnston",
+          "position": "WR",
+          "team": "LAC",
           "status": "Active"
         }
       ],
