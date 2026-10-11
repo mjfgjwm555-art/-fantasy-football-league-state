@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-10-11T14:35:04.705918+00:00",
+  "generated_at_utc": "2026-10-11T19:10:22.233916+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-10-11T14:35:04.705918+00:00",
+    "generated_at_utc": "2026-10-11T19:10:22.233916+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -4392,13 +4392,6 @@
           "status": "Active"
         },
         {
-          "player_id": "13272",
-          "name": "Carson Beck",
-          "position": "QB",
-          "team": "ARI",
-          "status": "Active"
-        },
-        {
           "player_id": "4039",
           "name": "Cooper Kupp",
           "position": "WR",
@@ -4470,6 +4463,13 @@
           "name": "Jalen McMillan",
           "position": "WR",
           "team": "TB",
+          "status": "Active"
+        },
+        {
+          "player_id": "13272",
+          "name": "Carson Beck",
+          "position": "QB",
+          "team": "ARI",
           "status": "Active"
         }
       ],
