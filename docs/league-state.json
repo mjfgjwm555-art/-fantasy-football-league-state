@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-10-13T08:01:08.706211+00:00",
+  "generated_at_utc": "2026-10-13T15:56:16.278705+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-10-13T08:01:08.706211+00:00",
+    "generated_at_utc": "2026-10-13T15:56:16.278705+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -84,10 +84,10 @@
     },
     "avatar": null,
     "company_id": null,
-    "last_message_id": "1415515740722733056",
-    "sport": "nfl",
-    "season_type": "regular",
+    "shard": 697,
     "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -143,8 +143,7 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "shard": 697,
-    "draft_id": "1332851598610690048",
+    "last_message_id": "1415515740722733056",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -153,6 +152,7 @@
     "last_message_text_map": null,
     "last_message_time": 1791847760901,
     "last_pinned_message_id": null,
+    "draft_id": "1332851598610690048",
     "last_read_id": null,
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
@@ -179,9 +179,9 @@
       "BN",
       "BN"
     ],
+    "group_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
-    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
@@ -405,10 +405,10 @@
         "status": "Active"
       },
       {
-        "player_id": "9997",
-        "name": "Zay Flowers",
+        "player_id": "7526",
+        "name": "Jaylen Waddle",
         "position": "WR",
-        "team": "BAL",
+        "team": "DEN",
         "status": "Active"
       },
       {
@@ -426,10 +426,10 @@
         "status": "Active"
       },
       {
-        "player_id": "4199",
-        "name": "Aaron Jones",
-        "position": "RB",
-        "team": "MIN",
+        "player_id": "9997",
+        "name": "Zay Flowers",
+        "position": "WR",
+        "team": "BAL",
         "status": "Active"
       },
       {
@@ -484,17 +484,17 @@
         "status": "Active"
       },
       {
+        "player_id": "4199",
+        "name": "Aaron Jones",
+        "position": "RB",
+        "team": "MIN",
+        "status": "Active"
+      },
+      {
         "player_id": "7021",
         "name": "Rico Dowdle",
         "position": "RB",
         "team": "PIT",
-        "status": "Active"
-      },
-      {
-        "player_id": "7526",
-        "name": "Jaylen Waddle",
-        "position": "WR",
-        "team": "DEN",
         "status": "Active"
       },
       {
@@ -773,10 +773,10 @@
       ],
       "starters": [
         {
-          "player_id": "3163",
-          "name": "Jared Goff",
+          "player_id": "6904",
+          "name": "Jalen Hurts",
           "position": "QB",
-          "team": "DET",
+          "team": "PHI",
           "status": "Active"
         },
         {
@@ -787,10 +787,10 @@
           "status": "Active"
         },
         {
-          "player_id": "9224",
-          "name": "Chase Brown",
+          "player_id": "7594",
+          "name": "Chuba Hubbard",
           "position": "RB",
-          "team": "CIN",
+          "team": "CAR",
           "status": "Active"
         },
         {
@@ -801,10 +801,10 @@
           "status": "Active"
         },
         {
-          "player_id": "7547",
-          "name": "Amon-Ra St. Brown",
+          "player_id": "9487",
+          "name": "Parker Washington",
           "position": "WR",
-          "team": "DET",
+          "team": "JAX",
           "status": "Active"
         },
         {
@@ -822,10 +822,10 @@
           "status": "Active"
         },
         {
-          "player_id": "9487",
-          "name": "Parker Washington",
+          "player_id": "4983",
+          "name": "DJ Moore",
           "position": "WR",
-          "team": "JAX",
+          "team": "BUF",
           "status": "Active"
         },
         {
@@ -866,6 +866,13 @@
           "status": "Active"
         },
         {
+          "player_id": "3163",
+          "name": "Jared Goff",
+          "position": "QB",
+          "team": "DET",
+          "status": "Active"
+        },
+        {
           "player_id": "3634",
           "name": "Kalif Raymond",
           "position": "WR",
@@ -877,13 +884,6 @@
           "name": "Deshaun Watson",
           "position": "QB",
           "team": "CLE",
-          "status": "Active"
-        },
-        {
-          "player_id": "4983",
-          "name": "DJ Moore",
-          "position": "WR",
-          "team": "BUF",
           "status": "Active"
         },
         {
@@ -901,17 +901,10 @@
           "status": "Active"
         },
         {
-          "player_id": "6904",
-          "name": "Jalen Hurts",
-          "position": "QB",
-          "team": "PHI",
-          "status": "Active"
-        },
-        {
-          "player_id": "7594",
-          "name": "Chuba Hubbard",
-          "position": "RB",
-          "team": "CAR",
+          "player_id": "7547",
+          "name": "Amon-Ra St. Brown",
+          "position": "WR",
+          "team": "DET",
           "status": "Active"
         },
         {
@@ -919,6 +912,13 @@
           "name": "Breece Hall",
           "position": "RB",
           "team": "NYJ",
+          "status": "Active"
+        },
+        {
+          "player_id": "9224",
+          "name": "Chase Brown",
+          "position": "RB",
+          "team": "CIN",
           "status": "Active"
         }
       ],
@@ -1196,10 +1196,10 @@
           "status": "Active"
         },
         {
-          "player_id": "9997",
-          "name": "Zay Flowers",
+          "player_id": "7526",
+          "name": "Jaylen Waddle",
           "position": "WR",
-          "team": "BAL",
+          "team": "DEN",
           "status": "Active"
         },
         {
@@ -1217,10 +1217,10 @@
           "status": "Active"
         },
         {
-          "player_id": "4199",
-          "name": "Aaron Jones",
-          "position": "RB",
-          "team": "MIN",
+          "player_id": "9997",
+          "name": "Zay Flowers",
+          "position": "WR",
+          "team": "BAL",
           "status": "Active"
         },
         {
@@ -1275,17 +1275,17 @@
           "status": "Active"
         },
         {
+          "player_id": "4199",
+          "name": "Aaron Jones",
+          "position": "RB",
+          "team": "MIN",
+          "status": "Active"
+        },
+        {
           "player_id": "7021",
           "name": "Rico Dowdle",
           "position": "RB",
           "team": "PIT",
-          "status": "Active"
-        },
-        {
-          "player_id": "7526",
-          "name": "Jaylen Waddle",
-          "position": "WR",
-          "team": "DEN",
           "status": "Active"
         },
         {
