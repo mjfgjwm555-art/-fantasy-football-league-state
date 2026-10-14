@@ -1,18 +1,18 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-10-14T00:13:32.315792+00:00",
+  "generated_at_utc": "2026-10-14T04:57:04.350679+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-10-14T00:13:32.315792+00:00",
+    "generated_at_utc": "2026-10-14T04:57:04.350679+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
     "week": 6,
     "leg": 6,
-    "season_type": "regular",
     "season": "2026",
+    "season_type": "regular",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -84,7 +84,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "last_message_id": "1415768476693299207",
     "sport": "nfl",
     "season_type": "regular",
     "season": "2026",
@@ -144,6 +143,7 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
+    "last_message_id": "1415768476693299207",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -156,6 +156,11 @@
     "last_read_id": null,
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "QB",
@@ -179,11 +184,6 @@
       "BN",
       "BN"
     ],
-    "group_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "my_roster": {
@@ -2331,10 +2331,10 @@
           "status": "Active"
         },
         {
-          "player_id": "5849",
-          "name": "Kyler Murray",
+          "player_id": "12522",
+          "name": "Cam Ward",
           "position": "QB",
-          "team": "MIN",
+          "team": "TEN",
           "status": "Active"
         },
         {
@@ -2366,10 +2366,10 @@
           "status": "Active"
         },
         {
-          "player_id": "10859",
-          "name": "Sam LaPorta",
+          "player_id": "12493",
+          "name": "Oronde Gadsden",
           "position": "TE",
-          "team": "DET",
+          "team": "LAC",
           "status": "Active"
         },
         {
@@ -2403,6 +2403,13 @@
       ],
       "bench": [
         {
+          "player_id": "10859",
+          "name": "Sam LaPorta",
+          "position": "TE",
+          "team": "DET",
+          "status": "Active"
+        },
+        {
           "player_id": "11577",
           "name": "Will Shipley",
           "position": "RB",
@@ -2424,13 +2431,6 @@
           "status": "Active"
         },
         {
-          "player_id": "12493",
-          "name": "Oronde Gadsden",
-          "position": "TE",
-          "team": "LAC",
-          "status": "Active"
-        },
-        {
           "player_id": "12509",
           "name": "Tre' Harris",
           "position": "WR",
@@ -2438,17 +2438,17 @@
           "status": "Active"
         },
         {
-          "player_id": "12522",
-          "name": "Cam Ward",
-          "position": "QB",
-          "team": "TEN",
-          "status": "Active"
-        },
-        {
           "player_id": "5045",
           "name": "Courtland Sutton",
           "position": "WR",
           "team": "DEN",
+          "status": "Active"
+        },
+        {
+          "player_id": "5849",
+          "name": "Kyler Murray",
+          "position": "QB",
+          "team": "MIN",
           "status": "Active"
         },
         {
