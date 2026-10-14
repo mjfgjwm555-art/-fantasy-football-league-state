@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-10-14T09:56:48.217851+00:00",
+  "generated_at_utc": "2026-10-14T14:54:15.081966+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-10-14T09:56:48.217851+00:00",
+    "generated_at_utc": "2026-10-14T14:54:15.081966+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -84,10 +84,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 697,
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -143,24 +139,23 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1416000103273050112",
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 697,
+    "sport": "nfl",
+    "last_message_id": "1416091128444289024",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1791963241932,
+    "last_message_time": 1791984944024,
     "last_pinned_message_id": null,
-    "draft_id": "1332851598610690048",
     "last_read_id": null,
+    "draft_id": "1332851598610690048",
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
-    "group_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "QB",
@@ -184,6 +179,11 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "my_roster": {
@@ -2986,6 +2986,13 @@
           "status": "Active"
         },
         {
+          "player_id": "13150",
+          "name": "Darius Cooper",
+          "position": "WR",
+          "team": "PHI",
+          "status": "Active"
+        },
+        {
           "player_id": "13276",
           "name": "Omar Cooper",
           "position": "WR",
@@ -3011,6 +3018,13 @@
           "name": "Kaelon Black",
           "position": "RB",
           "team": "SF",
+          "status": "Active"
+        },
+        {
+          "player_id": "2505",
+          "name": "Darren Waller",
+          "position": "TE",
+          "team": "CAR",
           "status": "Active"
         },
         {
@@ -3042,13 +3056,6 @@
           "status": "Active"
         },
         {
-          "player_id": "5844",
-          "name": "T.J. Hockenson",
-          "position": "TE",
-          "team": "MIN",
-          "status": "Active"
-        },
-        {
           "player_id": "6794",
           "name": "Justin Jefferson",
           "position": "WR",
@@ -3060,13 +3067,6 @@
           "name": "J.K. Dobbins",
           "position": "RB",
           "team": "DEN",
-          "status": "Active"
-        },
-        {
-          "player_id": "7083",
-          "name": "Tyler Huntley",
-          "position": "QB",
-          "team": "BAL",
           "status": "Active"
         },
         {
@@ -3121,10 +3121,10 @@
           "status": "Active"
         },
         {
-          "player_id": "7083",
-          "name": "Tyler Huntley",
+          "player_id": "4046",
+          "name": "Patrick Mahomes",
           "position": "QB",
-          "team": "BAL",
+          "team": "KC",
           "status": "Active"
         },
         {
@@ -3156,10 +3156,10 @@
           "status": "Active"
         },
         {
-          "player_id": "5844",
-          "name": "T.J. Hockenson",
+          "player_id": "2505",
+          "name": "Darren Waller",
           "position": "TE",
-          "team": "MIN",
+          "team": "CAR",
           "status": "Active"
         },
         {
@@ -3170,10 +3170,10 @@
           "status": "Active"
         },
         {
-          "player_id": "6794",
-          "name": "Justin Jefferson",
+          "player_id": "11625",
+          "name": "Adonai Mitchell",
           "position": "WR",
-          "team": "MIN",
+          "team": "NYJ",
           "status": "Active"
         },
         {
@@ -3207,13 +3207,6 @@
           "status": "Active"
         },
         {
-          "player_id": "11625",
-          "name": "Adonai Mitchell",
-          "position": "WR",
-          "team": "NYJ",
-          "status": "Active"
-        },
-        {
           "player_id": "11628",
           "name": "Marvin Harrison",
           "position": "WR",
@@ -3228,6 +3221,13 @@
           "status": "Active"
         },
         {
+          "player_id": "13150",
+          "name": "Darius Cooper",
+          "position": "WR",
+          "team": "PHI",
+          "status": "Active"
+        },
+        {
           "player_id": "13285",
           "name": "Malachi Fields",
           "position": "WR",
@@ -3235,10 +3235,10 @@
           "status": "Active"
         },
         {
-          "player_id": "4046",
-          "name": "Patrick Mahomes",
-          "position": "QB",
-          "team": "KC",
+          "player_id": "6794",
+          "name": "Justin Jefferson",
+          "position": "WR",
+          "team": "MIN",
           "status": "Active"
         },
         {
