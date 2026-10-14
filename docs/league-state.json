@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-10-14T14:54:15.081966+00:00",
+  "generated_at_utc": "2026-10-14T19:08:31.139261+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-10-14T14:54:15.081966+00:00",
+    "generated_at_utc": "2026-10-14T19:08:31.139261+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -3170,9 +3170,9 @@
           "status": "Active"
         },
         {
-          "player_id": "11625",
-          "name": "Adonai Mitchell",
-          "position": "WR",
+          "player_id": "11576",
+          "name": "Braelon Allen",
+          "position": "RB",
           "team": "NYJ",
           "status": "Active"
         },
@@ -3200,9 +3200,9 @@
           "status": "Active"
         },
         {
-          "player_id": "11576",
-          "name": "Braelon Allen",
-          "position": "RB",
+          "player_id": "11625",
+          "name": "Adonai Mitchell",
+          "position": "WR",
           "team": "NYJ",
           "status": "Active"
         },
@@ -3904,10 +3904,10 @@
       ],
       "starters": [
         {
-          "player_id": "4943",
-          "name": "Sam Darnold",
+          "player_id": "11560",
+          "name": "Caleb Williams",
           "position": "QB",
-          "team": "SEA",
+          "team": "CHI",
           "status": "Active"
         },
         {
@@ -3939,10 +3939,10 @@
           "status": "Active"
         },
         {
-          "player_id": "6801",
-          "name": "Tee Higgins",
+          "player_id": "8134",
+          "name": "Khalil Shakir",
           "position": "WR",
-          "team": "CIN",
+          "team": "BUF",
           "status": "Active"
         },
         {
@@ -3953,17 +3953,17 @@
           "status": "Active"
         },
         {
-          "player_id": "8148",
-          "name": "Jameson Williams",
+          "player_id": "11620",
+          "name": "Rome Odunze",
           "position": "WR",
-          "team": "DET",
+          "team": "CHI",
           "status": "Active"
         },
         {
-          "player_id": "8134",
-          "name": "Khalil Shakir",
-          "position": "WR",
-          "team": "BUF",
+          "player_id": "5022",
+          "name": "Dallas Goedert",
+          "position": "TE",
+          "team": "PHI",
           "status": "Active"
         },
         {
@@ -3982,20 +3982,6 @@
         }
       ],
       "bench": [
-        {
-          "player_id": "11560",
-          "name": "Caleb Williams",
-          "position": "QB",
-          "team": "CHI",
-          "status": "Active"
-        },
-        {
-          "player_id": "11620",
-          "name": "Rome Odunze",
-          "position": "WR",
-          "team": "CHI",
-          "status": "Active"
-        },
         {
           "player_id": "11643",
           "name": "Jaylen Wright",
@@ -4025,10 +4011,10 @@
           "status": "Active"
         },
         {
-          "player_id": "5022",
-          "name": "Dallas Goedert",
-          "position": "TE",
-          "team": "PHI",
+          "player_id": "4943",
+          "name": "Sam Darnold",
+          "position": "QB",
+          "team": "SEA",
           "status": "Active"
         },
         {
@@ -4046,10 +4032,24 @@
           "status": "Active"
         },
         {
+          "player_id": "6801",
+          "name": "Tee Higgins",
+          "position": "WR",
+          "team": "CIN",
+          "status": "Active"
+        },
+        {
           "player_id": "8132",
           "name": "Tyler Allgeier",
           "position": "RB",
           "team": "ARI",
+          "status": "Active"
+        },
+        {
+          "player_id": "8148",
+          "name": "Jameson Williams",
+          "position": "WR",
+          "team": "DET",
           "status": "Active"
         }
       ],
