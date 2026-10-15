@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-10-15T14:59:43.397307+00:00",
+  "generated_at_utc": "2026-10-15T19:00:34.387557+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-10-15T14:59:43.397307+00:00",
+    "generated_at_utc": "2026-10-15T19:00:34.387557+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -143,15 +143,15 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1416281897729847296",
+    "last_message_id": "1416518709257793536",
+    "draft_id": "1332851598610690048",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
-    "draft_id": "1332851598610690048",
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1792030426966,
+    "last_message_time": 1792086887233,
     "last_pinned_message_id": null,
     "last_read_id": null,
     "league_id": "1332851598593908736",
@@ -764,26 +764,26 @@
           "status": "Active"
         },
         {
-          "player_id": "LV",
-          "name": "Las Vegas Raiders",
+          "player_id": "NE",
+          "name": "New England Patriots",
           "position": "DEF",
-          "team": "LV",
+          "team": "NE",
           "status": null
         }
       ],
       "starters": [
         {
-          "player_id": "6904",
-          "name": "Jalen Hurts",
-          "position": "QB",
-          "team": "PHI",
-          "status": "Active"
-        },
-        {
           "player_id": "3294",
           "name": "Dak Prescott",
           "position": "QB",
           "team": "DAL",
+          "status": "Active"
+        },
+        {
+          "player_id": "4017",
+          "name": "Deshaun Watson",
+          "position": "QB",
+          "team": "CLE",
           "status": "Active"
         },
         {
@@ -794,10 +794,10 @@
           "status": "Active"
         },
         {
-          "player_id": "12512",
-          "name": "Quinshon Judkins",
+          "player_id": "11584",
+          "name": "Bucky Irving",
           "position": "RB",
-          "team": "CLE",
+          "team": "TB",
           "status": "Active"
         },
         {
@@ -829,10 +829,10 @@
           "status": "Active"
         },
         {
-          "player_id": "11584",
-          "name": "Bucky Irving",
-          "position": "RB",
-          "team": "TB",
+          "player_id": "1466",
+          "name": "Travis Kelce",
+          "position": "TE",
+          "team": "KC",
           "status": "Active"
         },
         {
@@ -843,19 +843,19 @@
           "status": "Active"
         },
         {
-          "player_id": "LV",
-          "name": "Las Vegas Raiders",
+          "player_id": "NE",
+          "name": "New England Patriots",
           "position": "DEF",
-          "team": "LV",
+          "team": "NE",
           "status": null
         }
       ],
       "bench": [
         {
-          "player_id": "1466",
-          "name": "Travis Kelce",
-          "position": "TE",
-          "team": "KC",
+          "player_id": "12512",
+          "name": "Quinshon Judkins",
+          "position": "RB",
+          "team": "CLE",
           "status": "Active"
         },
         {
@@ -880,13 +880,6 @@
           "status": "Active"
         },
         {
-          "player_id": "4017",
-          "name": "Deshaun Watson",
-          "position": "QB",
-          "team": "CLE",
-          "status": "Active"
-        },
-        {
           "player_id": "5846",
           "name": "DK Metcalf",
           "position": "WR",
@@ -898,6 +891,13 @@
           "name": "Terry McLaurin",
           "position": "WR",
           "team": "WAS",
+          "status": "Active"
+        },
+        {
+          "player_id": "6904",
+          "name": "Jalen Hurts",
+          "position": "QB",
+          "team": "PHI",
           "status": "Active"
         },
         {
@@ -3070,13 +3070,6 @@
           "status": "Active"
         },
         {
-          "player_id": "7527",
-          "name": "Mac Jones",
-          "position": "QB",
-          "team": "SF",
-          "status": "Active"
-        },
-        {
           "player_id": "7567",
           "name": "Kenny Gainwell",
           "position": "RB",
@@ -3094,6 +3087,13 @@
           "player_id": "9225",
           "name": "Tank Bigsby",
           "position": "RB",
+          "team": "PHI",
+          "status": "Active"
+        },
+        {
+          "player_id": "9230",
+          "name": "Tanner McKee",
+          "position": "QB",
           "team": "PHI",
           "status": "Active"
         },
@@ -3242,17 +3242,17 @@
           "status": "Active"
         },
         {
-          "player_id": "7527",
-          "name": "Mac Jones",
-          "position": "QB",
-          "team": "SF",
-          "status": "Active"
-        },
-        {
           "player_id": "7567",
           "name": "Kenny Gainwell",
           "position": "RB",
           "team": "TB",
+          "status": "Active"
+        },
+        {
+          "player_id": "9230",
+          "name": "Tanner McKee",
+          "position": "QB",
+          "team": "PHI",
           "status": "Active"
         },
         {
