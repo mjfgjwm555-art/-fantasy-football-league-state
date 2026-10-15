@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-10-15T19:00:34.387557+00:00",
+  "generated_at_utc": "2026-10-15T22:14:49.412213+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-10-15T19:00:34.387557+00:00",
+    "generated_at_utc": "2026-10-15T22:14:49.412213+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -144,7 +144,6 @@
       "st_ff": 1.0
     },
     "last_message_id": "1416518709257793536",
-    "draft_id": "1332851598610690048",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -154,6 +153,7 @@
     "last_message_time": 1792086887233,
     "last_pinned_message_id": null,
     "last_read_id": null,
+    "draft_id": "1332851598610690048",
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
     "bracket_id": null,
@@ -1563,10 +1563,10 @@
       ],
       "starters": [
         {
-          "player_id": "6770",
-          "name": "Joe Burrow",
+          "player_id": "2306",
+          "name": "Jameis Winston",
           "position": "QB",
-          "team": "CIN",
+          "team": "NYG",
           "status": "Active"
         },
         {
@@ -1577,10 +1577,10 @@
           "status": "Active"
         },
         {
-          "player_id": "13287",
-          "name": "Jeremiyah Love",
+          "player_id": "12533",
+          "name": "Jacory Croskey-Merritt",
           "position": "RB",
-          "team": "ARI",
+          "team": "WAS",
           "status": "Active"
         },
         {
@@ -1591,10 +1591,10 @@
           "status": "Active"
         },
         {
-          "player_id": "6786",
-          "name": "CeeDee Lamb",
+          "player_id": "8144",
+          "name": "Chris Olave",
           "position": "WR",
-          "team": "DAL",
+          "team": "NO",
           "status": "Active"
         },
         {
@@ -1605,10 +1605,10 @@
           "status": "Active"
         },
         {
-          "player_id": "12506",
-          "name": "Harold Fannin",
+          "player_id": "7600",
+          "name": "Pat Freiermuth",
           "position": "TE",
-          "team": "CLE",
+          "team": "PIT",
           "status": "Active"
         },
         {
@@ -1619,10 +1619,10 @@
           "status": "Active"
         },
         {
-          "player_id": "8144",
-          "name": "Chris Olave",
+          "player_id": "6786",
+          "name": "CeeDee Lamb",
           "position": "WR",
-          "team": "NO",
+          "team": "DAL",
           "status": "Active"
         },
         {
@@ -1642,6 +1642,13 @@
       ],
       "bench": [
         {
+          "player_id": "12506",
+          "name": "Harold Fannin",
+          "position": "TE",
+          "team": "CLE",
+          "status": "Active"
+        },
+        {
           "player_id": "12529",
           "name": "TreVeyon Henderson",
           "position": "RB",
@@ -1649,10 +1656,10 @@
           "status": "Active"
         },
         {
-          "player_id": "12533",
-          "name": "Jacory Croskey-Merritt",
+          "player_id": "13287",
+          "name": "Jeremiyah Love",
           "position": "RB",
-          "team": "WAS",
+          "team": "ARI",
           "status": "Active"
         },
         {
@@ -1660,13 +1667,6 @@
           "name": "Mike Evans",
           "position": "WR",
           "team": "SF",
-          "status": "Active"
-        },
-        {
-          "player_id": "2306",
-          "name": "Jameis Winston",
-          "position": "QB",
-          "team": "NYG",
           "status": "Active"
         },
         {
@@ -1684,10 +1684,10 @@
           "status": "Active"
         },
         {
-          "player_id": "5892",
-          "name": "David Montgomery",
-          "position": "RB",
-          "team": "HOU",
+          "player_id": "6770",
+          "name": "Joe Burrow",
+          "position": "QB",
+          "team": "CIN",
           "status": "Active"
         },
         {
@@ -1698,17 +1698,17 @@
           "status": "Active"
         },
         {
-          "player_id": "7600",
-          "name": "Pat Freiermuth",
-          "position": "TE",
-          "team": "PIT",
-          "status": "Active"
-        },
-        {
           "player_id": "8161",
           "name": "Malik Willis",
           "position": "QB",
           "team": "MIA",
+          "status": "Active"
+        },
+        {
+          "player_id": "9754",
+          "name": "Quentin Johnston",
+          "position": "WR",
+          "team": "LAC",
           "status": "Active"
         }
       ],
@@ -1744,10 +1744,10 @@
           "status": "Active"
         },
         {
-          "player_id": "9754",
-          "name": "Quentin Johnston",
-          "position": "WR",
-          "team": "LAC",
+          "player_id": "5892",
+          "name": "David Montgomery",
+          "position": "RB",
+          "team": "HOU",
           "status": "Active"
         }
       ],
