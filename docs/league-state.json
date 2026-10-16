@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-10-15T22:14:49.412213+00:00",
+  "generated_at_utc": "2026-10-16T00:26:43.370789+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-10-15T22:14:49.412213+00:00",
+    "generated_at_utc": "2026-10-16T00:26:43.370789+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -144,6 +144,7 @@
       "st_ff": 1.0
     },
     "last_message_id": "1416518709257793536",
+    "draft_id": "1332851598610690048",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -153,7 +154,6 @@
     "last_message_time": 1792086887233,
     "last_pinned_message_id": null,
     "last_read_id": null,
-    "draft_id": "1332851598610690048",
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
     "bracket_id": null,
@@ -2373,10 +2373,10 @@
           "status": "Active"
         },
         {
-          "player_id": "7525",
-          "name": "DeVonta Smith",
+          "player_id": "12514",
+          "name": "Emeka Egbuka",
           "position": "WR",
-          "team": "PHI",
+          "team": "TB",
           "status": "Active"
         },
         {
@@ -2438,13 +2438,6 @@
           "status": "Active"
         },
         {
-          "player_id": "12514",
-          "name": "Emeka Egbuka",
-          "position": "WR",
-          "team": "TB",
-          "status": "Active"
-        },
-        {
           "player_id": "5045",
           "name": "Courtland Sutton",
           "position": "WR",
@@ -2463,6 +2456,13 @@
           "name": "Justin Herbert",
           "position": "QB",
           "team": "LAC",
+          "status": "Active"
+        },
+        {
+          "player_id": "7525",
+          "name": "DeVonta Smith",
+          "position": "WR",
+          "team": "PHI",
           "status": "Active"
         },
         {
@@ -2747,10 +2747,10 @@
           "status": "Active"
         },
         {
-          "player_id": "11631",
-          "name": "Brian Thomas",
+          "player_id": "12526",
+          "name": "Tetairoa McMillan",
           "position": "WR",
-          "team": "JAX",
+          "team": "CAR",
           "status": "Active"
         },
         {
@@ -2775,10 +2775,10 @@
           "status": "Active"
         },
         {
-          "player_id": "11834",
-          "name": "Devaughn Vele",
+          "player_id": "11646",
+          "name": "Jalen Coker",
           "position": "WR",
-          "team": "NO",
+          "team": "CAR",
           "status": "Active"
         },
         {
@@ -2805,10 +2805,17 @@
           "status": "Active"
         },
         {
-          "player_id": "11646",
-          "name": "Jalen Coker",
+          "player_id": "11631",
+          "name": "Brian Thomas",
           "position": "WR",
-          "team": "CAR",
+          "team": "JAX",
+          "status": "Active"
+        },
+        {
+          "player_id": "11834",
+          "name": "Devaughn Vele",
+          "position": "WR",
+          "team": "NO",
           "status": "Active"
         },
         {
@@ -2816,13 +2823,6 @@
           "name": "Shedeur Sanders",
           "position": "QB",
           "team": "CLE",
-          "status": "Active"
-        },
-        {
-          "player_id": "12526",
-          "name": "Tetairoa McMillan",
-          "position": "WR",
-          "team": "CAR",
           "status": "Active"
         },
         {
