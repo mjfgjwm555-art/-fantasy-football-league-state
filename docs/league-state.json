@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-10-16T23:33:56.992769+00:00",
+  "generated_at_utc": "2026-10-17T01:32:58.736491+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-10-16T23:33:56.992769+00:00",
+    "generated_at_utc": "2026-10-17T01:32:58.736491+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -815,10 +815,10 @@
           "status": "Active"
         },
         {
-          "player_id": "12518",
-          "name": "Tyler Warren",
+          "player_id": "1466",
+          "name": "Travis Kelce",
           "position": "TE",
-          "team": "IND",
+          "team": "KC",
           "status": "Active"
         },
         {
@@ -829,10 +829,10 @@
           "status": "Active"
         },
         {
-          "player_id": "1466",
-          "name": "Travis Kelce",
+          "player_id": "12518",
+          "name": "Tyler Warren",
           "position": "TE",
-          "team": "KC",
+          "team": "IND",
           "status": "Active"
         },
         {
