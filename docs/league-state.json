@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-10-17T01:32:58.736491+00:00",
+  "generated_at_utc": "2026-10-17T06:12:18.422250+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-10-17T01:32:58.736491+00:00",
+    "generated_at_utc": "2026-10-17T06:12:18.422250+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -143,16 +143,16 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1416905838815121408",
-    "draft_id": "1332851598610690048",
+    "last_message_id": "1417039088233492480",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1792179186112,
+    "last_message_time": 1792210955249,
     "last_pinned_message_id": null,
+    "draft_id": "1332851598610690048",
     "last_read_id": null,
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
@@ -179,9 +179,9 @@
       "BN",
       "BN"
     ],
+    "group_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
-    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
@@ -3756,6 +3756,13 @@
           "status": "Active"
         },
         {
+          "player_id": "12536",
+          "name": "Jaylin Noel",
+          "position": "WR",
+          "team": "HOU",
+          "status": "Active"
+        },
+        {
           "player_id": "13274",
           "name": "Germie Bernard",
           "position": "WR",
@@ -3784,10 +3791,10 @@
           "status": "Active"
         },
         {
-          "player_id": "1479",
-          "name": "Keenan Allen",
-          "position": "WR",
-          "team": "IND",
+          "player_id": "13545",
+          "name": "Trey Smack",
+          "position": "K",
+          "team": "GB",
           "status": "Active"
         },
         {
@@ -3837,13 +3844,6 @@
           "name": "Jonathan Taylor",
           "position": "RB",
           "team": "IND",
-          "status": "Active"
-        },
-        {
-          "player_id": "7839",
-          "name": "Evan McPherson",
-          "position": "K",
-          "team": "CIN",
           "status": "Active"
         },
         {
@@ -3961,17 +3961,17 @@
           "status": "Active"
         },
         {
-          "player_id": "5022",
-          "name": "Dallas Goedert",
-          "position": "TE",
-          "team": "PHI",
+          "player_id": "8132",
+          "name": "Tyler Allgeier",
+          "position": "RB",
+          "team": "ARI",
           "status": "Active"
         },
         {
-          "player_id": "7839",
-          "name": "Evan McPherson",
+          "player_id": "13545",
+          "name": "Trey Smack",
           "position": "K",
-          "team": "CIN",
+          "team": "GB",
           "status": "Active"
         },
         {
@@ -3998,6 +3998,13 @@
           "status": "Active"
         },
         {
+          "player_id": "12536",
+          "name": "Jaylin Noel",
+          "position": "WR",
+          "team": "HOU",
+          "status": "Active"
+        },
+        {
           "player_id": "13294",
           "name": "Makai Lemon",
           "position": "WR",
@@ -4005,17 +4012,17 @@
           "status": "Active"
         },
         {
-          "player_id": "1479",
-          "name": "Keenan Allen",
-          "position": "WR",
-          "team": "IND",
-          "status": "Active"
-        },
-        {
           "player_id": "4943",
           "name": "Sam Darnold",
           "position": "QB",
           "team": "SEA",
+          "status": "Active"
+        },
+        {
+          "player_id": "5022",
+          "name": "Dallas Goedert",
+          "position": "TE",
+          "team": "PHI",
           "status": "Active"
         },
         {
@@ -4037,13 +4044,6 @@
           "name": "Tee Higgins",
           "position": "WR",
           "team": "CIN",
-          "status": "Active"
-        },
-        {
-          "player_id": "8132",
-          "name": "Tyler Allgeier",
-          "position": "RB",
-          "team": "ARI",
           "status": "Active"
         },
         {
