@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-10-18T11:31:33.764323+00:00",
+  "generated_at_utc": "2026-10-18T14:49:08.914222+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-10-18T11:31:33.764323+00:00",
+    "generated_at_utc": "2026-10-18T14:49:08.914222+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -84,10 +84,9 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 697,
-    "season": "2026",
-    "season_type": "regular",
     "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -143,19 +142,25 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1417039088233492480",
+    "shard": 697,
+    "last_message_id": "1417525486833217536",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1792210955249,
+    "last_message_time": 1792326921712,
     "last_pinned_message_id": null,
-    "draft_id": "1332851598610690048",
     "last_read_id": null,
+    "draft_id": "1332851598610690048",
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "QB",
@@ -179,11 +184,6 @@
       "BN",
       "BN"
     ],
-    "group_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "my_roster": {
@@ -2162,13 +2162,6 @@
           "status": "Active"
         },
         {
-          "player_id": "12469",
-          "name": "Dylan Sampson",
-          "position": "RB",
-          "team": "CLE",
-          "status": "Active"
-        },
-        {
           "player_id": "12474",
           "name": "Woody Marks",
           "position": "RB",
@@ -2243,6 +2236,13 @@
           "name": "Jalon Daniels",
           "position": "QB",
           "team": "TB",
+          "status": "Active"
+        },
+        {
+          "player_id": "3271",
+          "name": "Tyler Higbee",
+          "position": "TE",
+          "team": "LAR",
           "status": "Active"
         },
         {
@@ -2367,17 +2367,17 @@
           "status": "Active"
         },
         {
-          "player_id": "12493",
-          "name": "Oronde Gadsden",
+          "player_id": "3271",
+          "name": "Tyler Higbee",
           "position": "TE",
-          "team": "LAC",
+          "team": "LAR",
           "status": "Active"
         },
         {
-          "player_id": "12514",
-          "name": "Emeka Egbuka",
+          "player_id": "7525",
+          "name": "DeVonta Smith",
           "position": "WR",
-          "team": "TB",
+          "team": "PHI",
           "status": "Active"
         },
         {
@@ -2418,13 +2418,6 @@
           "status": "Active"
         },
         {
-          "player_id": "12469",
-          "name": "Dylan Sampson",
-          "position": "RB",
-          "team": "CLE",
-          "status": "Active"
-        },
-        {
           "player_id": "12489",
           "name": "RJ Harvey",
           "position": "RB",
@@ -2432,10 +2425,24 @@
           "status": "Active"
         },
         {
+          "player_id": "12493",
+          "name": "Oronde Gadsden",
+          "position": "TE",
+          "team": "LAC",
+          "status": "Active"
+        },
+        {
           "player_id": "12509",
           "name": "Tre' Harris",
           "position": "WR",
           "team": "LAC",
+          "status": "Active"
+        },
+        {
+          "player_id": "12514",
+          "name": "Emeka Egbuka",
+          "position": "WR",
+          "team": "TB",
           "status": "Active"
         },
         {
@@ -2457,13 +2464,6 @@
           "name": "Justin Herbert",
           "position": "QB",
           "team": "LAC",
-          "status": "Active"
-        },
-        {
-          "player_id": "7525",
-          "name": "DeVonta Smith",
-          "position": "WR",
-          "team": "PHI",
           "status": "Active"
         },
         {
