@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-10-20T04:47:12.489022+00:00",
+  "generated_at_utc": "2026-10-20T09:46:23.191400+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-10-20T04:47:12.489022+00:00",
+    "generated_at_utc": "2026-10-20T09:46:23.191400+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -156,8 +156,6 @@
     "last_read_id": null,
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
-    "bracket_id": null,
-    "bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "QB",
@@ -182,6 +180,8 @@
       "BN"
     ],
     "group_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
@@ -780,10 +780,10 @@
           "status": "Active"
         },
         {
-          "player_id": "4017",
-          "name": "Deshaun Watson",
+          "player_id": "3163",
+          "name": "Jared Goff",
           "position": "QB",
-          "team": "CLE",
+          "team": "DET",
           "status": "Active"
         },
         {
@@ -801,10 +801,10 @@
           "status": "Active"
         },
         {
-          "player_id": "9487",
-          "name": "Parker Washington",
+          "player_id": "7547",
+          "name": "Amon-Ra St. Brown",
           "position": "WR",
-          "team": "JAX",
+          "team": "DET",
           "status": "Active"
         },
         {
@@ -829,10 +829,10 @@
           "status": "Active"
         },
         {
-          "player_id": "5927",
-          "name": "Terry McLaurin",
-          "position": "WR",
-          "team": "WAS",
+          "player_id": "9224",
+          "name": "Chase Brown",
+          "position": "RB",
+          "team": "CIN",
           "status": "Active"
         },
         {
@@ -880,17 +880,17 @@
           "status": "Active"
         },
         {
-          "player_id": "3163",
-          "name": "Jared Goff",
-          "position": "QB",
-          "team": "DET",
-          "status": "Active"
-        },
-        {
           "player_id": "3634",
           "name": "Kalif Raymond",
           "position": "WR",
           "team": "CHI",
+          "status": "Active"
+        },
+        {
+          "player_id": "4017",
+          "name": "Deshaun Watson",
+          "position": "QB",
+          "team": "CLE",
           "status": "Active"
         },
         {
@@ -901,10 +901,10 @@
           "status": "Active"
         },
         {
-          "player_id": "7547",
-          "name": "Amon-Ra St. Brown",
+          "player_id": "5927",
+          "name": "Terry McLaurin",
           "position": "WR",
-          "team": "DET",
+          "team": "WAS",
           "status": "Active"
         },
         {
@@ -915,10 +915,10 @@
           "status": "Active"
         },
         {
-          "player_id": "9224",
-          "name": "Chase Brown",
-          "position": "RB",
-          "team": "CIN",
+          "player_id": "9487",
+          "name": "Parker Washington",
+          "position": "WR",
+          "team": "JAX",
           "status": "Active"
         }
       ],
@@ -4314,10 +4314,10 @@
           "status": "Active"
         },
         {
-          "player_id": "8228",
-          "name": "Jaylen Warren",
+          "player_id": "9221",
+          "name": "Jahmyr Gibbs",
           "position": "RB",
-          "team": "PIT",
+          "team": "DET",
           "status": "Active"
         },
         {
@@ -4328,10 +4328,10 @@
           "status": "Active"
         },
         {
-          "player_id": "2133",
-          "name": "Davante Adams",
+          "player_id": "7564",
+          "name": "Ja'Marr Chase",
           "position": "WR",
-          "team": "LAR",
+          "team": "CIN",
           "status": "Active"
         },
         {
@@ -4349,10 +4349,10 @@
           "status": "Active"
         },
         {
-          "player_id": "4217",
-          "name": "George Kittle",
-          "position": "TE",
-          "team": "SF",
+          "player_id": "8228",
+          "name": "Jaylen Warren",
+          "position": "RB",
+          "team": "PIT",
           "status": "Active"
         },
         {
@@ -4363,10 +4363,10 @@
           "status": "Active"
         },
         {
-          "player_id": "KC",
-          "name": "Kansas City Chiefs",
+          "player_id": "PIT",
+          "name": "Pittsburgh Steelers",
           "position": "DEF",
-          "team": "KC",
+          "team": "PIT",
           "status": null
         }
       ],
@@ -4400,6 +4400,13 @@
           "status": "Active"
         },
         {
+          "player_id": "4217",
+          "name": "George Kittle",
+          "position": "TE",
+          "team": "SF",
+          "status": "Active"
+        },
+        {
           "player_id": "5850",
           "name": "Josh Jacobs",
           "position": "RB",
@@ -4414,20 +4421,6 @@
           "status": "Active"
         },
         {
-          "player_id": "7564",
-          "name": "Ja'Marr Chase",
-          "position": "WR",
-          "team": "CIN",
-          "status": "Active"
-        },
-        {
-          "player_id": "9221",
-          "name": "Jahmyr Gibbs",
-          "position": "RB",
-          "team": "DET",
-          "status": "Active"
-        },
-        {
           "player_id": "9756",
           "name": "Jordan Addison",
           "position": "WR",
@@ -4435,10 +4428,10 @@
           "status": "Active"
         },
         {
-          "player_id": "PIT",
-          "name": "Pittsburgh Steelers",
+          "player_id": "KC",
+          "name": "Kansas City Chiefs",
           "position": "DEF",
-          "team": "PIT",
+          "team": "KC",
           "status": null
         }
       ],
@@ -4471,6 +4464,13 @@
           "name": "Jalen McMillan",
           "position": "WR",
           "team": "TB",
+          "status": "Active"
+        },
+        {
+          "player_id": "2133",
+          "name": "Davante Adams",
+          "position": "WR",
+          "team": "LAR",
           "status": "Active"
         }
       ],
