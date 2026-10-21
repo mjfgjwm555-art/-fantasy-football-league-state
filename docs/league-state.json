@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-10-21T19:18:45.435520+00:00",
+  "generated_at_utc": "2026-10-21T22:34:12.196526+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-10-21T19:18:45.435520+00:00",
+    "generated_at_utc": "2026-10-21T22:34:12.196526+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -2339,10 +2339,10 @@
       ],
       "starters": [
         {
-          "player_id": "13425",
-          "name": "Jalon Daniels",
+          "player_id": "12522",
+          "name": "Cam Ward",
           "position": "QB",
-          "team": "TB",
+          "team": "TEN",
           "status": "Active"
         },
         {
@@ -2360,10 +2360,10 @@
           "status": "Active"
         },
         {
-          "player_id": "12489",
-          "name": "RJ Harvey",
+          "player_id": "12474",
+          "name": "Woody Marks",
           "position": "RB",
-          "team": "DEN",
+          "team": "HOU",
           "status": "Active"
         },
         {
@@ -2425,10 +2425,10 @@
           "status": "Active"
         },
         {
-          "player_id": "12474",
-          "name": "Woody Marks",
+          "player_id": "12489",
+          "name": "RJ Harvey",
           "position": "RB",
-          "team": "HOU",
+          "team": "DEN",
           "status": "Active"
         },
         {
@@ -2453,10 +2453,10 @@
           "status": "Active"
         },
         {
-          "player_id": "12522",
-          "name": "Cam Ward",
+          "player_id": "13425",
+          "name": "Jalon Daniels",
           "position": "QB",
-          "team": "TEN",
+          "team": "TB",
           "status": "Active"
         },
         {
@@ -3129,10 +3129,10 @@
       ],
       "starters": [
         {
-          "player_id": "3257",
-          "name": "Jacoby Brissett",
+          "player_id": "11565",
+          "name": "J.J. McCarthy",
           "position": "QB",
-          "team": "ARI",
+          "team": "MIN",
           "status": "Active"
         },
         {
@@ -3185,10 +3185,10 @@
           "status": "Active"
         },
         {
-          "player_id": "11576",
-          "name": "Braelon Allen",
-          "position": "RB",
-          "team": "NYJ",
+          "player_id": "11628",
+          "name": "Marvin Harrison",
+          "position": "WR",
+          "team": "ARI",
           "status": "Active"
         },
         {
@@ -3208,10 +3208,10 @@
       ],
       "bench": [
         {
-          "player_id": "11565",
-          "name": "J.J. McCarthy",
-          "position": "QB",
-          "team": "MIN",
+          "player_id": "11576",
+          "name": "Braelon Allen",
+          "position": "RB",
+          "team": "NYJ",
           "status": "Active"
         },
         {
@@ -3219,13 +3219,6 @@
           "name": "Adonai Mitchell",
           "position": "WR",
           "team": "NYJ",
-          "status": "Active"
-        },
-        {
-          "player_id": "11628",
-          "name": "Marvin Harrison",
-          "position": "WR",
-          "team": "ARI",
           "status": "Active"
         },
         {
@@ -3247,6 +3240,13 @@
           "name": "Malachi Fields",
           "position": "WR",
           "team": "NYG",
+          "status": "Active"
+        },
+        {
+          "player_id": "3257",
+          "name": "Jacoby Brissett",
+          "position": "QB",
+          "team": "ARI",
           "status": "Active"
         },
         {
