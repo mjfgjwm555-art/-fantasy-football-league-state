@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-10-21T05:06:41.011438+00:00",
+  "generated_at_utc": "2026-10-21T10:06:29.873803+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-10-21T05:06:41.011438+00:00",
+    "generated_at_utc": "2026-10-21T10:06:29.873803+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -16,7 +16,7 @@
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
-    "display_week": 6,
+    "display_week": 7,
     "league_create_season": "2026",
     "season_has_scores": true
   },
@@ -77,18 +77,13 @@
       "trade_review_days": 0,
       "bench_lock": 1,
       "offseason_adds": 1,
-      "leg": 6,
+      "leg": 7,
       "reserve_slots": 2,
       "reserve_allow_cov": 1,
       "daily_waivers_last_ran": 9
     },
     "avatar": null,
     "company_id": null,
-    "last_message_id": "1418427014943141888",
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
-    "shard": 697,
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -144,18 +139,24 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 697,
+    "sport": "nfl",
+    "last_message_id": "1418535102249533440",
+    "draft_id": "1332851598610690048",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1792541862763,
+    "last_message_time": 1792567632785,
     "last_pinned_message_id": null,
-    "draft_id": "1332851598610690048",
     "last_read_id": null,
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
+    "group_id": null,
     "roster_positions": [
       "QB",
       "QB",
@@ -179,7 +180,6 @@
       "BN",
       "BN"
     ],
-    "group_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
     "loser_bracket_id": null,
@@ -1777,7 +1777,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 37,
-        "waiver_position": 10,
+        "waiver_position": 7,
         "wins": 10
       }
     },
@@ -2267,6 +2267,13 @@
           "status": "Active"
         },
         {
+          "player_id": "6083",
+          "name": "Matt Gay",
+          "position": "K",
+          "team": "LV",
+          "status": "Active"
+        },
+        {
           "player_id": "6797",
           "name": "Justin Herbert",
           "position": "QB",
@@ -2353,10 +2360,10 @@
           "status": "Active"
         },
         {
-          "player_id": "12474",
-          "name": "Woody Marks",
+          "player_id": "12489",
+          "name": "RJ Harvey",
           "position": "RB",
-          "team": "HOU",
+          "team": "DEN",
           "status": "Active"
         },
         {
@@ -2395,10 +2402,10 @@
           "status": "Active"
         },
         {
-          "player_id": "11786",
-          "name": "Cam Little",
+          "player_id": "6083",
+          "name": "Matt Gay",
           "position": "K",
-          "team": "JAX",
+          "team": "LV",
           "status": "Active"
         },
         {
@@ -2411,10 +2418,17 @@
       ],
       "bench": [
         {
-          "player_id": "12489",
-          "name": "RJ Harvey",
+          "player_id": "11786",
+          "name": "Cam Little",
+          "position": "K",
+          "team": "JAX",
+          "status": "Active"
+        },
+        {
+          "player_id": "12474",
+          "name": "Woody Marks",
           "position": "RB",
-          "team": "DEN",
+          "team": "HOU",
           "status": "Active"
         },
         {
@@ -2525,7 +2539,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 26,
-        "waiver_position": 8,
+        "waiver_position": 6,
         "wins": 5
       }
     },
@@ -3071,6 +3085,13 @@
           "status": "Active"
         },
         {
+          "player_id": "8135",
+          "name": "Treylon Burks",
+          "position": "WR",
+          "team": "WAS",
+          "status": "Active"
+        },
+        {
           "player_id": "8142",
           "name": "Alec Pierce",
           "position": "WR",
@@ -3236,6 +3257,13 @@
           "status": "Active"
         },
         {
+          "player_id": "8135",
+          "name": "Treylon Burks",
+          "position": "WR",
+          "team": "WAS",
+          "status": "Active"
+        },
+        {
           "player_id": "9230",
           "name": "Tanner McKee",
           "position": "QB",
@@ -3301,7 +3329,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 15,
-        "waiver_position": 7,
+        "waiver_position": 10,
         "wins": 0
       }
     },
@@ -3445,13 +3473,6 @@
           "status": "Active"
         },
         {
-          "player_id": "7042",
-          "name": "Tyler Bass",
-          "position": "K",
-          "team": "BUF",
-          "status": "Active"
-        },
-        {
           "player_id": "7611",
           "name": "Rhamondre Stevenson",
           "position": "RB",
@@ -3477,6 +3498,13 @@
           "name": "Josh Downs",
           "position": "WR",
           "team": "IND",
+          "status": "Active"
+        },
+        {
+          "player_id": "9501",
+          "name": "DeMario Douglas",
+          "position": "WR",
+          "team": "NE",
           "status": "Active"
         },
         {
@@ -3559,13 +3587,6 @@
           "status": "Active"
         },
         {
-          "player_id": "7042",
-          "name": "Tyler Bass",
-          "position": "K",
-          "team": "BUF",
-          "status": "Active"
-        },
-        {
           "player_id": "LAR",
           "name": "Los Angeles Rams",
           "position": "DEF",
@@ -3638,6 +3659,13 @@
           "status": "Active"
         },
         {
+          "player_id": "9501",
+          "name": "DeMario Douglas",
+          "position": "WR",
+          "team": "NE",
+          "status": "Active"
+        },
+        {
           "player_id": "9511",
           "name": "Keaton Mitchell",
           "position": "RB",
@@ -3695,8 +3723,8 @@
         "ppts_decimal": 82,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 28,
-        "waiver_position": 9,
+        "waiver_budget_used": 37,
+        "waiver_position": 8,
         "wins": 4
       }
     },
@@ -4235,6 +4263,13 @@
           "status": "Active"
         },
         {
+          "player_id": "9482",
+          "name": "Michael Mayer",
+          "position": "TE",
+          "team": "LV",
+          "status": "Active"
+        },
+        {
           "player_id": "9493",
           "name": "Puka Nacua",
           "position": "WR",
@@ -4407,6 +4442,13 @@
           "status": "Active"
         },
         {
+          "player_id": "9482",
+          "name": "Michael Mayer",
+          "position": "TE",
+          "team": "LV",
+          "status": "Active"
+        },
+        {
           "player_id": "9756",
           "name": "Jordan Addison",
           "position": "WR",
@@ -4472,7 +4514,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 2,
-        "waiver_position": 6,
+        "waiver_position": 9,
         "wins": 11
       }
     }
