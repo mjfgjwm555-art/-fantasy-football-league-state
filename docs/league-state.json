@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-10-21T00:21:36.300757+00:00",
+  "generated_at_utc": "2026-10-21T05:06:41.011438+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-10-21T00:21:36.300757+00:00",
+    "generated_at_utc": "2026-10-21T05:06:41.011438+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -377,10 +377,10 @@
     ],
     "starters": [
       {
-        "player_id": "4984",
-        "name": "Josh Allen",
+        "player_id": "96",
+        "name": "Aaron Rodgers",
         "position": "QB",
-        "team": "BUF",
+        "team": "PIT",
         "status": "Active"
       },
       {
@@ -391,38 +391,24 @@
         "status": "Active"
       },
       {
-        "player_id": "8150",
-        "name": "Kyren Williams",
+        "player_id": "4034",
+        "name": "Christian McCaffrey",
         "position": "RB",
-        "team": "LAR",
+        "team": "SF",
         "status": "Active"
       },
       {
-        "player_id": "12490",
-        "name": "Bhayshul Tuten",
+        "player_id": "12495",
+        "name": "Ollie Gordon",
         "position": "RB",
-        "team": "JAX",
+        "team": "MIA",
         "status": "Active"
       },
       {
-        "player_id": "7526",
-        "name": "Jaylen Waddle",
+        "player_id": "5859",
+        "name": "A.J. Brown",
         "position": "WR",
-        "team": "DEN",
-        "status": "Active"
-      },
-      {
-        "player_id": "9488",
-        "name": "Jaxon Smith-Njigba",
-        "position": "WR",
-        "team": "SEA",
-        "status": "Active"
-      },
-      {
-        "player_id": "8130",
-        "name": "Trey McBride",
-        "position": "TE",
-        "team": "ARI",
+        "team": "NE",
         "status": "Active"
       },
       {
@@ -433,10 +419,24 @@
         "status": "Active"
       },
       {
-        "player_id": "4034",
-        "name": "Christian McCaffrey",
+        "player_id": "8130",
+        "name": "Trey McBride",
+        "position": "TE",
+        "team": "ARI",
+        "status": "Active"
+      },
+      {
+        "player_id": "9488",
+        "name": "Jaxon Smith-Njigba",
+        "position": "WR",
+        "team": "SEA",
+        "status": "Active"
+      },
+      {
+        "player_id": "8150",
+        "name": "Kyren Williams",
         "position": "RB",
-        "team": "SF",
+        "team": "LAR",
         "status": "Active"
       },
       {
@@ -456,17 +456,10 @@
     ],
     "bench": [
       {
-        "player_id": "11635",
-        "name": "Ladd McConkey",
-        "position": "WR",
-        "team": "LAC",
-        "status": "Active"
-      },
-      {
-        "player_id": "12495",
-        "name": "Ollie Gordon",
+        "player_id": "12490",
+        "name": "Bhayshul Tuten",
         "position": "RB",
-        "team": "MIA",
+        "team": "JAX",
         "status": "Active"
       },
       {
@@ -491,10 +484,10 @@
         "status": "Active"
       },
       {
-        "player_id": "5859",
-        "name": "A.J. Brown",
-        "position": "WR",
-        "team": "NE",
+        "player_id": "4984",
+        "name": "Josh Allen",
+        "position": "QB",
+        "team": "BUF",
         "status": "Active"
       },
       {
@@ -502,6 +495,13 @@
         "name": "Rico Dowdle",
         "position": "RB",
         "team": "PIT",
+        "status": "Active"
+      },
+      {
+        "player_id": "7526",
+        "name": "Jaylen Waddle",
+        "position": "WR",
+        "team": "DEN",
         "status": "Active"
       },
       {
@@ -516,13 +516,6 @@
         "name": "Dontayvion Wicks",
         "position": "WR",
         "team": "PHI",
-        "status": "Active"
-      },
-      {
-        "player_id": "96",
-        "name": "Aaron Rodgers",
-        "position": "QB",
-        "team": "PIT",
         "status": "Active"
       },
       {
@@ -557,6 +550,13 @@
       }
     ],
     "reserve": [
+      {
+        "player_id": "11635",
+        "name": "Ladd McConkey",
+        "position": "WR",
+        "team": "LAC",
+        "status": "Active"
+      },
       {
         "player_id": "12508",
         "name": "Jaxson Dart",
@@ -1168,10 +1168,10 @@
       ],
       "starters": [
         {
-          "player_id": "4984",
-          "name": "Josh Allen",
+          "player_id": "96",
+          "name": "Aaron Rodgers",
           "position": "QB",
-          "team": "BUF",
+          "team": "PIT",
           "status": "Active"
         },
         {
@@ -1182,38 +1182,24 @@
           "status": "Active"
         },
         {
-          "player_id": "8150",
-          "name": "Kyren Williams",
+          "player_id": "4034",
+          "name": "Christian McCaffrey",
           "position": "RB",
-          "team": "LAR",
+          "team": "SF",
           "status": "Active"
         },
         {
-          "player_id": "12490",
-          "name": "Bhayshul Tuten",
+          "player_id": "12495",
+          "name": "Ollie Gordon",
           "position": "RB",
-          "team": "JAX",
+          "team": "MIA",
           "status": "Active"
         },
         {
-          "player_id": "7526",
-          "name": "Jaylen Waddle",
+          "player_id": "5859",
+          "name": "A.J. Brown",
           "position": "WR",
-          "team": "DEN",
-          "status": "Active"
-        },
-        {
-          "player_id": "9488",
-          "name": "Jaxon Smith-Njigba",
-          "position": "WR",
-          "team": "SEA",
-          "status": "Active"
-        },
-        {
-          "player_id": "8130",
-          "name": "Trey McBride",
-          "position": "TE",
-          "team": "ARI",
+          "team": "NE",
           "status": "Active"
         },
         {
@@ -1224,10 +1210,24 @@
           "status": "Active"
         },
         {
-          "player_id": "4034",
-          "name": "Christian McCaffrey",
+          "player_id": "8130",
+          "name": "Trey McBride",
+          "position": "TE",
+          "team": "ARI",
+          "status": "Active"
+        },
+        {
+          "player_id": "9488",
+          "name": "Jaxon Smith-Njigba",
+          "position": "WR",
+          "team": "SEA",
+          "status": "Active"
+        },
+        {
+          "player_id": "8150",
+          "name": "Kyren Williams",
           "position": "RB",
-          "team": "SF",
+          "team": "LAR",
           "status": "Active"
         },
         {
@@ -1247,17 +1247,10 @@
       ],
       "bench": [
         {
-          "player_id": "11635",
-          "name": "Ladd McConkey",
-          "position": "WR",
-          "team": "LAC",
-          "status": "Active"
-        },
-        {
-          "player_id": "12495",
-          "name": "Ollie Gordon",
+          "player_id": "12490",
+          "name": "Bhayshul Tuten",
           "position": "RB",
-          "team": "MIA",
+          "team": "JAX",
           "status": "Active"
         },
         {
@@ -1282,10 +1275,10 @@
           "status": "Active"
         },
         {
-          "player_id": "5859",
-          "name": "A.J. Brown",
-          "position": "WR",
-          "team": "NE",
+          "player_id": "4984",
+          "name": "Josh Allen",
+          "position": "QB",
+          "team": "BUF",
           "status": "Active"
         },
         {
@@ -1293,6 +1286,13 @@
           "name": "Rico Dowdle",
           "position": "RB",
           "team": "PIT",
+          "status": "Active"
+        },
+        {
+          "player_id": "7526",
+          "name": "Jaylen Waddle",
+          "position": "WR",
+          "team": "DEN",
           "status": "Active"
         },
         {
@@ -1307,13 +1307,6 @@
           "name": "Dontayvion Wicks",
           "position": "WR",
           "team": "PHI",
-          "status": "Active"
-        },
-        {
-          "player_id": "96",
-          "name": "Aaron Rodgers",
-          "position": "QB",
-          "team": "PIT",
           "status": "Active"
         },
         {
@@ -1348,6 +1341,13 @@
         }
       ],
       "reserve": [
+        {
+          "player_id": "11635",
+          "name": "Ladd McConkey",
+          "position": "WR",
+          "team": "LAC",
+          "status": "Active"
+        },
         {
           "player_id": "12508",
           "name": "Jaxson Dart",
