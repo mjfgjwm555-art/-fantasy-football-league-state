@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-10-23T15:54:59.593739+00:00",
+  "generated_at_utc": "2026-10-23T19:44:13.902843+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-10-23T15:54:59.593739+00:00",
+    "generated_at_utc": "2026-10-23T19:44:13.902843+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -84,10 +84,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 697,
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -143,16 +139,20 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1419319581163442176",
-    "last_author_avatar": "613b34adae9fb7799cea62ed1645ba96",
-    "last_author_display_name": "Doctorie",
-    "last_author_id": "731759054447321088",
-    "last_author_is_bot": false,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
+    "shard": 697,
+    "last_message_id": "1419393938808225792",
+    "last_author_avatar": null,
+    "last_author_display_name": "sys",
+    "last_author_id": "166666666666666666",
+    "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "draft_id": "1332851598610690048",
-    "last_message_time": 1792754667134,
+    "last_message_time": 1792772395378,
     "last_pinned_message_id": null,
+    "draft_id": "1332851598610690048",
     "last_read_id": null,
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
@@ -1935,6 +1935,13 @@
           "status": "Active"
         },
         {
+          "player_id": "CLE",
+          "name": "Cleveland Browns",
+          "position": "DEF",
+          "team": "CLE",
+          "status": null
+        },
+        {
           "player_id": "JAX",
           "name": "Jacksonville Jaguars",
           "position": "DEF",
@@ -1944,10 +1951,10 @@
       ],
       "starters": [
         {
-          "player_id": "7523",
-          "name": "Trevor Lawrence",
+          "player_id": "11559",
+          "name": "Michael Penix",
           "position": "QB",
-          "team": "JAX",
+          "team": "ATL",
           "status": "Active"
         },
         {
@@ -1958,10 +1965,10 @@
           "status": "Active"
         },
         {
-          "player_id": "8138",
-          "name": "James Cook",
+          "player_id": "4866",
+          "name": "Saquon Barkley",
           "position": "RB",
-          "team": "BUF",
+          "team": "PHI",
           "status": "Active"
         },
         {
@@ -1986,10 +1993,10 @@
           "status": "Active"
         },
         {
-          "player_id": "9480",
-          "name": "Brenton Strange",
+          "player_id": "8111",
+          "name": "Cade Otton",
           "position": "TE",
-          "team": "JAX",
+          "team": "TB",
           "status": "Active"
         },
         {
@@ -2014,10 +2021,10 @@
           "status": "Active"
         },
         {
-          "player_id": "JAX",
-          "name": "Jacksonville Jaguars",
+          "player_id": "CLE",
+          "name": "Cleveland Browns",
           "position": "DEF",
-          "team": "JAX",
+          "team": "CLE",
           "status": null
         }
       ],
@@ -2027,13 +2034,6 @@
           "name": "Rashee Rice",
           "position": "WR",
           "team": "KC",
-          "status": "Active"
-        },
-        {
-          "player_id": "11559",
-          "name": "Michael Penix",
-          "position": "QB",
-          "team": "ATL",
           "status": "Active"
         },
         {
@@ -2065,13 +2065,6 @@
           "status": "Active"
         },
         {
-          "player_id": "4866",
-          "name": "Saquon Barkley",
-          "position": "RB",
-          "team": "PHI",
-          "status": "Active"
-        },
-        {
           "player_id": "6783",
           "name": "Jerry Jeudy",
           "position": "WR",
@@ -2079,11 +2072,32 @@
           "status": "Active"
         },
         {
-          "player_id": "8111",
-          "name": "Cade Otton",
-          "position": "TE",
-          "team": "TB",
+          "player_id": "7523",
+          "name": "Trevor Lawrence",
+          "position": "QB",
+          "team": "JAX",
           "status": "Active"
+        },
+        {
+          "player_id": "8138",
+          "name": "James Cook",
+          "position": "RB",
+          "team": "BUF",
+          "status": "Active"
+        },
+        {
+          "player_id": "9480",
+          "name": "Brenton Strange",
+          "position": "TE",
+          "team": "JAX",
+          "status": "Active"
+        },
+        {
+          "player_id": "JAX",
+          "name": "Jacksonville Jaguars",
+          "position": "DEF",
+          "team": "JAX",
+          "status": null
         }
       ],
       "taxi": [
