@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-10-23T01:09:34.360851+00:00",
+  "generated_at_utc": "2026-10-23T06:01:31.666202+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-10-23T01:09:34.360851+00:00",
+    "generated_at_utc": "2026-10-23T06:01:31.666202+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -84,10 +84,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
-    "shard": 697,
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -143,17 +139,21 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1419081294003871744",
-    "draft_id": "1332851598610690048",
-    "last_author_avatar": null,
-    "last_author_display_name": "sys",
-    "last_author_id": "166666666666666666",
-    "last_author_is_bot": true,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
+    "shard": 697,
+    "last_message_id": "1419179353404633088",
+    "last_author_avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "last_author_display_name": "jschultz1414",
+    "last_author_id": "735494799083352064",
+    "last_author_is_bot": false,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1792697855047,
+    "last_message_time": 1792721234234,
     "last_pinned_message_id": null,
     "last_read_id": null,
+    "draft_id": "1332851598610690048",
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
     "bracket_id": null,
@@ -3991,13 +3991,6 @@
           "status": "Active"
         },
         {
-          "player_id": "12487",
-          "name": "Terrance Ferguson",
-          "position": "TE",
-          "team": "LAR",
-          "status": "Active"
-        },
-        {
           "player_id": "12536",
           "name": "Jaylin Noel",
           "position": "WR",
@@ -4052,6 +4045,13 @@
           "position": "WR",
           "team": "BUF",
           "status": "Active"
+        },
+        {
+          "player_id": "9753",
+          "name": "Zach Charbonnet",
+          "position": "RB",
+          "team": "SEA",
+          "status": "Active"
         }
       ],
       "taxi": [
@@ -4079,17 +4079,17 @@
       ],
       "reserve": [
         {
+          "player_id": "12487",
+          "name": "Terrance Ferguson",
+          "position": "TE",
+          "team": "LAR",
+          "status": "Active"
+        },
+        {
           "player_id": "9226",
           "name": "De'Von Achane",
           "position": "RB",
           "team": "MIA",
-          "status": "Active"
-        },
-        {
-          "player_id": "9753",
-          "name": "Zach Charbonnet",
-          "position": "RB",
-          "team": "SEA",
           "status": "Active"
         }
       ],
