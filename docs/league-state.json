@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-10-24T19:38:40.771878+00:00",
+  "generated_at_utc": "2026-10-24T21:53:24.562459+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-10-24T19:38:40.771878+00:00",
+    "generated_at_utc": "2026-10-24T21:53:24.562459+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -2388,10 +2388,10 @@
           "status": "Active"
         },
         {
-          "player_id": "7525",
-          "name": "DeVonta Smith",
+          "player_id": "5045",
+          "name": "Courtland Sutton",
           "position": "WR",
-          "team": "PHI",
+          "team": "DEN",
           "status": "Active"
         },
         {
@@ -2460,17 +2460,17 @@
           "status": "Active"
         },
         {
-          "player_id": "5045",
-          "name": "Courtland Sutton",
-          "position": "WR",
-          "team": "DEN",
-          "status": "Active"
-        },
-        {
           "player_id": "6797",
           "name": "Justin Herbert",
           "position": "QB",
           "team": "LAC",
+          "status": "Active"
+        },
+        {
+          "player_id": "7525",
+          "name": "DeVonta Smith",
+          "position": "WR",
+          "team": "PHI",
           "status": "Active"
         },
         {
