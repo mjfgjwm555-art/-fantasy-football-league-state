@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-10-25T13:22:40.688110+00:00",
+  "generated_at_utc": "2026-10-25T17:09:20.808407+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-10-25T13:22:40.688110+00:00",
+    "generated_at_utc": "2026-10-25T17:09:20.808407+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -84,10 +84,10 @@
     },
     "avatar": null,
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
     "shard": 697,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -143,24 +143,20 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1419393938808225792",
+    "last_message_id": "1420122401043173376",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1792772395378,
+    "last_message_time": 1792946074309,
     "last_pinned_message_id": null,
-    "last_read_id": null,
     "draft_id": "1332851598610690048",
+    "last_read_id": null,
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
-    "bracket_id": null,
-    "bracket_overrides_id": null,
     "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "QB",
@@ -184,6 +180,10 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "my_roster": {
@@ -2246,13 +2246,6 @@
           "status": "Active"
         },
         {
-          "player_id": "13425",
-          "name": "Jalon Daniels",
-          "position": "QB",
-          "team": "TB",
-          "status": "Active"
-        },
-        {
           "player_id": "5045",
           "name": "Courtland Sutton",
           "position": "WR",
@@ -2278,6 +2271,13 @@
           "name": "Justin Herbert",
           "position": "QB",
           "team": "LAC",
+          "status": "Active"
+        },
+        {
+          "player_id": "7083",
+          "name": "Tyler Huntley",
+          "position": "QB",
+          "team": "BAL",
           "status": "Active"
         },
         {
@@ -2339,10 +2339,10 @@
       ],
       "starters": [
         {
-          "player_id": "12522",
-          "name": "Cam Ward",
+          "player_id": "7083",
+          "name": "Tyler Huntley",
           "position": "QB",
-          "team": "TEN",
+          "team": "BAL",
           "status": "Active"
         },
         {
@@ -2453,10 +2453,10 @@
           "status": "Active"
         },
         {
-          "player_id": "13425",
-          "name": "Jalon Daniels",
+          "player_id": "12522",
+          "name": "Cam Ward",
           "position": "QB",
-          "team": "TB",
+          "team": "TEN",
           "status": "Active"
         },
         {
@@ -2704,6 +2704,13 @@
           "status": "Active"
         },
         {
+          "player_id": "8122",
+          "name": "Zonovan Knight",
+          "position": "RB",
+          "team": "ARI",
+          "status": "Active"
+        },
+        {
           "player_id": "8154",
           "name": "Brian Robinson",
           "position": "RB",
@@ -2715,13 +2722,6 @@
           "name": "Rashid Shaheed",
           "position": "WR",
           "team": "SEA",
-          "status": "Active"
-        },
-        {
-          "player_id": "9504",
-          "name": "Kayshon Boutte",
-          "position": "WR",
-          "team": "HOU",
           "status": "Active"
         },
         {
@@ -2755,10 +2755,10 @@
           "status": "Active"
         },
         {
-          "player_id": "8154",
-          "name": "Brian Robinson",
+          "player_id": "8122",
+          "name": "Zonovan Knight",
           "position": "RB",
-          "team": "ATL",
+          "team": "ARI",
           "status": "Active"
         },
         {
@@ -2869,17 +2869,17 @@
           "status": "Active"
         },
         {
+          "player_id": "8154",
+          "name": "Brian Robinson",
+          "position": "RB",
+          "team": "ATL",
+          "status": "Active"
+        },
+        {
           "player_id": "8676",
           "name": "Rashid Shaheed",
           "position": "WR",
           "team": "SEA",
-          "status": "Active"
-        },
-        {
-          "player_id": "9504",
-          "name": "Kayshon Boutte",
-          "position": "WR",
-          "team": "HOU",
           "status": "Active"
         }
       ],
