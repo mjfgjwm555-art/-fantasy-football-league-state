@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-10-27T11:34:04.252317+00:00",
+  "generated_at_utc": "2026-10-27T16:51:16.714828+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-10-27T11:34:04.252317+00:00",
+    "generated_at_utc": "2026-10-27T16:51:16.714828+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -30,7 +30,7 @@
     },
     "settings": {
       "best_ball": 0,
-      "last_report": 6,
+      "last_report": 7,
       "waiver_budget": 100,
       "disable_adds": 0,
       "divisions": 0,
@@ -84,10 +84,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
-    "shard": 697,
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -143,23 +139,23 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1420229781559033856",
-    "last_author_avatar": "15d7cf259bc30eab8f6120f45f652fb6",
-    "last_author_display_name": "BuiltFoardTough",
-    "last_author_id": "727024339593056256",
-    "last_author_is_bot": false,
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 697,
+    "sport": "nfl",
+    "last_message_id": "1420841869822156800",
+    "last_author_avatar": null,
+    "last_author_display_name": "sys",
+    "last_author_id": "166666666666666666",
+    "draft_id": "1332851598610690048",
+    "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1792971675819,
+    "last_message_time": 1793117609032,
     "last_pinned_message_id": null,
-    "draft_id": "1332851598610690048",
     "last_read_id": null,
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
     "roster_positions": [
       "QB",
       "QB",
@@ -183,6 +179,10 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
@@ -1591,10 +1591,10 @@
           "status": "Active"
         },
         {
-          "player_id": "8144",
-          "name": "Chris Olave",
+          "player_id": "12501",
+          "name": "Matthew Golden",
           "position": "WR",
-          "team": "NO",
+          "team": "GB",
           "status": "Active"
         },
         {
@@ -1605,17 +1605,17 @@
           "status": "Active"
         },
         {
-          "player_id": "7600",
-          "name": "Pat Freiermuth",
+          "player_id": "7553",
+          "name": "Kyle Pitts",
           "position": "TE",
-          "team": "PIT",
+          "team": "ATL",
           "status": "Active"
         },
         {
-          "player_id": "12501",
-          "name": "Matthew Golden",
-          "position": "WR",
-          "team": "GB",
+          "player_id": "12506",
+          "name": "Harold Fannin",
+          "position": "TE",
+          "team": "CLE",
           "status": "Active"
         },
         {
@@ -1646,13 +1646,6 @@
           "name": "Tyrone Tracy",
           "position": "RB",
           "team": "NYG",
-          "status": "Active"
-        },
-        {
-          "player_id": "12506",
-          "name": "Harold Fannin",
-          "position": "TE",
-          "team": "CLE",
           "status": "Active"
         },
         {
@@ -1691,10 +1684,17 @@
           "status": "Active"
         },
         {
-          "player_id": "7553",
-          "name": "Kyle Pitts",
+          "player_id": "7600",
+          "name": "Pat Freiermuth",
           "position": "TE",
-          "team": "ATL",
+          "team": "PIT",
+          "status": "Active"
+        },
+        {
+          "player_id": "8144",
+          "name": "Chris Olave",
+          "position": "WR",
+          "team": "NO",
           "status": "Active"
         },
         {
@@ -2748,10 +2748,10 @@
           "status": "Active"
         },
         {
-          "player_id": "12481",
-          "name": "Cam Skattebo",
+          "player_id": "12507",
+          "name": "Omarion Hampton",
           "position": "RB",
-          "team": "NYG",
+          "team": "LAC",
           "status": "Active"
         },
         {
@@ -2776,17 +2776,17 @@
           "status": "Active"
         },
         {
-          "player_id": "7002",
-          "name": "Juwan Johnson",
+          "player_id": "10236",
+          "name": "Dalton Kincaid",
           "position": "TE",
-          "team": "NO",
+          "team": "BUF",
           "status": "Active"
         },
         {
-          "player_id": "11834",
-          "name": "Devaughn Vele",
-          "position": "WR",
-          "team": "NO",
+          "player_id": "10219",
+          "name": "Chris Rodriguez",
+          "position": "RB",
+          "team": "JAX",
           "status": "Active"
         },
         {
@@ -2813,20 +2813,6 @@
       ],
       "bench": [
         {
-          "player_id": "10219",
-          "name": "Chris Rodriguez",
-          "position": "RB",
-          "team": "JAX",
-          "status": "Active"
-        },
-        {
-          "player_id": "10236",
-          "name": "Dalton Kincaid",
-          "position": "TE",
-          "team": "BUF",
-          "status": "Active"
-        },
-        {
           "player_id": "11566",
           "name": "Jayden Daniels",
           "position": "QB",
@@ -2841,10 +2827,17 @@
           "status": "Active"
         },
         {
-          "player_id": "12507",
-          "name": "Omarion Hampton",
+          "player_id": "11834",
+          "name": "Devaughn Vele",
+          "position": "WR",
+          "team": "NO",
+          "status": "Active"
+        },
+        {
+          "player_id": "12481",
+          "name": "Cam Skattebo",
           "position": "RB",
-          "team": "LAC",
+          "team": "NYG",
           "status": "Active"
         },
         {
@@ -2866,6 +2859,13 @@
           "name": "Marcus Mariota",
           "position": "QB",
           "team": "WAS",
+          "status": "Active"
+        },
+        {
+          "player_id": "7002",
+          "name": "Juwan Johnson",
+          "position": "TE",
+          "team": "NO",
           "status": "Active"
         },
         {
