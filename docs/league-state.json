@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-10-28T06:17:56.479962+00:00",
+  "generated_at_utc": "2026-10-28T13:19:41.660951+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-10-28T06:17:56.479962+00:00",
+    "generated_at_utc": "2026-10-28T13:19:41.660951+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -16,7 +16,7 @@
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
-    "display_week": 7,
+    "display_week": 8,
     "league_create_season": "2026",
     "season_has_scores": true
   },
@@ -77,17 +77,13 @@
       "trade_review_days": 0,
       "bench_lock": 1,
       "offseason_adds": 1,
-      "leg": 7,
+      "leg": 8,
       "reserve_slots": 2,
       "reserve_allow_cov": 1,
       "daily_waivers_last_ran": 9
     },
     "avatar": null,
     "company_id": null,
-    "shard": 697,
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -143,24 +139,26 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1420965735819177984",
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 697,
+    "sport": "nfl",
+    "last_message_id": "1421072379223818240",
+    "draft_id": "1332851598610690048",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1793147140987,
+    "last_message_time": 1793172566756,
     "last_pinned_message_id": null,
-    "draft_id": "1332851598610690048",
     "last_read_id": null,
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
     "bracket_id": null,
     "bracket_overrides_id": null,
     "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "QB",
@@ -184,6 +182,8 @@
       "BN",
       "BN"
     ],
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "my_roster": {
@@ -368,10 +368,10 @@
         "status": "Active"
       },
       {
-        "player_id": "SF",
-        "name": "San Francisco 49ers",
+        "player_id": "CIN",
+        "name": "Cincinnati Bengals",
         "position": "DEF",
-        "team": "SF",
+        "team": "CIN",
         "status": null
       }
     ],
@@ -445,13 +445,6 @@
         "position": "K",
         "team": "SEA",
         "status": "Active"
-      },
-      {
-        "player_id": "SF",
-        "name": "San Francisco 49ers",
-        "position": "DEF",
-        "team": "SF",
-        "status": null
       }
     ],
     "bench": [
@@ -524,6 +517,13 @@
         "position": "RB",
         "team": "NO",
         "status": "Active"
+      },
+      {
+        "player_id": "CIN",
+        "name": "Cincinnati Bengals",
+        "position": "DEF",
+        "team": "CIN",
+        "status": null
       }
     ],
     "taxi": [
@@ -576,8 +576,8 @@
       "ppts_decimal": 8,
       "ties": 0,
       "total_moves": 0,
-      "waiver_budget_used": 50,
-      "waiver_position": 4,
+      "waiver_budget_used": 56,
+      "waiver_position": 9,
       "wins": 13
     }
   },
@@ -973,7 +973,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 3,
+        "waiver_position": 2,
         "wins": 9
       }
     },
@@ -1159,10 +1159,10 @@
           "status": "Active"
         },
         {
-          "player_id": "SF",
-          "name": "San Francisco 49ers",
+          "player_id": "CIN",
+          "name": "Cincinnati Bengals",
           "position": "DEF",
-          "team": "SF",
+          "team": "CIN",
           "status": null
         }
       ],
@@ -1236,13 +1236,6 @@
           "position": "K",
           "team": "SEA",
           "status": "Active"
-        },
-        {
-          "player_id": "SF",
-          "name": "San Francisco 49ers",
-          "position": "DEF",
-          "team": "SF",
-          "status": null
         }
       ],
       "bench": [
@@ -1315,6 +1308,13 @@
           "position": "RB",
           "team": "NO",
           "status": "Active"
+        },
+        {
+          "player_id": "CIN",
+          "name": "Cincinnati Bengals",
+          "position": "DEF",
+          "team": "CIN",
+          "status": null
         }
       ],
       "taxi": [
@@ -1367,8 +1367,8 @@
         "ppts_decimal": 8,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 50,
-        "waiver_position": 4,
+        "waiver_budget_used": 56,
+        "waiver_position": 9,
         "wins": 13
       }
     },
@@ -1763,7 +1763,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 37,
-        "waiver_position": 7,
+        "waiver_position": 5,
         "wins": 11
       }
     },
@@ -2218,6 +2218,13 @@
           "status": "Active"
         },
         {
+          "player_id": "13297",
+          "name": "Reggie Virgil",
+          "position": "WR",
+          "team": "ARI",
+          "status": "Active"
+        },
+        {
           "player_id": "13298",
           "name": "KC Concepcion",
           "position": "WR",
@@ -2316,6 +2323,13 @@
           "status": "Active"
         },
         {
+          "player_id": "ATL",
+          "name": "Atlanta Falcons",
+          "position": "DEF",
+          "team": "ATL",
+          "status": null
+        },
+        {
           "player_id": "HOU",
           "name": "Houston Texans",
           "position": "DEF",
@@ -2332,10 +2346,10 @@
           "status": "Active"
         },
         {
-          "player_id": "5849",
-          "name": "Kyler Murray",
+          "player_id": "12522",
+          "name": "Cam Ward",
           "position": "QB",
-          "team": "MIN",
+          "team": "TEN",
           "status": "Active"
         },
         {
@@ -2381,10 +2395,10 @@
           "status": "Active"
         },
         {
-          "player_id": "7569",
-          "name": "Nico Collins",
-          "position": "WR",
-          "team": "HOU",
+          "player_id": "8136",
+          "name": "Rachaad White",
+          "position": "RB",
+          "team": "WAS",
           "status": "Active"
         },
         {
@@ -2395,10 +2409,10 @@
           "status": "Active"
         },
         {
-          "player_id": "HOU",
-          "name": "Houston Texans",
+          "player_id": "ATL",
+          "name": "Atlanta Falcons",
           "position": "DEF",
-          "team": "HOU",
+          "team": "ATL",
           "status": null
         }
       ],
@@ -2439,10 +2453,17 @@
           "status": "Active"
         },
         {
-          "player_id": "12522",
-          "name": "Cam Ward",
+          "player_id": "13297",
+          "name": "Reggie Virgil",
+          "position": "WR",
+          "team": "ARI",
+          "status": "Active"
+        },
+        {
+          "player_id": "5849",
+          "name": "Kyler Murray",
           "position": "QB",
-          "team": "TEN",
+          "team": "MIN",
           "status": "Active"
         },
         {
@@ -2453,11 +2474,18 @@
           "status": "Active"
         },
         {
-          "player_id": "8136",
-          "name": "Rachaad White",
-          "position": "RB",
-          "team": "WAS",
+          "player_id": "7569",
+          "name": "Nico Collins",
+          "position": "WR",
+          "team": "HOU",
           "status": "Active"
+        },
+        {
+          "player_id": "HOU",
+          "name": "Houston Texans",
+          "position": "DEF",
+          "team": "HOU",
+          "status": null
         }
       ],
       "taxi": [
@@ -2511,7 +2539,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 26,
-        "waiver_position": 6,
+        "waiver_position": 4,
         "wins": 5
       }
     },
@@ -2571,6 +2599,13 @@
           "status": "Active"
         },
         {
+          "player_id": "11783",
+          "name": "Ryan Flournoy",
+          "position": "WR",
+          "team": "DAL",
+          "status": "Active"
+        },
+        {
           "player_id": "11834",
           "name": "Devaughn Vele",
           "position": "WR",
@@ -2613,13 +2648,6 @@
           "status": "Active"
         },
         {
-          "player_id": "12718",
-          "name": "Konata Mumpfield",
-          "position": "WR",
-          "team": "LAR",
-          "status": "Active"
-        },
-        {
           "player_id": "13281",
           "name": "Jordyn Tyson",
           "position": "WR",
@@ -2641,10 +2669,10 @@
           "status": "Active"
         },
         {
-          "player_id": "2307",
-          "name": "Marcus Mariota",
-          "position": "QB",
-          "team": "WAS",
+          "player_id": "1479",
+          "name": "Keenan Allen",
+          "position": "WR",
+          "team": "IND",
           "status": "Active"
         },
         {
@@ -2652,6 +2680,13 @@
           "name": "Baker Mayfield",
           "position": "QB",
           "team": "TB",
+          "status": "Active"
+        },
+        {
+          "player_id": "5844",
+          "name": "T.J. Hockenson",
+          "position": "TE",
+          "team": "MIN",
           "status": "Active"
         },
         {
@@ -2687,13 +2722,6 @@
           "name": "Brian Robinson",
           "position": "RB",
           "team": "ATL",
-          "status": "Active"
-        },
-        {
-          "player_id": "8676",
-          "name": "Rashid Shaheed",
-          "position": "WR",
-          "team": "SEA",
           "status": "Active"
         },
         {
@@ -2799,6 +2827,13 @@
           "status": "Active"
         },
         {
+          "player_id": "11783",
+          "name": "Ryan Flournoy",
+          "position": "WR",
+          "team": "DAL",
+          "status": "Active"
+        },
+        {
           "player_id": "11834",
           "name": "Devaughn Vele",
           "position": "WR",
@@ -2820,17 +2855,17 @@
           "status": "Active"
         },
         {
-          "player_id": "12718",
-          "name": "Konata Mumpfield",
+          "player_id": "1479",
+          "name": "Keenan Allen",
           "position": "WR",
-          "team": "LAR",
+          "team": "IND",
           "status": "Active"
         },
         {
-          "player_id": "2307",
-          "name": "Marcus Mariota",
-          "position": "QB",
-          "team": "WAS",
+          "player_id": "5844",
+          "name": "T.J. Hockenson",
+          "position": "TE",
+          "team": "MIN",
           "status": "Active"
         },
         {
@@ -2845,13 +2880,6 @@
           "name": "Brian Robinson",
           "position": "RB",
           "team": "ATL",
-          "status": "Active"
-        },
-        {
-          "player_id": "8676",
-          "name": "Rashid Shaheed",
-          "position": "WR",
-          "team": "SEA",
           "status": "Active"
         }
       ],
@@ -2905,8 +2933,8 @@
         "ppts_decimal": 32,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 3,
-        "waiver_position": 2,
+        "waiver_budget_used": 14,
+        "waiver_position": 10,
         "wins": 3
       }
     },
@@ -2966,17 +2994,17 @@
           "status": "Active"
         },
         {
+          "player_id": "12469",
+          "name": "Dylan Sampson",
+          "position": "RB",
+          "team": "CLE",
+          "status": "Active"
+        },
+        {
           "player_id": "12535",
           "name": "Isaac TeSlaa",
           "position": "WR",
           "team": "DET",
-          "status": "Active"
-        },
-        {
-          "player_id": "13150",
-          "name": "Darius Cooper",
-          "position": "WR",
-          "team": "PHI",
           "status": "Active"
         },
         {
@@ -3194,17 +3222,17 @@
           "status": "Active"
         },
         {
+          "player_id": "12469",
+          "name": "Dylan Sampson",
+          "position": "RB",
+          "team": "CLE",
+          "status": "Active"
+        },
+        {
           "player_id": "12535",
           "name": "Isaac TeSlaa",
           "position": "WR",
           "team": "DET",
-          "status": "Active"
-        },
-        {
-          "player_id": "13150",
-          "name": "Darius Cooper",
-          "position": "WR",
-          "team": "PHI",
           "status": "Active"
         },
         {
@@ -3300,8 +3328,8 @@
         "ppts_decimal": 14,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 15,
-        "waiver_position": 10,
+        "waiver_budget_used": 35,
+        "waiver_position": 8,
         "wins": 0
       }
     },
@@ -3696,7 +3724,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 37,
-        "waiver_position": 8,
+        "waiver_position": 6,
         "wins": 6
       }
     },
@@ -4091,7 +4119,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 6,
-        "waiver_position": 5,
+        "waiver_position": 3,
         "wins": 5
       }
     },
@@ -4486,7 +4514,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 2,
-        "waiver_position": 9,
+        "waiver_position": 7,
         "wins": 13
       }
     }
