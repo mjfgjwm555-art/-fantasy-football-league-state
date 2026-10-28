@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-10-27T21:06:17.071116+00:00",
+  "generated_at_utc": "2026-10-28T00:31:07.046661+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-10-27T21:06:17.071116+00:00",
+    "generated_at_utc": "2026-10-28T00:31:07.046661+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -84,10 +84,10 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 697,
-    "season": "2026",
-    "season_type": "regular",
     "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
+    "shard": 697,
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -143,22 +143,19 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1420841869822156800",
+    "last_message_id": "1420965735819177984",
+    "draft_id": "1332851598610690048",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1793117609032,
+    "last_message_time": 1793147140987,
     "last_pinned_message_id": null,
     "last_read_id": null,
-    "draft_id": "1332851598610690048",
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
     "roster_positions": [
       "QB",
       "QB",
@@ -182,6 +179,9 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
@@ -2260,24 +2260,10 @@
           "status": "Active"
         },
         {
-          "player_id": "6083",
-          "name": "Matt Gay",
-          "position": "K",
-          "team": "LV",
-          "status": "Active"
-        },
-        {
           "player_id": "6797",
           "name": "Justin Herbert",
           "position": "QB",
           "team": "LAC",
-          "status": "Active"
-        },
-        {
-          "player_id": "7083",
-          "name": "Tyler Huntley",
-          "position": "QB",
-          "team": "BAL",
           "status": "Active"
         },
         {
@@ -2339,10 +2325,10 @@
       ],
       "starters": [
         {
-          "player_id": "7083",
-          "name": "Tyler Huntley",
+          "player_id": "6797",
+          "name": "Justin Herbert",
           "position": "QB",
-          "team": "BAL",
+          "team": "LAC",
           "status": "Active"
         },
         {
@@ -2360,17 +2346,17 @@
           "status": "Active"
         },
         {
-          "player_id": "12474",
-          "name": "Woody Marks",
+          "player_id": "8408",
+          "name": "Jordan Mason",
           "position": "RB",
-          "team": "HOU",
+          "team": "MIN",
           "status": "Active"
         },
         {
-          "player_id": "7569",
-          "name": "Nico Collins",
+          "player_id": "8146",
+          "name": "Garrett Wilson",
           "position": "WR",
-          "team": "HOU",
+          "team": "NYJ",
           "status": "Active"
         },
         {
@@ -2395,17 +2381,17 @@
           "status": "Active"
         },
         {
-          "player_id": "8146",
-          "name": "Garrett Wilson",
+          "player_id": "7569",
+          "name": "Nico Collins",
           "position": "WR",
-          "team": "NYJ",
+          "team": "HOU",
           "status": "Active"
         },
         {
-          "player_id": "6083",
-          "name": "Matt Gay",
+          "player_id": "11786",
+          "name": "Cam Little",
           "position": "K",
-          "team": "LV",
+          "team": "JAX",
           "status": "Active"
         },
         {
@@ -2418,10 +2404,10 @@
       ],
       "bench": [
         {
-          "player_id": "11786",
-          "name": "Cam Little",
-          "position": "K",
-          "team": "JAX",
+          "player_id": "12474",
+          "name": "Woody Marks",
+          "position": "RB",
+          "team": "HOU",
           "status": "Active"
         },
         {
@@ -2460,13 +2446,6 @@
           "status": "Active"
         },
         {
-          "player_id": "6797",
-          "name": "Justin Herbert",
-          "position": "QB",
-          "team": "LAC",
-          "status": "Active"
-        },
-        {
           "player_id": "7525",
           "name": "DeVonta Smith",
           "position": "WR",
@@ -2478,13 +2457,6 @@
           "name": "Rachaad White",
           "position": "RB",
           "team": "WAS",
-          "status": "Active"
-        },
-        {
-          "player_id": "8408",
-          "name": "Jordan Mason",
-          "position": "RB",
-          "team": "MIN",
           "status": "Active"
         }
       ],
