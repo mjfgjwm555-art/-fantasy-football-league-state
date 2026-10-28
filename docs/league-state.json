@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-10-28T13:19:41.660951+00:00",
+  "generated_at_utc": "2026-10-28T18:58:17.888692+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-10-28T13:19:41.660951+00:00",
+    "generated_at_utc": "2026-10-28T18:58:17.888692+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -84,6 +84,11 @@
     },
     "avatar": null,
     "company_id": null,
+    "last_message_id": "1421072379223818240",
+    "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
+    "shard": 697,
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -139,11 +144,6 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "shard": 697,
-    "sport": "nfl",
-    "last_message_id": "1421072379223818240",
     "draft_id": "1332851598610690048",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
@@ -156,9 +156,6 @@
     "last_read_id": null,
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
     "roster_positions": [
       "QB",
       "QB",
@@ -182,6 +179,9 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
@@ -3129,10 +3129,10 @@
       ],
       "starters": [
         {
-          "player_id": "11565",
-          "name": "J.J. McCarthy",
+          "player_id": "3257",
+          "name": "Jacoby Brissett",
           "position": "QB",
-          "team": "MIN",
+          "team": "ARI",
           "status": "Active"
         },
         {
@@ -3150,10 +3150,10 @@
           "status": "Active"
         },
         {
-          "player_id": "4035",
-          "name": "Alvin Kamara",
+          "player_id": "12469",
+          "name": "Dylan Sampson",
           "position": "RB",
-          "team": "NO",
+          "team": "CLE",
           "status": "Active"
         },
         {
@@ -3185,10 +3185,10 @@
           "status": "Active"
         },
         {
-          "player_id": "11628",
-          "name": "Marvin Harrison",
+          "player_id": "11625",
+          "name": "Adonai Mitchell",
           "position": "WR",
-          "team": "ARI",
+          "team": "NYJ",
           "status": "Active"
         },
         {
@@ -3208,6 +3208,13 @@
       ],
       "bench": [
         {
+          "player_id": "11565",
+          "name": "J.J. McCarthy",
+          "position": "QB",
+          "team": "MIN",
+          "status": "Active"
+        },
+        {
           "player_id": "11581",
           "name": "MarShawn Lloyd",
           "position": "RB",
@@ -3215,17 +3222,10 @@
           "status": "Active"
         },
         {
-          "player_id": "11625",
-          "name": "Adonai Mitchell",
+          "player_id": "11628",
+          "name": "Marvin Harrison",
           "position": "WR",
-          "team": "NYJ",
-          "status": "Active"
-        },
-        {
-          "player_id": "12469",
-          "name": "Dylan Sampson",
-          "position": "RB",
-          "team": "CLE",
+          "team": "ARI",
           "status": "Active"
         },
         {
@@ -3243,10 +3243,10 @@
           "status": "Active"
         },
         {
-          "player_id": "3257",
-          "name": "Jacoby Brissett",
-          "position": "QB",
-          "team": "ARI",
+          "player_id": "4035",
+          "name": "Alvin Kamara",
+          "position": "RB",
+          "team": "NO",
           "status": "Active"
         },
         {
