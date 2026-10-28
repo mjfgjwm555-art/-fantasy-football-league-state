@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-10-28T18:58:17.888692+00:00",
+  "generated_at_utc": "2026-10-28T23:00:26.310341+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-10-28T18:58:17.888692+00:00",
+    "generated_at_utc": "2026-10-28T23:00:26.310341+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -84,11 +84,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "last_message_id": "1421072379223818240",
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
-    "shard": 697,
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -144,6 +139,11 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 697,
+    "sport": "nfl",
+    "last_message_id": "1421251501266833408",
     "draft_id": "1332851598610690048",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
@@ -151,11 +151,14 @@
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1793172566756,
+    "last_message_time": 1793215272780,
     "last_pinned_message_id": null,
     "last_read_id": null,
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
     "roster_positions": [
       "QB",
       "QB",
@@ -179,9 +182,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
@@ -2776,17 +2776,17 @@
           "status": "Active"
         },
         {
-          "player_id": "10236",
-          "name": "Dalton Kincaid",
+          "player_id": "5844",
+          "name": "T.J. Hockenson",
           "position": "TE",
-          "team": "BUF",
+          "team": "MIN",
           "status": "Active"
         },
         {
-          "player_id": "10219",
-          "name": "Chris Rodriguez",
-          "position": "RB",
-          "team": "JAX",
+          "player_id": "11783",
+          "name": "Ryan Flournoy",
+          "position": "WR",
+          "team": "DAL",
           "status": "Active"
         },
         {
@@ -2813,6 +2813,20 @@
       ],
       "bench": [
         {
+          "player_id": "10219",
+          "name": "Chris Rodriguez",
+          "position": "RB",
+          "team": "JAX",
+          "status": "Active"
+        },
+        {
+          "player_id": "10236",
+          "name": "Dalton Kincaid",
+          "position": "TE",
+          "team": "BUF",
+          "status": "Active"
+        },
+        {
           "player_id": "11563",
           "name": "Bo Nix",
           "position": "QB",
@@ -2824,13 +2838,6 @@
           "name": "Brian Thomas",
           "position": "WR",
           "team": "JAX",
-          "status": "Active"
-        },
-        {
-          "player_id": "11783",
-          "name": "Ryan Flournoy",
-          "position": "WR",
-          "team": "DAL",
           "status": "Active"
         },
         {
@@ -2859,13 +2866,6 @@
           "name": "Keenan Allen",
           "position": "WR",
           "team": "IND",
-          "status": "Active"
-        },
-        {
-          "player_id": "5844",
-          "name": "T.J. Hockenson",
-          "position": "TE",
-          "team": "MIN",
           "status": "Active"
         },
         {
@@ -3919,10 +3919,10 @@
       ],
       "starters": [
         {
-          "player_id": "11560",
-          "name": "Caleb Williams",
+          "player_id": "4943",
+          "name": "Sam Darnold",
           "position": "QB",
-          "team": "CHI",
+          "team": "SEA",
           "status": "Active"
         },
         {
@@ -3998,6 +3998,13 @@
       ],
       "bench": [
         {
+          "player_id": "11560",
+          "name": "Caleb Williams",
+          "position": "QB",
+          "team": "CHI",
+          "status": "Active"
+        },
+        {
           "player_id": "11643",
           "name": "Jaylen Wright",
           "position": "RB",
@@ -4016,13 +4023,6 @@
           "name": "Makai Lemon",
           "position": "WR",
           "team": "PHI",
-          "status": "Active"
-        },
-        {
-          "player_id": "4943",
-          "name": "Sam Darnold",
-          "position": "QB",
-          "team": "SEA",
           "status": "Active"
         },
         {
