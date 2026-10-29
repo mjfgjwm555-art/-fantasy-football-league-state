@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-10-29T15:36:23.156176+00:00",
+  "generated_at_utc": "2026-10-29T20:36:10.440308+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-10-29T15:36:23.156176+00:00",
+    "generated_at_utc": "2026-10-29T20:36:10.440308+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -84,11 +84,8 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 697,
-    "season": "2026",
-    "season_type": "regular",
+    "last_message_id": "1421569965001052160",
     "sport": "nfl",
-    "last_message_id": "1421555773175062528",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -144,6 +141,9 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 697,
     "draft_id": "1332851598610690048",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
@@ -151,11 +151,16 @@
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1793287816856,
+    "last_message_time": 1793291200451,
     "last_pinned_message_id": null,
     "last_read_id": null,
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
+    "group_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "QB",
@@ -179,11 +184,6 @@
       "BN",
       "BN"
     ],
-    "group_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "my_roster": {
@@ -589,6 +589,13 @@
       "team_name": "GrahamLikeTheCracker",
       "players": [
         {
+          "player_id": "10955",
+          "name": "Chad Ryland",
+          "position": "K",
+          "team": "ARI",
+          "status": "Active"
+        },
+        {
           "player_id": "11557",
           "name": "Joe Milton",
           "position": "QB",
@@ -677,13 +684,6 @@
           "name": "Ka'imi Fairbairn",
           "position": "K",
           "team": "HOU",
-          "status": "Active"
-        },
-        {
-          "player_id": "3634",
-          "name": "Kalif Raymond",
-          "position": "WR",
-          "team": "CHI",
           "status": "Active"
         },
         {
@@ -808,10 +808,10 @@
           "status": "Active"
         },
         {
-          "player_id": "11632",
-          "name": "Malik Nabers",
+          "player_id": "4983",
+          "name": "DJ Moore",
           "position": "WR",
-          "team": "NYG",
+          "team": "BUF",
           "status": "Active"
         },
         {
@@ -836,10 +836,10 @@
           "status": "Active"
         },
         {
-          "player_id": "3451",
-          "name": "Ka'imi Fairbairn",
+          "player_id": "10955",
+          "name": "Chad Ryland",
           "position": "K",
-          "team": "HOU",
+          "team": "ARI",
           "status": "Active"
         },
         {
@@ -856,6 +856,13 @@
           "name": "Joe Milton",
           "position": "QB",
           "team": "DAL",
+          "status": "Active"
+        },
+        {
+          "player_id": "11632",
+          "name": "Malik Nabers",
+          "position": "WR",
+          "team": "NYG",
           "status": "Active"
         },
         {
@@ -880,10 +887,10 @@
           "status": "Active"
         },
         {
-          "player_id": "3634",
-          "name": "Kalif Raymond",
-          "position": "WR",
-          "team": "CHI",
+          "player_id": "3451",
+          "name": "Ka'imi Fairbairn",
+          "position": "K",
+          "team": "HOU",
           "status": "Active"
         },
         {
@@ -891,13 +898,6 @@
           "name": "Deshaun Watson",
           "position": "QB",
           "team": "CLE",
-          "status": "Active"
-        },
-        {
-          "player_id": "4983",
-          "name": "DJ Moore",
-          "position": "WR",
-          "team": "BUF",
           "status": "Active"
         },
         {
@@ -1951,10 +1951,10 @@
       ],
       "starters": [
         {
-          "player_id": "11559",
-          "name": "Michael Penix",
+          "player_id": "7523",
+          "name": "Trevor Lawrence",
           "position": "QB",
-          "team": "ATL",
+          "team": "JAX",
           "status": "Active"
         },
         {
@@ -1965,10 +1965,10 @@
           "status": "Active"
         },
         {
-          "player_id": "4866",
-          "name": "Saquon Barkley",
+          "player_id": "8138",
+          "name": "James Cook",
           "position": "RB",
-          "team": "PHI",
+          "team": "BUF",
           "status": "Active"
         },
         {
@@ -1993,10 +1993,10 @@
           "status": "Active"
         },
         {
-          "player_id": "8111",
-          "name": "Cade Otton",
+          "player_id": "9480",
+          "name": "Brenton Strange",
           "position": "TE",
-          "team": "TB",
+          "team": "JAX",
           "status": "Active"
         },
         {
@@ -2021,10 +2021,10 @@
           "status": "Active"
         },
         {
-          "player_id": "CLE",
-          "name": "Cleveland Browns",
+          "player_id": "JAX",
+          "name": "Jacksonville Jaguars",
           "position": "DEF",
-          "team": "CLE",
+          "team": "JAX",
           "status": null
         }
       ],
@@ -2034,6 +2034,13 @@
           "name": "Rashee Rice",
           "position": "WR",
           "team": "KC",
+          "status": "Active"
+        },
+        {
+          "player_id": "11559",
+          "name": "Michael Penix",
+          "position": "QB",
+          "team": "ATL",
           "status": "Active"
         },
         {
@@ -2065,6 +2072,13 @@
           "status": "Active"
         },
         {
+          "player_id": "4866",
+          "name": "Saquon Barkley",
+          "position": "RB",
+          "team": "PHI",
+          "status": "Active"
+        },
+        {
           "player_id": "6783",
           "name": "Jerry Jeudy",
           "position": "WR",
@@ -2072,31 +2086,17 @@
           "status": "Active"
         },
         {
-          "player_id": "7523",
-          "name": "Trevor Lawrence",
-          "position": "QB",
-          "team": "JAX",
-          "status": "Active"
-        },
-        {
-          "player_id": "8138",
-          "name": "James Cook",
-          "position": "RB",
-          "team": "BUF",
-          "status": "Active"
-        },
-        {
-          "player_id": "9480",
-          "name": "Brenton Strange",
+          "player_id": "8111",
+          "name": "Cade Otton",
           "position": "TE",
-          "team": "JAX",
+          "team": "TB",
           "status": "Active"
         },
         {
-          "player_id": "JAX",
-          "name": "Jacksonville Jaguars",
+          "player_id": "CLE",
+          "name": "Cleveland Browns",
           "position": "DEF",
-          "team": "JAX",
+          "team": "CLE",
           "status": null
         }
       ],
