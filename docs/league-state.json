@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-10-29T02:25:21.897547+00:00",
+  "generated_at_utc": "2026-10-29T08:44:15.107883+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-10-29T02:25:21.897547+00:00",
+    "generated_at_utc": "2026-10-29T08:44:15.107883+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -567,12 +567,12 @@
     ],
     "settings": {
       "division": 2,
-      "fpts": 1460,
+      "fpts": 1461,
       "fpts_against": 1132,
       "fpts_against_decimal": 12,
       "fpts_decimal": 32,
       "losses": 1,
-      "ppts": 1553,
+      "ppts": 1554,
       "ppts_decimal": 8,
       "ties": 0,
       "total_moves": 0,
@@ -1358,12 +1358,12 @@
       ],
       "settings": {
         "division": 2,
-        "fpts": 1460,
+        "fpts": 1461,
         "fpts_against": 1132,
         "fpts_against_decimal": 12,
         "fpts_decimal": 32,
         "losses": 1,
-        "ppts": 1553,
+        "ppts": 1554,
         "ppts_decimal": 8,
         "ties": 0,
         "total_moves": 0,
@@ -4505,7 +4505,7 @@
       "settings": {
         "division": 2,
         "fpts": 1447,
-        "fpts_against": 1050,
+        "fpts_against": 1051,
         "fpts_against_decimal": 48,
         "fpts_decimal": 24,
         "losses": 1,
