@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-10-30T06:09:43.653549+00:00",
+  "generated_at_utc": "2026-10-30T12:51:15.865883+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-10-30T06:09:43.653549+00:00",
+    "generated_at_utc": "2026-10-30T12:51:15.865883+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -2339,17 +2339,17 @@
       ],
       "starters": [
         {
+          "player_id": "5849",
+          "name": "Kyler Murray",
+          "position": "QB",
+          "team": "MIN",
+          "status": "Active"
+        },
+        {
           "player_id": "6797",
           "name": "Justin Herbert",
           "position": "QB",
           "team": "LAC",
-          "status": "Active"
-        },
-        {
-          "player_id": "12522",
-          "name": "Cam Ward",
-          "position": "QB",
-          "team": "TEN",
           "status": "Active"
         },
         {
@@ -2388,10 +2388,10 @@
           "status": "Active"
         },
         {
-          "player_id": "5045",
-          "name": "Courtland Sutton",
+          "player_id": "12514",
+          "name": "Emeka Egbuka",
           "position": "WR",
-          "team": "DEN",
+          "team": "TB",
           "status": "Active"
         },
         {
@@ -2446,10 +2446,10 @@
           "status": "Active"
         },
         {
-          "player_id": "12514",
-          "name": "Emeka Egbuka",
-          "position": "WR",
-          "team": "TB",
+          "player_id": "12522",
+          "name": "Cam Ward",
+          "position": "QB",
+          "team": "TEN",
           "status": "Active"
         },
         {
@@ -2460,10 +2460,10 @@
           "status": "Active"
         },
         {
-          "player_id": "5849",
-          "name": "Kyler Murray",
-          "position": "QB",
-          "team": "MIN",
+          "player_id": "5045",
+          "name": "Courtland Sutton",
+          "position": "WR",
+          "team": "DEN",
           "status": "Active"
         },
         {
