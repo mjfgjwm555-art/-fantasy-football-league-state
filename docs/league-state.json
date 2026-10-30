@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-10-30T18:23:02.591755+00:00",
+  "generated_at_utc": "2026-10-30T22:33:13.763731+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-10-30T18:23:02.591755+00:00",
+    "generated_at_utc": "2026-10-30T22:33:13.763731+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -84,10 +84,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
-    "shard": 697,
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -143,7 +139,12 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "last_message_id": "1421718470038429696",
+    "shard": 697,
+    "draft_id": "1332851598610690048",
     "last_author_avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
     "last_author_display_name": "jschultz1414",
     "last_author_id": "735494799083352064",
@@ -152,7 +153,6 @@
     "last_message_text_map": null,
     "last_message_time": 1793326606816,
     "last_pinned_message_id": null,
-    "draft_id": "1332851598610690048",
     "last_read_id": null,
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
@@ -1979,8 +1979,8 @@
           "status": "Active"
         },
         {
-          "player_id": "11624",
-          "name": "Xavier Worthy",
+          "player_id": "10229",
+          "name": "Rashee Rice",
           "position": "WR",
           "team": "KC",
           "status": "Active"
@@ -2030,17 +2030,17 @@
       ],
       "bench": [
         {
-          "player_id": "10229",
-          "name": "Rashee Rice",
-          "position": "WR",
-          "team": "KC",
-          "status": "Active"
-        },
-        {
           "player_id": "11559",
           "name": "Michael Penix",
           "position": "QB",
           "team": "ATL",
+          "status": "Active"
+        },
+        {
+          "player_id": "11624",
+          "name": "Xavier Worthy",
+          "position": "WR",
+          "team": "KC",
           "status": "Active"
         },
         {
@@ -2388,10 +2388,10 @@
           "status": "Active"
         },
         {
-          "player_id": "12514",
-          "name": "Emeka Egbuka",
+          "player_id": "5045",
+          "name": "Courtland Sutton",
           "position": "WR",
-          "team": "TB",
+          "team": "DEN",
           "status": "Active"
         },
         {
@@ -2446,6 +2446,13 @@
           "status": "Active"
         },
         {
+          "player_id": "12514",
+          "name": "Emeka Egbuka",
+          "position": "WR",
+          "team": "TB",
+          "status": "Active"
+        },
+        {
           "player_id": "12522",
           "name": "Cam Ward",
           "position": "QB",
@@ -2457,13 +2464,6 @@
           "name": "Reggie Virgil",
           "position": "WR",
           "team": "ARI",
-          "status": "Active"
-        },
-        {
-          "player_id": "5045",
-          "name": "Courtland Sutton",
-          "position": "WR",
-          "team": "DEN",
           "status": "Active"
         },
         {
