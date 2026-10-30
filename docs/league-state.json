@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-10-30T00:23:26.533414+00:00",
+  "generated_at_utc": "2026-10-30T06:09:43.653549+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-10-30T00:23:26.533414+00:00",
+    "generated_at_utc": "2026-10-30T06:09:43.653549+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -84,11 +84,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
-    "shard": 697,
-    "last_message_id": "1421639549171351552",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -144,23 +139,23 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
+    "last_message_id": "1421718470038429696",
+    "shard": 697,
+    "draft_id": "1332851598610690048",
     "last_author_avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
     "last_author_display_name": "jschultz1414",
     "last_author_id": "735494799083352064",
     "last_author_is_bot": false,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1793307790610,
+    "last_message_time": 1793326606816,
     "last_pinned_message_id": null,
-    "draft_id": "1332851598610690048",
     "last_read_id": null,
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "QB",
@@ -184,6 +179,11 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "my_roster": {
@@ -808,10 +808,10 @@
           "status": "Active"
         },
         {
-          "player_id": "4983",
-          "name": "DJ Moore",
+          "player_id": "9487",
+          "name": "Parker Washington",
           "position": "WR",
-          "team": "BUF",
+          "team": "JAX",
           "status": "Active"
         },
         {
@@ -822,10 +822,10 @@
           "status": "Active"
         },
         {
-          "player_id": "5846",
-          "name": "DK Metcalf",
+          "player_id": "2449",
+          "name": "Stefon Diggs",
           "position": "WR",
-          "team": "PIT",
+          "team": "WAS",
           "status": "Active"
         },
         {
@@ -880,13 +880,6 @@
           "status": "Active"
         },
         {
-          "player_id": "2449",
-          "name": "Stefon Diggs",
-          "position": "WR",
-          "team": "WAS",
-          "status": "Active"
-        },
-        {
           "player_id": "3451",
           "name": "Ka'imi Fairbairn",
           "position": "K",
@@ -901,17 +894,24 @@
           "status": "Active"
         },
         {
+          "player_id": "4983",
+          "name": "DJ Moore",
+          "position": "WR",
+          "team": "BUF",
+          "status": "Active"
+        },
+        {
+          "player_id": "5846",
+          "name": "DK Metcalf",
+          "position": "WR",
+          "team": "PIT",
+          "status": "Active"
+        },
+        {
           "player_id": "8155",
           "name": "Breece Hall",
           "position": "RB",
           "team": "NYJ",
-          "status": "Active"
-        },
-        {
-          "player_id": "9487",
-          "name": "Parker Washington",
-          "position": "WR",
-          "team": "JAX",
           "status": "Active"
         },
         {
