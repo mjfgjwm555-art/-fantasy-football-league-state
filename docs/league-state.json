@@ -1,18 +1,18 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-11-03T08:33:57.248300+00:00",
+  "generated_at_utc": "2026-11-03T16:33:56.819678+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-11-03T08:33:57.248300+00:00",
+    "generated_at_utc": "2026-11-03T16:33:56.819678+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
     "week": 9,
-    "leg": 9,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
+    "leg": 9,
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -84,6 +84,10 @@
     },
     "avatar": null,
     "company_id": null,
+    "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
+    "last_message_id": "1422748495168692224",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -139,11 +143,7 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "season": "2026",
-    "season_type": "regular",
     "shard": 697,
-    "sport": "nfl",
-    "last_message_id": "1422748495168692224",
     "draft_id": "1332851598610690048",
     "last_author_avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
     "last_author_display_name": "jschultz1414",
@@ -156,9 +156,11 @@
     "last_read_id": null,
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
-    "group_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "QB",
@@ -182,8 +184,6 @@
       "BN",
       "BN"
     ],
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "my_roster": {
@@ -1577,10 +1577,10 @@
           "status": "Active"
         },
         {
-          "player_id": "13287",
-          "name": "Jeremiyah Love",
+          "player_id": "6130",
+          "name": "Devin Singletary",
           "position": "RB",
-          "team": "ARI",
+          "team": "NYG",
           "status": "Active"
         },
         {
@@ -1591,24 +1591,17 @@
           "status": "Active"
         },
         {
-          "player_id": "12501",
-          "name": "Matthew Golden",
+          "player_id": "8144",
+          "name": "Chris Olave",
           "position": "WR",
-          "team": "GB",
+          "team": "NO",
           "status": "Active"
         },
         {
-          "player_id": "8167",
-          "name": "Christian Watson",
+          "player_id": "6786",
+          "name": "CeeDee Lamb",
           "position": "WR",
-          "team": "GB",
-          "status": "Active"
-        },
-        {
-          "player_id": "7553",
-          "name": "Kyle Pitts",
-          "position": "TE",
-          "team": "ATL",
+          "team": "DAL",
           "status": "Active"
         },
         {
@@ -1619,10 +1612,17 @@
           "status": "Active"
         },
         {
-          "player_id": "6786",
-          "name": "CeeDee Lamb",
+          "player_id": "8167",
+          "name": "Christian Watson",
           "position": "WR",
-          "team": "DAL",
+          "team": "GB",
+          "status": "Active"
+        },
+        {
+          "player_id": "12501",
+          "name": "Matthew Golden",
+          "position": "WR",
+          "team": "GB",
           "status": "Active"
         },
         {
@@ -1649,6 +1649,13 @@
           "status": "Active"
         },
         {
+          "player_id": "13287",
+          "name": "Jeremiyah Love",
+          "position": "RB",
+          "team": "ARI",
+          "status": "Active"
+        },
+        {
           "player_id": "2216",
           "name": "Mike Evans",
           "position": "WR",
@@ -1670,13 +1677,6 @@
           "status": "Active"
         },
         {
-          "player_id": "6130",
-          "name": "Devin Singletary",
-          "position": "RB",
-          "team": "NYG",
-          "status": "Active"
-        },
-        {
           "player_id": "6806",
           "name": "J.K. Dobbins",
           "position": "RB",
@@ -1684,17 +1684,17 @@
           "status": "Active"
         },
         {
+          "player_id": "7553",
+          "name": "Kyle Pitts",
+          "position": "TE",
+          "team": "ATL",
+          "status": "Active"
+        },
+        {
           "player_id": "7600",
           "name": "Pat Freiermuth",
           "position": "TE",
           "team": "PIT",
-          "status": "Active"
-        },
-        {
-          "player_id": "8144",
-          "name": "Chris Olave",
-          "position": "WR",
-          "team": "NO",
           "status": "Active"
         },
         {
