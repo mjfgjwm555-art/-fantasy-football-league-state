@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-11-04T09:36:35.625230+00:00",
+  "generated_at_utc": "2026-11-04T17:31:36.170198+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-11-04T09:36:35.625230+00:00",
+    "generated_at_utc": "2026-11-04T17:31:36.170198+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -84,10 +84,11 @@
     },
     "avatar": null,
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
     "shard": 697,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
+    "last_message_id": "1423722085846355968",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -143,17 +144,16 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1423620540525985792",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1793780095753,
+    "last_message_time": 1793804306044,
     "last_pinned_message_id": null,
-    "draft_id": "1332851598610690048",
     "last_read_id": null,
+    "draft_id": "1332851598610690048",
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
     "bracket_id": null,
@@ -1631,6 +1631,13 @@
           "position": "K",
           "team": "DAL",
           "status": "Active"
+        },
+        {
+          "player_id": "GB",
+          "name": "Green Bay Packers",
+          "position": "DEF",
+          "team": "GB",
+          "status": null
         }
       ],
       "bench": [
@@ -1703,13 +1710,6 @@
           "position": "WR",
           "team": "LAC",
           "status": "Active"
-        },
-        {
-          "player_id": "GB",
-          "name": "Green Bay Packers",
-          "position": "DEF",
-          "team": "GB",
-          "status": null
         }
       ],
       "taxi": [
@@ -2360,10 +2360,10 @@
           "status": "Active"
         },
         {
-          "player_id": "8408",
-          "name": "Jordan Mason",
+          "player_id": "12474",
+          "name": "Woody Marks",
           "position": "RB",
-          "team": "MIN",
+          "team": "HOU",
           "status": "Active"
         },
         {
@@ -2388,10 +2388,10 @@
           "status": "Active"
         },
         {
-          "player_id": "5045",
-          "name": "Courtland Sutton",
+          "player_id": "7569",
+          "name": "Nico Collins",
           "position": "WR",
-          "team": "DEN",
+          "team": "HOU",
           "status": "Active"
         },
         {
@@ -2409,21 +2409,14 @@
           "status": "Active"
         },
         {
-          "player_id": "WAS",
-          "name": "Washington Commanders",
+          "player_id": "HOU",
+          "name": "Houston Texans",
           "position": "DEF",
-          "team": "WAS",
+          "team": "HOU",
           "status": null
         }
       ],
       "bench": [
-        {
-          "player_id": "12474",
-          "name": "Woody Marks",
-          "position": "RB",
-          "team": "HOU",
-          "status": "Active"
-        },
         {
           "player_id": "12489",
           "name": "RJ Harvey",
@@ -2467,6 +2460,13 @@
           "status": "Active"
         },
         {
+          "player_id": "5045",
+          "name": "Courtland Sutton",
+          "position": "WR",
+          "team": "DEN",
+          "status": "Active"
+        },
+        {
           "player_id": "7525",
           "name": "DeVonta Smith",
           "position": "WR",
@@ -2474,17 +2474,17 @@
           "status": "Active"
         },
         {
-          "player_id": "7569",
-          "name": "Nico Collins",
-          "position": "WR",
-          "team": "HOU",
+          "player_id": "8408",
+          "name": "Jordan Mason",
+          "position": "RB",
+          "team": "MIN",
           "status": "Active"
         },
         {
-          "player_id": "HOU",
-          "name": "Houston Texans",
+          "player_id": "WAS",
+          "name": "Washington Commanders",
           "position": "DEF",
-          "team": "HOU",
+          "team": "WAS",
           "status": null
         }
       ],
@@ -3129,10 +3129,10 @@
       ],
       "starters": [
         {
-          "player_id": "3257",
-          "name": "Jacoby Brissett",
+          "player_id": "11565",
+          "name": "J.J. McCarthy",
           "position": "QB",
-          "team": "ARI",
+          "team": "MIN",
           "status": "Active"
         },
         {
@@ -3208,13 +3208,6 @@
       ],
       "bench": [
         {
-          "player_id": "11565",
-          "name": "J.J. McCarthy",
-          "position": "QB",
-          "team": "MIN",
-          "status": "Active"
-        },
-        {
           "player_id": "11581",
           "name": "MarShawn Lloyd",
           "position": "RB",
@@ -3233,6 +3226,13 @@
           "name": "Malachi Fields",
           "position": "WR",
           "team": "NYG",
+          "status": "Active"
+        },
+        {
+          "player_id": "3257",
+          "name": "Jacoby Brissett",
+          "position": "QB",
+          "team": "ARI",
           "status": "Active"
         },
         {
@@ -4165,13 +4165,6 @@
           "status": "Active"
         },
         {
-          "player_id": "12711",
-          "name": "Tyler Loop",
-          "position": "K",
-          "team": "BAL",
-          "status": "Active"
-        },
-        {
           "player_id": "13272",
           "name": "Carson Beck",
           "position": "QB",
@@ -4189,6 +4182,13 @@
           "player_id": "13293",
           "name": "Ja'Kobi Lane",
           "position": "WR",
+          "team": "BAL",
+          "status": "Active"
+        },
+        {
+          "player_id": "13350",
+          "name": "Joe Fagnano",
+          "position": "QB",
           "team": "BAL",
           "status": "Active"
         },
@@ -4370,10 +4370,10 @@
           "status": "Active"
         },
         {
-          "player_id": "8228",
-          "name": "Jaylen Warren",
+          "player_id": "5850",
+          "name": "Josh Jacobs",
           "position": "RB",
-          "team": "PIT",
+          "team": "GB",
           "status": "Active"
         },
         {
@@ -4384,10 +4384,10 @@
           "status": "Active"
         },
         {
-          "player_id": "PIT",
-          "name": "Pittsburgh Steelers",
+          "player_id": "KC",
+          "name": "Kansas City Chiefs",
           "position": "DEF",
-          "team": "PIT",
+          "team": "KC",
           "status": null
         }
       ],
@@ -4400,17 +4400,17 @@
           "status": "Active"
         },
         {
-          "player_id": "12711",
-          "name": "Tyler Loop",
-          "position": "K",
-          "team": "BAL",
-          "status": "Active"
-        },
-        {
           "player_id": "13272",
           "name": "Carson Beck",
           "position": "QB",
           "team": "ARI",
+          "status": "Active"
+        },
+        {
+          "player_id": "13350",
+          "name": "Joe Fagnano",
+          "position": "QB",
+          "team": "BAL",
           "status": "Active"
         },
         {
@@ -4428,17 +4428,17 @@
           "status": "Active"
         },
         {
-          "player_id": "5850",
-          "name": "Josh Jacobs",
-          "position": "RB",
-          "team": "GB",
-          "status": "Active"
-        },
-        {
           "player_id": "6768",
           "name": "Tua Tagovailoa",
           "position": "QB",
           "team": "ATL",
+          "status": "Active"
+        },
+        {
+          "player_id": "8228",
+          "name": "Jaylen Warren",
+          "position": "RB",
+          "team": "PIT",
           "status": "Active"
         },
         {
@@ -4456,10 +4456,10 @@
           "status": "Active"
         },
         {
-          "player_id": "KC",
-          "name": "Kansas City Chiefs",
+          "player_id": "PIT",
+          "name": "Pittsburgh Steelers",
           "position": "DEF",
-          "team": "KC",
+          "team": "PIT",
           "status": null
         }
       ],
