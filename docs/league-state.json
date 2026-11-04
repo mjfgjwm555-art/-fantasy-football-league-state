@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-11-04T17:31:36.170198+00:00",
+  "generated_at_utc": "2026-11-04T22:52:44.740798+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-11-04T17:31:36.170198+00:00",
+    "generated_at_utc": "2026-11-04T22:52:44.740798+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -84,11 +84,11 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 697,
-    "season": "2026",
-    "season_type": "regular",
+    "last_message_id": "1423792803242074112",
     "sport": "nfl",
-    "last_message_id": "1423722085846355968",
+    "season_type": "regular",
+    "season": "2026",
+    "shard": 697,
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -150,17 +150,12 @@
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1793804306044,
+    "last_message_time": 1793821166385,
     "last_pinned_message_id": null,
     "last_read_id": null,
     "draft_id": "1332851598610690048",
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "QB",
@@ -184,6 +179,11 @@
       "BN",
       "BN"
     ],
+    "group_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "my_roster": {
@@ -2267,6 +2267,13 @@
           "status": "Active"
         },
         {
+          "player_id": "5854",
+          "name": "Drew Lock",
+          "position": "QB",
+          "team": "SEA",
+          "status": "Active"
+        },
+        {
           "player_id": "6797",
           "name": "Justin Herbert",
           "position": "QB",
@@ -2327,13 +2334,6 @@
           "name": "Houston Texans",
           "position": "DEF",
           "team": "HOU",
-          "status": null
-        },
-        {
-          "player_id": "WAS",
-          "name": "Washington Commanders",
-          "position": "DEF",
-          "team": "WAS",
           "status": null
         }
       ],
@@ -2467,6 +2467,13 @@
           "status": "Active"
         },
         {
+          "player_id": "5854",
+          "name": "Drew Lock",
+          "position": "QB",
+          "team": "SEA",
+          "status": "Active"
+        },
+        {
           "player_id": "7525",
           "name": "DeVonta Smith",
           "position": "WR",
@@ -2479,13 +2486,6 @@
           "position": "RB",
           "team": "MIN",
           "status": "Active"
-        },
-        {
-          "player_id": "WAS",
-          "name": "Washington Commanders",
-          "position": "DEF",
-          "team": "WAS",
-          "status": null
         }
       ],
       "taxi": [
@@ -3071,6 +3071,13 @@
           "status": "Active"
         },
         {
+          "player_id": "6803",
+          "name": "Brandon Aiyuk",
+          "position": "WR",
+          "team": "SF",
+          "status": "Active"
+        },
+        {
           "player_id": "7567",
           "name": "Kenny Gainwell",
           "position": "RB",
@@ -3103,13 +3110,6 @@
           "name": "Anthony Richardson",
           "position": "QB",
           "team": "IND",
-          "status": "Active"
-        },
-        {
-          "player_id": "9230",
-          "name": "Tanner McKee",
-          "position": "QB",
-          "team": "PHI",
           "status": "Active"
         },
         {
@@ -3243,6 +3243,13 @@
           "status": "Active"
         },
         {
+          "player_id": "6803",
+          "name": "Brandon Aiyuk",
+          "position": "WR",
+          "team": "SF",
+          "status": "Active"
+        },
+        {
           "player_id": "7567",
           "name": "Kenny Gainwell",
           "position": "RB",
@@ -3261,13 +3268,6 @@
           "name": "Anthony Richardson",
           "position": "QB",
           "team": "IND",
-          "status": "Active"
-        },
-        {
-          "player_id": "9230",
-          "name": "Tanner McKee",
-          "position": "QB",
-          "team": "PHI",
           "status": "Active"
         },
         {
