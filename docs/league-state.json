@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-11-04T02:18:37.487900+00:00",
+  "generated_at_utc": "2026-11-04T09:36:35.625230+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-11-04T02:18:37.487900+00:00",
+    "generated_at_utc": "2026-11-04T09:36:35.625230+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -16,7 +16,7 @@
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
-    "display_week": 8,
+    "display_week": 9,
     "league_create_season": "2026",
     "season_has_scores": true
   },
@@ -77,7 +77,7 @@
       "trade_review_days": 0,
       "bench_lock": 1,
       "offseason_adds": 1,
-      "leg": 8,
+      "leg": 9,
       "reserve_slots": 2,
       "reserve_allow_cov": 1,
       "daily_waivers_last_ran": 9
@@ -143,19 +143,24 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1423393939758530560",
+    "last_message_id": "1423620540525985792",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1793726069921,
+    "last_message_time": 1793780095753,
     "last_pinned_message_id": null,
     "draft_id": "1332851598610690048",
     "last_read_id": null,
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "QB",
@@ -179,11 +184,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "my_roster": {
@@ -577,7 +577,7 @@
       "ties": 0,
       "total_moves": 0,
       "waiver_budget_used": 56,
-      "waiver_position": 9,
+      "waiver_position": 5,
       "wins": 14
     }
   },
@@ -588,13 +588,6 @@
       "display_name": "BuiltFoardTough",
       "team_name": "GrahamLikeTheCracker",
       "players": [
-        {
-          "player_id": "10955",
-          "name": "Chad Ryland",
-          "position": "K",
-          "team": "ARI",
-          "status": "Active"
-        },
         {
           "player_id": "11557",
           "name": "Joe Milton",
@@ -712,6 +705,13 @@
           "name": "Terry McLaurin",
           "position": "WR",
           "team": "WAS",
+          "status": "Active"
+        },
+        {
+          "player_id": "6011",
+          "name": "Gardner Minshew",
+          "position": "QB",
+          "team": "ARI",
           "status": "Active"
         },
         {
@@ -836,13 +836,6 @@
           "status": "Active"
         },
         {
-          "player_id": "10955",
-          "name": "Chad Ryland",
-          "position": "K",
-          "team": "ARI",
-          "status": "Active"
-        },
-        {
           "player_id": "NE",
           "name": "New England Patriots",
           "position": "DEF",
@@ -905,6 +898,13 @@
           "name": "DK Metcalf",
           "position": "WR",
           "team": "PIT",
+          "status": "Active"
+        },
+        {
+          "player_id": "6011",
+          "name": "Gardner Minshew",
+          "position": "QB",
+          "team": "ARI",
           "status": "Active"
         },
         {
@@ -972,8 +972,8 @@
         "ppts_decimal": 22,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 0,
-        "waiver_position": 2,
+        "waiver_budget_used": 20,
+        "waiver_position": 7,
         "wins": 10
       }
     },
@@ -1368,7 +1368,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 56,
-        "waiver_position": 9,
+        "waiver_position": 5,
         "wins": 14
       }
     },
@@ -1390,6 +1390,13 @@
           "name": "Brandon Aubrey",
           "position": "K",
           "team": "DAL",
+          "status": "Active"
+        },
+        {
+          "player_id": "12471",
+          "name": "DJ Giddens",
+          "position": "RB",
+          "team": "IND",
           "status": "Active"
         },
         {
@@ -1460,13 +1467,6 @@
           "name": "Derrick Henry",
           "position": "RB",
           "team": "BAL",
-          "status": "Active"
-        },
-        {
-          "player_id": "4454",
-          "name": "Kendrick Bourne",
-          "position": "WR",
-          "team": "ARI",
           "status": "Active"
         },
         {
@@ -1554,10 +1554,10 @@
           "status": "Active"
         },
         {
-          "player_id": "DEN",
-          "name": "Denver Broncos",
+          "player_id": "GB",
+          "name": "Green Bay Packers",
           "position": "DEF",
-          "team": "DEN",
+          "team": "GB",
           "status": null
         }
       ],
@@ -1631,16 +1631,16 @@
           "position": "K",
           "team": "DAL",
           "status": "Active"
-        },
-        {
-          "player_id": "DEN",
-          "name": "Denver Broncos",
-          "position": "DEF",
-          "team": "DEN",
-          "status": null
         }
       ],
       "bench": [
+        {
+          "player_id": "12471",
+          "name": "DJ Giddens",
+          "position": "RB",
+          "team": "IND",
+          "status": "Active"
+        },
         {
           "player_id": "12529",
           "name": "TreVeyon Henderson",
@@ -1660,13 +1660,6 @@
           "name": "Mike Evans",
           "position": "WR",
           "team": "SF",
-          "status": "Active"
-        },
-        {
-          "player_id": "4454",
-          "name": "Kendrick Bourne",
-          "position": "WR",
-          "team": "ARI",
           "status": "Active"
         },
         {
@@ -1710,6 +1703,13 @@
           "position": "WR",
           "team": "LAC",
           "status": "Active"
+        },
+        {
+          "player_id": "GB",
+          "name": "Green Bay Packers",
+          "position": "DEF",
+          "team": "GB",
+          "status": null
         }
       ],
       "taxi": [
@@ -1762,8 +1762,8 @@
         "ppts_decimal": 70,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 37,
-        "waiver_position": 5,
+        "waiver_budget_used": 59,
+        "waiver_position": 8,
         "wins": 13
       }
     },
@@ -2539,7 +2539,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 26,
-        "waiver_position": 4,
+        "waiver_position": 3,
         "wins": 5
       }
     },
@@ -2934,7 +2934,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 14,
-        "waiver_position": 10,
+        "waiver_position": 6,
         "wins": 3
       }
     },
@@ -2998,13 +2998,6 @@
           "name": "Dylan Sampson",
           "position": "RB",
           "team": "CLE",
-          "status": "Active"
-        },
-        {
-          "player_id": "12535",
-          "name": "Isaac TeSlaa",
-          "position": "WR",
-          "team": "DET",
           "status": "Active"
         },
         {
@@ -3103,6 +3096,13 @@
           "name": "Tank Bigsby",
           "position": "RB",
           "team": "PHI",
+          "status": "Active"
+        },
+        {
+          "player_id": "9229",
+          "name": "Anthony Richardson",
+          "position": "QB",
+          "team": "IND",
           "status": "Active"
         },
         {
@@ -3229,13 +3229,6 @@
           "status": "Active"
         },
         {
-          "player_id": "12535",
-          "name": "Isaac TeSlaa",
-          "position": "WR",
-          "team": "DET",
-          "status": "Active"
-        },
-        {
           "player_id": "13285",
           "name": "Malachi Fields",
           "position": "WR",
@@ -3261,6 +3254,13 @@
           "name": "Treylon Burks",
           "position": "WR",
           "team": "WAS",
+          "status": "Active"
+        },
+        {
+          "player_id": "9229",
+          "name": "Anthony Richardson",
+          "position": "QB",
+          "team": "IND",
           "status": "Active"
         },
         {
@@ -3329,7 +3329,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 35,
-        "waiver_position": 8,
+        "waiver_position": 10,
         "wins": 1
       }
     },
@@ -3339,13 +3339,6 @@
       "display_name": "FantasyPro2023",
       "team_name": null,
       "players": [
-        {
-          "player_id": "11435",
-          "name": "Emanuel Wilson",
-          "position": "RB",
-          "team": "SEA",
-          "status": "Active"
-        },
         {
           "player_id": "11586",
           "name": "Blake Corum",
@@ -3519,6 +3512,13 @@
           "name": "Los Angeles Rams",
           "position": "DEF",
           "team": "LAR",
+          "status": null
+        },
+        {
+          "player_id": "SF",
+          "name": "San Francisco 49ers",
+          "position": "DEF",
+          "team": "SF",
           "status": null
         }
       ],
@@ -3603,13 +3603,6 @@
       ],
       "bench": [
         {
-          "player_id": "11435",
-          "name": "Emanuel Wilson",
-          "position": "RB",
-          "team": "SEA",
-          "status": "Active"
-        },
-        {
           "player_id": "11637",
           "name": "Keon Coleman",
           "position": "WR",
@@ -3671,6 +3664,13 @@
           "position": "RB",
           "team": "LAC",
           "status": "Active"
+        },
+        {
+          "player_id": "SF",
+          "name": "San Francisco 49ers",
+          "position": "DEF",
+          "team": "SF",
+          "status": null
         }
       ],
       "taxi": [
@@ -3724,7 +3724,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 37,
-        "waiver_position": 6,
+        "waiver_position": 9,
         "wins": 6
       }
     },
@@ -3919,10 +3919,10 @@
       ],
       "starters": [
         {
-          "player_id": "4943",
-          "name": "Sam Darnold",
+          "player_id": "11560",
+          "name": "Caleb Williams",
           "position": "QB",
-          "team": "SEA",
+          "team": "CHI",
           "status": "Active"
         },
         {
@@ -3940,10 +3940,10 @@
           "status": "Active"
         },
         {
-          "player_id": "5967",
-          "name": "Tony Pollard",
+          "player_id": "8132",
+          "name": "Tyler Allgeier",
           "position": "RB",
-          "team": "TEN",
+          "team": "ARI",
           "status": "Active"
         },
         {
@@ -3998,13 +3998,6 @@
       ],
       "bench": [
         {
-          "player_id": "11560",
-          "name": "Caleb Williams",
-          "position": "QB",
-          "team": "CHI",
-          "status": "Active"
-        },
-        {
           "player_id": "11643",
           "name": "Jaylen Wright",
           "position": "RB",
@@ -4023,6 +4016,13 @@
           "name": "Makai Lemon",
           "position": "WR",
           "team": "PHI",
+          "status": "Active"
+        },
+        {
+          "player_id": "4943",
+          "name": "Sam Darnold",
+          "position": "QB",
+          "team": "SEA",
           "status": "Active"
         },
         {
@@ -4047,10 +4047,10 @@
           "status": "Active"
         },
         {
-          "player_id": "8132",
-          "name": "Tyler Allgeier",
+          "player_id": "5967",
+          "name": "Tony Pollard",
           "position": "RB",
-          "team": "ARI",
+          "team": "TEN",
           "status": "Active"
         },
         {
@@ -4119,7 +4119,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 6,
-        "waiver_position": 3,
+        "waiver_position": 2,
         "wins": 7
       }
     },
@@ -4514,7 +4514,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 2,
-        "waiver_position": 7,
+        "waiver_position": 4,
         "wins": 15
       }
     }
