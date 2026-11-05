@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-11-05T03:03:51.817863+00:00",
+  "generated_at_utc": "2026-11-05T10:50:42.133196+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-11-05T03:03:51.817863+00:00",
+    "generated_at_utc": "2026-11-05T10:50:42.133196+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -143,19 +143,22 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1423792803242074112",
-    "draft_id": "1332851598610690048",
+    "last_message_id": "1423926239789338624",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1793821166385,
+    "last_message_time": 1793852980138,
     "last_pinned_message_id": null,
     "last_read_id": null,
+    "draft_id": "1332851598610690048",
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
     "roster_positions": [
       "QB",
       "QB",
@@ -179,9 +182,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
@@ -3749,17 +3749,17 @@
           "status": "Active"
         },
         {
-          "player_id": "11643",
-          "name": "Jaylen Wright",
-          "position": "RB",
-          "team": "MIA",
-          "status": "Active"
-        },
-        {
           "player_id": "1166",
           "name": "Kirk Cousins",
           "position": "QB",
           "team": "LV",
+          "status": "Active"
+        },
+        {
+          "player_id": "11729",
+          "name": "Sione Vaki",
+          "position": "RB",
+          "team": "DET",
           "status": "Active"
         },
         {
@@ -3805,10 +3805,10 @@
           "status": "Active"
         },
         {
-          "player_id": "13545",
-          "name": "Trey Smack",
+          "player_id": "2020",
+          "name": "Cairo Santos",
           "position": "K",
-          "team": "GB",
+          "team": "CHI",
           "status": "Active"
         },
         {
@@ -3982,10 +3982,10 @@
           "status": "Active"
         },
         {
-          "player_id": "13545",
-          "name": "Trey Smack",
+          "player_id": "2020",
+          "name": "Cairo Santos",
           "position": "K",
-          "team": "GB",
+          "team": "CHI",
           "status": "Active"
         },
         {
@@ -3998,10 +3998,10 @@
       ],
       "bench": [
         {
-          "player_id": "11643",
-          "name": "Jaylen Wright",
+          "player_id": "11729",
+          "name": "Sione Vaki",
           "position": "RB",
-          "team": "MIA",
+          "team": "DET",
           "status": "Active"
         },
         {
