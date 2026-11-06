@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-11-05T23:47:14.469331+00:00",
+  "generated_at_utc": "2026-11-06T04:51:04.676288+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-11-05T23:47:14.469331+00:00",
+    "generated_at_utc": "2026-11-06T04:51:04.676288+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -84,10 +84,11 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 697,
-    "season": "2026",
-    "season_type": "regular",
     "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
+    "shard": 697,
+    "last_message_id": "1424226947323408384",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -143,19 +144,23 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1424182886742884352",
+    "draft_id": "1332851598610690048",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1793914169539,
+    "last_message_time": 1793924674400,
     "last_pinned_message_id": null,
-    "draft_id": "1332851598610690048",
     "last_read_id": null,
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
+    "group_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "QB",
@@ -179,11 +184,6 @@
       "BN",
       "BN"
     ],
-    "group_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "my_roster": {
@@ -1851,13 +1851,6 @@
           "status": "Active"
         },
         {
-          "player_id": "3321",
-          "name": "Tyreek Hill",
-          "position": "WR",
-          "team": null,
-          "status": "Active"
-        },
-        {
           "player_id": "4227",
           "name": "Harrison Butker",
           "position": "K",
@@ -1993,10 +1986,10 @@
           "status": "Active"
         },
         {
-          "player_id": "3214",
-          "name": "Hunter Henry",
+          "player_id": "12517",
+          "name": "Colston Loveland",
           "position": "TE",
-          "team": "NE",
+          "team": "CHI",
           "status": "Active"
         },
         {
@@ -2007,10 +2000,10 @@
           "status": "Active"
         },
         {
-          "player_id": "8126",
-          "name": "Wan'Dale Robinson",
-          "position": "WR",
-          "team": "TEN",
+          "player_id": "4866",
+          "name": "Saquon Barkley",
+          "position": "RB",
+          "team": "PHI",
           "status": "Active"
         },
         {
@@ -2044,17 +2037,10 @@
           "status": "Active"
         },
         {
-          "player_id": "12517",
-          "name": "Colston Loveland",
+          "player_id": "3214",
+          "name": "Hunter Henry",
           "position": "TE",
-          "team": "CHI",
-          "status": "Active"
-        },
-        {
-          "player_id": "3321",
-          "name": "Tyreek Hill",
-          "position": "WR",
-          "team": null,
+          "team": "NE",
           "status": "Active"
         },
         {
@@ -2065,10 +2051,10 @@
           "status": "Active"
         },
         {
-          "player_id": "4866",
-          "name": "Saquon Barkley",
-          "position": "RB",
-          "team": "PHI",
+          "player_id": "5872",
+          "name": "Deebo Samuel",
+          "position": "WR",
+          "team": "SF",
           "status": "Active"
         },
         {
@@ -2083,6 +2069,13 @@
           "name": "Cade Otton",
           "position": "TE",
           "team": "TB",
+          "status": "Active"
+        },
+        {
+          "player_id": "8126",
+          "name": "Wan'Dale Robinson",
+          "position": "WR",
+          "team": "TEN",
           "status": "Active"
         },
         {
@@ -2123,15 +2116,7 @@
           "status": "Inactive"
         }
       ],
-      "reserve": [
-        {
-          "player_id": "5872",
-          "name": "Deebo Samuel",
-          "position": "WR",
-          "team": "SF",
-          "status": "Active"
-        }
-      ],
+      "reserve": [],
       "settings": {
         "division": 2,
         "fpts": 1279,
