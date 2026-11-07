@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-11-07T11:13:57.557468+00:00",
+  "generated_at_utc": "2026-11-07T16:51:08.063864+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-11-07T11:13:57.557468+00:00",
+    "generated_at_utc": "2026-11-07T16:51:08.063864+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -141,16 +141,16 @@
     },
     "season": "2026",
     "season_type": "regular",
-    "shard": 697,
     "sport": "nfl",
-    "last_message_id": "1424226947323408384",
+    "shard": 697,
+    "last_message_id": "1424805659639128064",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1793924674400,
+    "last_message_time": 1794062650169,
     "last_pinned_message_id": null,
     "last_read_id": null,
     "draft_id": "1332851598610690048",
@@ -368,10 +368,10 @@
         "status": "Active"
       },
       {
-        "player_id": "CIN",
-        "name": "Cincinnati Bengals",
+        "player_id": "NO",
+        "name": "New Orleans Saints",
         "position": "DEF",
-        "team": "CIN",
+        "team": "NO",
         "status": null
       }
     ],
@@ -447,10 +447,10 @@
         "status": "Active"
       },
       {
-        "player_id": "CIN",
-        "name": "Cincinnati Bengals",
+        "player_id": "NO",
+        "name": "New Orleans Saints",
         "position": "DEF",
-        "team": "CIN",
+        "team": "NO",
         "status": null
       }
     ],
@@ -794,10 +794,10 @@
           "status": "Active"
         },
         {
-          "player_id": "12512",
-          "name": "Quinshon Judkins",
+          "player_id": "9224",
+          "name": "Chase Brown",
           "position": "RB",
-          "team": "CLE",
+          "team": "CIN",
           "status": "Active"
         },
         {
@@ -829,10 +829,10 @@
           "status": "Active"
         },
         {
-          "player_id": "9224",
-          "name": "Chase Brown",
+          "player_id": "12512",
+          "name": "Quinshon Judkins",
           "position": "RB",
-          "team": "CIN",
+          "team": "CLE",
           "status": "Active"
         },
         {
@@ -1159,10 +1159,10 @@
           "status": "Active"
         },
         {
-          "player_id": "CIN",
-          "name": "Cincinnati Bengals",
+          "player_id": "NO",
+          "name": "New Orleans Saints",
           "position": "DEF",
-          "team": "CIN",
+          "team": "NO",
           "status": null
         }
       ],
@@ -1238,10 +1238,10 @@
           "status": "Active"
         },
         {
-          "player_id": "CIN",
-          "name": "Cincinnati Bengals",
+          "player_id": "NO",
+          "name": "New Orleans Saints",
           "position": "DEF",
-          "team": "CIN",
+          "team": "NO",
           "status": null
         }
       ],
