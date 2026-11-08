@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-11-07T23:57:51.864063+00:00",
+  "generated_at_utc": "2026-11-08T05:07:47.601645+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-11-07T23:57:51.864063+00:00",
+    "generated_at_utc": "2026-11-08T05:07:47.601645+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -4348,17 +4348,17 @@
           "status": "Active"
         },
         {
+          "player_id": "4217",
+          "name": "George Kittle",
+          "position": "TE",
+          "team": "SF",
+          "status": "Active"
+        },
+        {
           "player_id": "12519",
           "name": "Luther Burden",
           "position": "WR",
           "team": "CHI",
-          "status": "Active"
-        },
-        {
-          "player_id": "5850",
-          "name": "Josh Jacobs",
-          "position": "RB",
-          "team": "GB",
           "status": "Active"
         },
         {
@@ -4406,10 +4406,10 @@
           "status": "Active"
         },
         {
-          "player_id": "4217",
-          "name": "George Kittle",
-          "position": "TE",
-          "team": "SF",
+          "player_id": "5850",
+          "name": "Josh Jacobs",
+          "position": "RB",
+          "team": "GB",
           "status": "Active"
         },
         {
