@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-11-08T11:54:56.568626+00:00",
+  "generated_at_utc": "2026-11-08T17:31:20.575760+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-11-08T11:54:56.568626+00:00",
+    "generated_at_utc": "2026-11-08T17:31:20.575760+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -88,6 +88,7 @@
     "season": "2026",
     "season_type": "regular",
     "sport": "nfl",
+    "last_message_id": "1425203502510022656",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -143,14 +144,13 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1424805659639128064",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1794062650169,
+    "last_message_time": 1794157503300,
     "last_pinned_message_id": null,
     "last_read_id": null,
     "draft_id": "1332851598610690048",
@@ -354,13 +354,6 @@
         "status": "Active"
       },
       {
-        "player_id": "9757",
-        "name": "Kendre Miller",
-        "position": "RB",
-        "team": "NO",
-        "status": "Active"
-      },
-      {
         "player_id": "9997",
         "name": "Zay Flowers",
         "position": "WR",
@@ -398,10 +391,10 @@
         "status": "Active"
       },
       {
-        "player_id": "12495",
-        "name": "Ollie Gordon",
+        "player_id": "13345",
+        "name": "Jonah Coleman",
         "position": "RB",
-        "team": "MIA",
+        "team": "DEN",
         "status": "Active"
       },
       {
@@ -463,6 +456,13 @@
         "status": "Active"
       },
       {
+        "player_id": "12495",
+        "name": "Ollie Gordon",
+        "position": "RB",
+        "team": "MIA",
+        "status": "Active"
+      },
+      {
         "player_id": "13311",
         "name": "Chris Bell",
         "position": "WR",
@@ -517,13 +517,6 @@
         "position": "QB",
         "team": "PIT",
         "status": "Active"
-      },
-      {
-        "player_id": "9757",
-        "name": "Kendre Miller",
-        "position": "RB",
-        "team": "NO",
-        "status": "Active"
       }
     ],
     "taxi": [
@@ -532,13 +525,6 @@
         "name": "Cade Klubnik",
         "position": "QB",
         "team": "NYJ",
-        "status": "Active"
-      },
-      {
-        "player_id": "13345",
-        "name": "Jonah Coleman",
-        "position": "RB",
-        "team": "DEN",
         "status": "Active"
       },
       {
@@ -1145,13 +1131,6 @@
           "status": "Active"
         },
         {
-          "player_id": "9757",
-          "name": "Kendre Miller",
-          "position": "RB",
-          "team": "NO",
-          "status": "Active"
-        },
-        {
           "player_id": "9997",
           "name": "Zay Flowers",
           "position": "WR",
@@ -1189,10 +1168,10 @@
           "status": "Active"
         },
         {
-          "player_id": "12495",
-          "name": "Ollie Gordon",
+          "player_id": "13345",
+          "name": "Jonah Coleman",
           "position": "RB",
-          "team": "MIA",
+          "team": "DEN",
           "status": "Active"
         },
         {
@@ -1254,6 +1233,13 @@
           "status": "Active"
         },
         {
+          "player_id": "12495",
+          "name": "Ollie Gordon",
+          "position": "RB",
+          "team": "MIA",
+          "status": "Active"
+        },
+        {
           "player_id": "13311",
           "name": "Chris Bell",
           "position": "WR",
@@ -1308,13 +1294,6 @@
           "position": "QB",
           "team": "PIT",
           "status": "Active"
-        },
-        {
-          "player_id": "9757",
-          "name": "Kendre Miller",
-          "position": "RB",
-          "team": "NO",
-          "status": "Active"
         }
       ],
       "taxi": [
@@ -1323,13 +1302,6 @@
           "name": "Cade Klubnik",
           "position": "QB",
           "team": "NYJ",
-          "status": "Active"
-        },
-        {
-          "player_id": "13345",
-          "name": "Jonah Coleman",
-          "position": "RB",
-          "team": "DEN",
           "status": "Active"
         },
         {
@@ -2359,10 +2331,10 @@
           "status": "Active"
         },
         {
-          "player_id": "8137",
-          "name": "George Pickens",
+          "player_id": "7569",
+          "name": "Nico Collins",
           "position": "WR",
-          "team": "DAL",
+          "team": "HOU",
           "status": "Active"
         },
         {
@@ -2373,10 +2345,10 @@
           "status": "Active"
         },
         {
-          "player_id": "7569",
-          "name": "Nico Collins",
-          "position": "WR",
-          "team": "HOU",
+          "player_id": "8408",
+          "name": "Jordan Mason",
+          "position": "RB",
+          "team": "MIN",
           "status": "Active"
         },
         {
@@ -2459,17 +2431,17 @@
           "status": "Active"
         },
         {
+          "player_id": "8137",
+          "name": "George Pickens",
+          "position": "WR",
+          "team": "DAL",
+          "status": "Active"
+        },
+        {
           "player_id": "8146",
           "name": "Garrett Wilson",
           "position": "WR",
           "team": "NYJ",
-          "status": "Active"
-        },
-        {
-          "player_id": "8408",
-          "name": "Jordan Mason",
-          "position": "RB",
-          "team": "MIN",
           "status": "Active"
         }
       ],
