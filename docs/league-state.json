@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-11-10T16:44:36.194008+00:00",
+  "generated_at_utc": "2026-11-10T21:58:27.415136+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-11-10T16:44:36.194008+00:00",
+    "generated_at_utc": "2026-11-10T21:58:27.415136+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -30,7 +30,7 @@
     },
     "settings": {
       "best_ball": 0,
-      "last_report": 8,
+      "last_report": 9,
       "waiver_budget": 100,
       "disable_adds": 0,
       "divisions": 0,
@@ -84,6 +84,10 @@
     },
     "avatar": null,
     "company_id": null,
+    "shard": 697,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -139,21 +143,17 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "shard": 697,
-    "sport": "nfl",
-    "last_message_id": "1425312867485335552",
+    "last_message_id": "1425930691819876352",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1794183577942,
+    "last_message_time": 1794330878743,
     "last_pinned_message_id": null,
-    "draft_id": "1332851598610690048",
     "last_read_id": null,
+    "draft_id": "1332851598610690048",
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
     "roster_positions": [
@@ -3495,17 +3495,17 @@
           "status": "Active"
         },
         {
-          "player_id": "7611",
-          "name": "Rhamondre Stevenson",
+          "player_id": "11586",
+          "name": "Blake Corum",
           "position": "RB",
-          "team": "NE",
+          "team": "LAR",
           "status": "Active"
         },
         {
-          "player_id": "6790",
-          "name": "D'Andre Swift",
+          "player_id": "11647",
+          "name": "Kimani Vidal",
           "position": "RB",
-          "team": "CHI",
+          "team": "LAC",
           "status": "Active"
         },
         {
@@ -3530,10 +3530,10 @@
           "status": "Active"
         },
         {
-          "player_id": "11586",
-          "name": "Blake Corum",
-          "position": "RB",
-          "team": "LAR",
+          "player_id": "11637",
+          "name": "Keon Coleman",
+          "position": "WR",
+          "team": "BUF",
           "status": "Active"
         },
         {
@@ -3559,20 +3559,6 @@
         }
       ],
       "bench": [
-        {
-          "player_id": "11637",
-          "name": "Keon Coleman",
-          "position": "WR",
-          "team": "BUF",
-          "status": "Active"
-        },
-        {
-          "player_id": "11647",
-          "name": "Kimani Vidal",
-          "position": "RB",
-          "team": "LAC",
-          "status": "Active"
-        },
         {
           "player_id": "12530",
           "name": "Travis Hunter",
@@ -3606,6 +3592,20 @@
           "name": "Lamar Jackson",
           "position": "QB",
           "team": "BAL",
+          "status": "Active"
+        },
+        {
+          "player_id": "6790",
+          "name": "D'Andre Swift",
+          "position": "RB",
+          "team": "CHI",
+          "status": "Active"
+        },
+        {
+          "player_id": "7611",
+          "name": "Rhamondre Stevenson",
+          "position": "RB",
+          "team": "NE",
           "status": "Active"
         },
         {
@@ -3876,17 +3876,17 @@
       ],
       "starters": [
         {
-          "player_id": "11560",
-          "name": "Caleb Williams",
-          "position": "QB",
-          "team": "CHI",
-          "status": "Active"
-        },
-        {
           "player_id": "1166",
           "name": "Kirk Cousins",
           "position": "QB",
           "team": "LV",
+          "status": "Active"
+        },
+        {
+          "player_id": "5870",
+          "name": "Daniel Jones",
+          "position": "QB",
+          "team": "IND",
           "status": "Active"
         },
         {
@@ -3897,10 +3897,10 @@
           "status": "Active"
         },
         {
-          "player_id": "8132",
-          "name": "Tyler Allgeier",
+          "player_id": "5967",
+          "name": "Tony Pollard",
           "position": "RB",
-          "team": "ARI",
+          "team": "TEN",
           "status": "Active"
         },
         {
@@ -3925,10 +3925,10 @@
           "status": "Active"
         },
         {
-          "player_id": "11620",
-          "name": "Rome Odunze",
-          "position": "WR",
-          "team": "CHI",
+          "player_id": "9753",
+          "name": "Zach Charbonnet",
+          "position": "RB",
+          "team": "SEA",
           "status": "Active"
         },
         {
@@ -3954,6 +3954,20 @@
         }
       ],
       "bench": [
+        {
+          "player_id": "11560",
+          "name": "Caleb Williams",
+          "position": "QB",
+          "team": "CHI",
+          "status": "Active"
+        },
+        {
+          "player_id": "11620",
+          "name": "Rome Odunze",
+          "position": "WR",
+          "team": "CHI",
+          "status": "Active"
+        },
         {
           "player_id": "11729",
           "name": "Sione Vaki",
@@ -3990,13 +4004,6 @@
           "status": "Active"
         },
         {
-          "player_id": "5870",
-          "name": "Daniel Jones",
-          "position": "QB",
-          "team": "IND",
-          "status": "Active"
-        },
-        {
           "player_id": "5947",
           "name": "Jakobi Meyers",
           "position": "WR",
@@ -4004,10 +4011,10 @@
           "status": "Active"
         },
         {
-          "player_id": "5967",
-          "name": "Tony Pollard",
+          "player_id": "8132",
+          "name": "Tyler Allgeier",
           "position": "RB",
-          "team": "TEN",
+          "team": "ARI",
           "status": "Active"
         },
         {
@@ -4015,13 +4022,6 @@
           "name": "Khalil Shakir",
           "position": "WR",
           "team": "BUF",
-          "status": "Active"
-        },
-        {
-          "player_id": "9753",
-          "name": "Zach Charbonnet",
-          "position": "RB",
-          "team": "SEA",
           "status": "Active"
         }
       ],
