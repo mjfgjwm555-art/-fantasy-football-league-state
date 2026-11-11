@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-11-11T16:50:48.072718+00:00",
+  "generated_at_utc": "2026-11-11T23:16:30.059864+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-11-11T16:50:48.072718+00:00",
+    "generated_at_utc": "2026-11-11T23:16:30.059864+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -84,11 +84,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "last_message_id": "1426204824919093248",
-    "sport": "nfl",
-    "shard": 697,
-    "season": "2026",
-    "season_type": "regular",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -144,18 +139,28 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "draft_id": "1332851598610690048",
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 697,
+    "sport": "nfl",
+    "last_message_id": "1426302054296453120",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1794396237167,
+    "last_message_time": 1794419418456,
     "last_pinned_message_id": null,
+    "draft_id": "1332851598610690048",
+    "last_read_id": null,
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
-    "last_read_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "QB",
@@ -179,11 +184,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "my_roster": {
@@ -1372,6 +1372,13 @@
           "status": "Active"
         },
         {
+          "player_id": "12504",
+          "name": "Kaleb Johnson",
+          "position": "RB",
+          "team": "PIT",
+          "status": "Active"
+        },
+        {
           "player_id": "12506",
           "name": "Harold Fannin",
           "position": "TE",
@@ -1519,13 +1526,6 @@
           "status": "Active"
         },
         {
-          "player_id": "BUF",
-          "name": "Buffalo Bills",
-          "position": "DEF",
-          "team": "BUF",
-          "status": null
-        },
-        {
           "player_id": "GB",
           "name": "Green Bay Packers",
           "position": "DEF",
@@ -1614,6 +1614,13 @@
       ],
       "bench": [
         {
+          "player_id": "12504",
+          "name": "Kaleb Johnson",
+          "position": "RB",
+          "team": "PIT",
+          "status": "Active"
+        },
+        {
           "player_id": "12529",
           "name": "TreVeyon Henderson",
           "position": "RB",
@@ -1675,13 +1682,6 @@
           "position": "WR",
           "team": "LAC",
           "status": "Active"
-        },
-        {
-          "player_id": "BUF",
-          "name": "Buffalo Bills",
-          "position": "DEF",
-          "team": "BUF",
-          "status": null
         }
       ],
       "taxi": [
@@ -3056,13 +3056,6 @@
           "status": "Active"
         },
         {
-          "player_id": "9225",
-          "name": "Tank Bigsby",
-          "position": "RB",
-          "team": "PHI",
-          "status": "Active"
-        },
-        {
           "player_id": "9229",
           "name": "Anthony Richardson",
           "position": "QB",
@@ -3121,13 +3114,6 @@
           "status": "Active"
         },
         {
-          "player_id": "10232",
-          "name": "Michael Wilson",
-          "position": "WR",
-          "team": "ARI",
-          "status": "Active"
-        },
-        {
           "player_id": "2505",
           "name": "Darren Waller",
           "position": "TE",
@@ -3164,6 +3150,13 @@
         }
       ],
       "bench": [
+        {
+          "player_id": "10232",
+          "name": "Michael Wilson",
+          "position": "WR",
+          "team": "ARI",
+          "status": "Active"
+        },
         {
           "player_id": "11581",
           "name": "MarShawn Lloyd",
@@ -3264,13 +3257,6 @@
           "name": "Alec Pierce",
           "position": "WR",
           "team": "IND",
-          "status": "Active"
-        },
-        {
-          "player_id": "9225",
-          "name": "Tank Bigsby",
-          "position": "RB",
-          "team": "PHI",
           "status": "Active"
         }
       ],
