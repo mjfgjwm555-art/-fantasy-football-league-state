@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-11-11T08:46:30.556071+00:00",
+  "generated_at_utc": "2026-11-11T16:50:48.072718+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-11-11T08:46:30.556071+00:00",
+    "generated_at_utc": "2026-11-11T16:50:48.072718+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -84,10 +84,11 @@
     },
     "avatar": null,
     "company_id": null,
+    "last_message_id": "1426204824919093248",
     "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
     "shard": 697,
+    "season": "2026",
+    "season_type": "regular",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -143,19 +144,18 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1426157133371576320",
+    "draft_id": "1332851598610690048",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1794384866615,
+    "last_message_time": 1794396237167,
     "last_pinned_message_id": null,
-    "last_read_id": null,
-    "draft_id": "1332851598610690048",
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
+    "last_read_id": null,
     "roster_positions": [
       "QB",
       "QB",
@@ -1365,13 +1365,6 @@
           "status": "Active"
         },
         {
-          "player_id": "12471",
-          "name": "DJ Giddens",
-          "position": "RB",
-          "team": "IND",
-          "status": "Active"
-        },
-        {
           "player_id": "12501",
           "name": "Matthew Golden",
           "position": "WR",
@@ -1526,6 +1519,13 @@
           "status": "Active"
         },
         {
+          "player_id": "BUF",
+          "name": "Buffalo Bills",
+          "position": "DEF",
+          "team": "BUF",
+          "status": null
+        },
+        {
           "player_id": "GB",
           "name": "Green Bay Packers",
           "position": "DEF",
@@ -1614,13 +1614,6 @@
       ],
       "bench": [
         {
-          "player_id": "12471",
-          "name": "DJ Giddens",
-          "position": "RB",
-          "team": "IND",
-          "status": "Active"
-        },
-        {
           "player_id": "12529",
           "name": "TreVeyon Henderson",
           "position": "RB",
@@ -1682,6 +1675,13 @@
           "position": "WR",
           "team": "LAC",
           "status": "Active"
+        },
+        {
+          "player_id": "BUF",
+          "name": "Buffalo Bills",
+          "position": "DEF",
+          "team": "BUF",
+          "status": null
         }
       ],
       "taxi": [
@@ -2296,10 +2296,10 @@
       ],
       "starters": [
         {
-          "player_id": "5854",
-          "name": "Drew Lock",
+          "player_id": "12522",
+          "name": "Cam Ward",
           "position": "QB",
-          "team": "SEA",
+          "team": "TEN",
           "status": "Active"
         },
         {
@@ -2310,10 +2310,10 @@
           "status": "Active"
         },
         {
-          "player_id": "7588",
-          "name": "Javonte Williams",
+          "player_id": "8408",
+          "name": "Jordan Mason",
           "position": "RB",
-          "team": "DAL",
+          "team": "MIN",
           "status": "Active"
         },
         {
@@ -2338,10 +2338,10 @@
           "status": "Active"
         },
         {
-          "player_id": "10859",
-          "name": "Sam LaPorta",
+          "player_id": "12493",
+          "name": "Oronde Gadsden",
           "position": "TE",
-          "team": "DET",
+          "team": "LAC",
           "status": "Active"
         },
         {
@@ -2375,17 +2375,17 @@
       ],
       "bench": [
         {
+          "player_id": "10859",
+          "name": "Sam LaPorta",
+          "position": "TE",
+          "team": "DET",
+          "status": "Active"
+        },
+        {
           "player_id": "12489",
           "name": "RJ Harvey",
           "position": "RB",
           "team": "DEN",
-          "status": "Active"
-        },
-        {
-          "player_id": "12493",
-          "name": "Oronde Gadsden",
-          "position": "TE",
-          "team": "LAC",
           "status": "Active"
         },
         {
@@ -2403,13 +2403,6 @@
           "status": "Active"
         },
         {
-          "player_id": "12522",
-          "name": "Cam Ward",
-          "position": "QB",
-          "team": "TEN",
-          "status": "Active"
-        },
-        {
           "player_id": "5045",
           "name": "Courtland Sutton",
           "position": "WR",
@@ -2421,6 +2414,13 @@
           "name": "Kyler Murray",
           "position": "QB",
           "team": "MIN",
+          "status": "Active"
+        },
+        {
+          "player_id": "5854",
+          "name": "Drew Lock",
+          "position": "QB",
+          "team": "SEA",
           "status": "Active"
         },
         {
@@ -2438,10 +2438,10 @@
           "status": "Active"
         },
         {
-          "player_id": "8408",
-          "name": "Jordan Mason",
+          "player_id": "7588",
+          "name": "Javonte Williams",
           "position": "RB",
-          "team": "MIN",
+          "team": "DAL",
           "status": "Active"
         }
       ],
@@ -4334,10 +4334,10 @@
           "status": "Active"
         },
         {
-          "player_id": "6650",
-          "name": "Chase McLaughlin",
+          "player_id": "7042",
+          "name": "Tyler Bass",
           "position": "K",
-          "team": "TB",
+          "team": "BUF",
           "status": "Active"
         },
         {
@@ -4378,17 +4378,17 @@
           "status": "Active"
         },
         {
+          "player_id": "6650",
+          "name": "Chase McLaughlin",
+          "position": "K",
+          "team": "TB",
+          "status": "Active"
+        },
+        {
           "player_id": "6768",
           "name": "Tua Tagovailoa",
           "position": "QB",
           "team": "ATL",
-          "status": "Active"
-        },
-        {
-          "player_id": "7042",
-          "name": "Tyler Bass",
-          "position": "K",
-          "team": "BUF",
           "status": "Active"
         },
         {
