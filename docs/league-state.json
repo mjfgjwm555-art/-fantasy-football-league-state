@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-11-11T01:45:41.589762+00:00",
+  "generated_at_utc": "2026-11-11T08:46:30.556071+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-11-11T01:45:41.589762+00:00",
+    "generated_at_utc": "2026-11-11T08:46:30.556071+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -16,7 +16,7 @@
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
-    "display_week": 9,
+    "display_week": 10,
     "league_create_season": "2026",
     "season_has_scores": true
   },
@@ -77,7 +77,7 @@
       "trade_review_days": 0,
       "bench_lock": 1,
       "offseason_adds": 1,
-      "leg": 9,
+      "leg": 10,
       "reserve_slots": 2,
       "reserve_allow_cov": 1,
       "daily_waivers_last_ran": 9
@@ -143,24 +143,19 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1425930691819876352",
+    "last_message_id": "1426157133371576320",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1794330878743,
+    "last_message_time": 1794384866615,
     "last_pinned_message_id": null,
     "last_read_id": null,
     "draft_id": "1332851598610690048",
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "QB",
@@ -184,6 +179,11 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "my_roster": {
@@ -563,7 +563,7 @@
       "ties": 0,
       "total_moves": 0,
       "waiver_budget_used": 56,
-      "waiver_position": 5,
+      "waiver_position": 2,
       "wins": 16
     }
   },
@@ -959,7 +959,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 20,
-        "waiver_position": 7,
+        "waiver_position": 4,
         "wins": 12
       }
     },
@@ -1340,7 +1340,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 56,
-        "waiver_position": 5,
+        "waiver_position": 2,
         "wins": 16
       }
     },
@@ -1735,7 +1735,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 59,
-        "waiver_position": 8,
+        "waiver_position": 5,
         "wins": 15
       }
     },
@@ -2154,6 +2154,13 @@
           "status": "Active"
         },
         {
+          "player_id": "12494",
+          "name": "Kyle McCord",
+          "position": "QB",
+          "team": "GB",
+          "status": "Active"
+        },
+        {
           "player_id": "12509",
           "name": "Tre' Harris",
           "position": "WR",
@@ -2200,13 +2207,6 @@
           "name": "Emmett Johnson",
           "position": "RB",
           "team": "KC",
-          "status": "Active"
-        },
-        {
-          "player_id": "3161",
-          "name": "Carson Wentz",
-          "position": "QB",
-          "team": "MIN",
           "status": "Active"
         },
         {
@@ -2303,10 +2303,10 @@
           "status": "Active"
         },
         {
-          "player_id": "3161",
-          "name": "Carson Wentz",
+          "player_id": "12494",
+          "name": "Kyle McCord",
           "position": "QB",
-          "team": "MIN",
+          "team": "GB",
           "status": "Active"
         },
         {
@@ -2324,10 +2324,10 @@
           "status": "Active"
         },
         {
-          "player_id": "12514",
-          "name": "Emeka Egbuka",
+          "player_id": "8146",
+          "name": "Garrett Wilson",
           "position": "WR",
-          "team": "TB",
+          "team": "NYJ",
           "status": "Active"
         },
         {
@@ -2345,10 +2345,10 @@
           "status": "Active"
         },
         {
-          "player_id": "8408",
-          "name": "Jordan Mason",
-          "position": "RB",
-          "team": "MIN",
+          "player_id": "8137",
+          "name": "George Pickens",
+          "position": "WR",
+          "team": "DAL",
           "status": "Active"
         },
         {
@@ -2396,6 +2396,13 @@
           "status": "Active"
         },
         {
+          "player_id": "12514",
+          "name": "Emeka Egbuka",
+          "position": "WR",
+          "team": "TB",
+          "status": "Active"
+        },
+        {
           "player_id": "12522",
           "name": "Cam Ward",
           "position": "QB",
@@ -2431,17 +2438,10 @@
           "status": "Active"
         },
         {
-          "player_id": "8137",
-          "name": "George Pickens",
-          "position": "WR",
-          "team": "DAL",
-          "status": "Active"
-        },
-        {
-          "player_id": "8146",
-          "name": "Garrett Wilson",
-          "position": "WR",
-          "team": "NYJ",
+          "player_id": "8408",
+          "name": "Jordan Mason",
+          "position": "RB",
+          "team": "MIN",
           "status": "Active"
         }
       ],
@@ -2495,8 +2495,8 @@
         "ppts_decimal": 88,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 26,
-        "waiver_position": 3,
+        "waiver_budget_used": 54,
+        "waiver_position": 8,
         "wins": 5
       }
     },
@@ -2891,7 +2891,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 14,
-        "waiver_position": 6,
+        "waiver_position": 3,
         "wins": 3
       }
     },
@@ -2955,6 +2955,13 @@
           "name": "Dylan Sampson",
           "position": "RB",
           "team": "CLE",
+          "status": "Active"
+        },
+        {
+          "player_id": "12491",
+          "name": "Corey Kiner",
+          "position": "RB",
+          "team": "NE",
           "status": "Active"
         },
         {
@@ -3039,13 +3046,6 @@
           "name": "Kenny Gainwell",
           "position": "RB",
           "team": "TB",
-          "status": "Active"
-        },
-        {
-          "player_id": "8135",
-          "name": "Treylon Burks",
-          "position": "WR",
-          "team": "WAS",
           "status": "Active"
         },
         {
@@ -3179,6 +3179,13 @@
           "status": "Active"
         },
         {
+          "player_id": "12491",
+          "name": "Corey Kiner",
+          "position": "RB",
+          "team": "NE",
+          "status": "Active"
+        },
+        {
           "player_id": "13285",
           "name": "Malachi Fields",
           "position": "WR",
@@ -3211,13 +3218,6 @@
           "name": "Kenny Gainwell",
           "position": "RB",
           "team": "TB",
-          "status": "Active"
-        },
-        {
-          "player_id": "8135",
-          "name": "Treylon Burks",
-          "position": "WR",
-          "team": "WAS",
           "status": "Active"
         },
         {
@@ -3285,8 +3285,8 @@
         "ppts_decimal": 2,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 35,
-        "waiver_position": 10,
+        "waiver_budget_used": 100,
+        "waiver_position": 7,
         "wins": 1
       }
     },
@@ -3681,7 +3681,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 37,
-        "waiver_position": 9,
+        "waiver_position": 6,
         "wins": 7
       }
     },
@@ -3727,10 +3727,10 @@
           "status": "Active"
         },
         {
-          "player_id": "12536",
-          "name": "Jaylin Noel",
+          "player_id": "12492",
+          "name": "Pat Bryant",
           "position": "WR",
-          "team": "HOU",
+          "team": "DEN",
           "status": "Active"
         },
         {
@@ -3762,13 +3762,6 @@
           "status": "Active"
         },
         {
-          "player_id": "2020",
-          "name": "Cairo Santos",
-          "position": "K",
-          "team": "CHI",
-          "status": "Active"
-        },
-        {
           "player_id": "4943",
           "name": "Sam Darnold",
           "position": "QB",
@@ -3780,6 +3773,13 @@
           "name": "Dallas Goedert",
           "position": "TE",
           "team": "PHI",
+          "status": "Active"
+        },
+        {
+          "player_id": "5189",
+          "name": "Eddy Pineiro",
+          "position": "K",
+          "team": "SF",
           "status": "Active"
         },
         {
@@ -3939,13 +3939,6 @@
           "status": "Active"
         },
         {
-          "player_id": "2020",
-          "name": "Cairo Santos",
-          "position": "K",
-          "team": "CHI",
-          "status": "Active"
-        },
-        {
           "player_id": "SEA",
           "name": "Seattle Seahawks",
           "position": "DEF",
@@ -3976,10 +3969,10 @@
           "status": "Active"
         },
         {
-          "player_id": "12536",
-          "name": "Jaylin Noel",
+          "player_id": "12492",
+          "name": "Pat Bryant",
           "position": "WR",
-          "team": "HOU",
+          "team": "DEN",
           "status": "Active"
         },
         {
@@ -4001,6 +3994,13 @@
           "name": "Dallas Goedert",
           "position": "TE",
           "team": "PHI",
+          "status": "Active"
+        },
+        {
+          "player_id": "5189",
+          "name": "Eddy Pineiro",
+          "position": "K",
+          "team": "SF",
           "status": "Active"
         },
         {
@@ -4075,8 +4075,8 @@
         "ppts_decimal": 64,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 6,
-        "waiver_position": 2,
+        "waiver_budget_used": 15,
+        "waiver_position": 9,
         "wins": 7
       }
     },
@@ -4143,13 +4143,6 @@
           "status": "Active"
         },
         {
-          "player_id": "13350",
-          "name": "Joe Fagnano",
-          "position": "QB",
-          "team": "BAL",
-          "status": "Active"
-        },
-        {
           "player_id": "13421",
           "name": "Eli Raridon",
           "position": "TE",
@@ -4196,6 +4189,13 @@
           "name": "Tua Tagovailoa",
           "position": "QB",
           "team": "ATL",
+          "status": "Active"
+        },
+        {
+          "player_id": "7042",
+          "name": "Tyler Bass",
+          "position": "K",
+          "team": "BUF",
           "status": "Active"
         },
         {
@@ -4299,17 +4299,17 @@
           "status": "Active"
         },
         {
-          "player_id": "9493",
-          "name": "Puka Nacua",
-          "position": "WR",
-          "team": "LAR",
-          "status": "Active"
-        },
-        {
           "player_id": "7564",
           "name": "Ja'Marr Chase",
           "position": "WR",
           "team": "CIN",
+          "status": "Active"
+        },
+        {
+          "player_id": "11610",
+          "name": "Malik Washington",
+          "position": "WR",
+          "team": "MIA",
           "status": "Active"
         },
         {
@@ -4327,10 +4327,10 @@
           "status": "Active"
         },
         {
-          "player_id": "12519",
-          "name": "Luther Burden",
-          "position": "WR",
-          "team": "CHI",
+          "player_id": "8228",
+          "name": "Jaylen Warren",
+          "position": "RB",
+          "team": "PIT",
           "status": "Active"
         },
         {
@@ -4350,10 +4350,10 @@
       ],
       "bench": [
         {
-          "player_id": "11610",
-          "name": "Malik Washington",
+          "player_id": "12519",
+          "name": "Luther Burden",
           "position": "WR",
-          "team": "MIA",
+          "team": "CHI",
           "status": "Active"
         },
         {
@@ -4361,13 +4361,6 @@
           "name": "Carson Beck",
           "position": "QB",
           "team": "ARI",
-          "status": "Active"
-        },
-        {
-          "player_id": "13350",
-          "name": "Joe Fagnano",
-          "position": "QB",
-          "team": "BAL",
           "status": "Active"
         },
         {
@@ -4392,10 +4385,10 @@
           "status": "Active"
         },
         {
-          "player_id": "8228",
-          "name": "Jaylen Warren",
-          "position": "RB",
-          "team": "PIT",
+          "player_id": "7042",
+          "name": "Tyler Bass",
+          "position": "K",
+          "team": "BUF",
           "status": "Active"
         },
         {
@@ -4403,6 +4396,13 @@
           "name": "Michael Mayer",
           "position": "TE",
           "team": "LV",
+          "status": "Active"
+        },
+        {
+          "player_id": "9493",
+          "name": "Puka Nacua",
+          "position": "WR",
+          "team": "LAR",
           "status": "Active"
         },
         {
@@ -4471,7 +4471,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 2,
-        "waiver_position": 4,
+        "waiver_position": 10,
         "wins": 17
       }
     }
