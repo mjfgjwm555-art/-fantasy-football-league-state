@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-11-12T12:28:09.306074+00:00",
+  "generated_at_utc": "2026-11-12T20:17:54.927659+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-11-12T12:28:09.306074+00:00",
+    "generated_at_utc": "2026-11-12T20:17:54.927659+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -83,10 +83,13 @@
       "daily_waivers_last_ran": 9
     },
     "avatar": null,
-    "shard": 697,
-    "season": "2026",
-    "season_type": "regular",
+    "league_id": "1332851598593908736",
+    "company_id": null,
+    "last_message_id": "1426679961279811584",
     "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
+    "shard": 697,
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -142,25 +145,17 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1426385804132913152",
-    "company_id": null,
-    "draft_id": "1332851598610690048",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1794439385973,
+    "last_message_time": 1794509518503,
     "last_pinned_message_id": null,
     "last_read_id": null,
-    "league_id": "1332851598593908736",
+    "draft_id": "1332851598610690048",
     "previous_league_id": "1204162266396639232",
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "QB",
@@ -184,6 +179,11 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "my_roster": {
@@ -3297,6 +3297,13 @@
       "team_name": null,
       "players": [
         {
+          "player_id": "11579",
+          "name": "Audric Estime",
+          "position": "RB",
+          "team": "NO",
+          "status": "Active"
+        },
+        {
           "player_id": "11586",
           "name": "Blake Corum",
           "position": "RB",
@@ -3346,13 +3353,6 @@
           "status": "Active"
         },
         {
-          "player_id": "13277",
-          "name": "CJ Donaldson",
-          "position": "RB",
-          "team": "NO",
-          "status": "Active"
-        },
-        {
           "player_id": "13286",
           "name": "Jadarian Price",
           "position": "RB",
@@ -3367,6 +3367,13 @@
           "status": "Active"
         },
         {
+          "player_id": "13333",
+          "name": "Deion Burks",
+          "position": "WR",
+          "team": "IND",
+          "status": "Active"
+        },
+        {
           "player_id": "13417",
           "name": "De'Zhaun Stribling",
           "position": "WR",
@@ -3378,13 +3385,6 @@
           "name": "Geno Smith",
           "position": "QB",
           "team": "NYJ",
-          "status": "Active"
-        },
-        {
-          "player_id": "4033",
-          "name": "David Njoku",
-          "position": "TE",
-          "team": "LAC",
           "status": "Active"
         },
         {
@@ -3502,10 +3502,10 @@
           "status": "Active"
         },
         {
-          "player_id": "11647",
-          "name": "Kimani Vidal",
+          "player_id": "11579",
+          "name": "Audric Estime",
           "position": "RB",
-          "team": "LAC",
+          "team": "NO",
           "status": "Active"
         },
         {
@@ -3560,6 +3560,13 @@
       ],
       "bench": [
         {
+          "player_id": "11647",
+          "name": "Kimani Vidal",
+          "position": "RB",
+          "team": "LAC",
+          "status": "Active"
+        },
+        {
           "player_id": "12530",
           "name": "Travis Hunter",
           "position": "WR",
@@ -3574,10 +3581,10 @@
           "status": "Active"
         },
         {
-          "player_id": "13277",
-          "name": "CJ Donaldson",
-          "position": "RB",
-          "team": "NO",
+          "player_id": "13333",
+          "name": "Deion Burks",
+          "position": "WR",
+          "team": "IND",
           "status": "Active"
         },
         {
@@ -3585,13 +3592,6 @@
           "name": "Geno Smith",
           "position": "QB",
           "team": "NYJ",
-          "status": "Active"
-        },
-        {
-          "player_id": "4881",
-          "name": "Lamar Jackson",
-          "position": "QB",
-          "team": "BAL",
           "status": "Active"
         },
         {
@@ -3655,10 +3655,10 @@
       ],
       "reserve": [
         {
-          "player_id": "4033",
-          "name": "David Njoku",
-          "position": "TE",
-          "team": "LAC",
+          "player_id": "4881",
+          "name": "Lamar Jackson",
+          "position": "QB",
+          "team": "BAL",
           "status": "Active"
         },
         {
