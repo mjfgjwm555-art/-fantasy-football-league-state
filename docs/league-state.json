@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-11-11T23:16:30.059864+00:00",
+  "generated_at_utc": "2026-11-12T03:59:25.154273+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-11-11T23:16:30.059864+00:00",
+    "generated_at_utc": "2026-11-12T03:59:25.154273+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -83,7 +83,10 @@
       "daily_waivers_last_ran": 9
     },
     "avatar": null,
-    "company_id": null,
+    "shard": 697,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -139,20 +142,17 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "shard": 697,
-    "sport": "nfl",
-    "last_message_id": "1426302054296453120",
+    "last_message_id": "1426385804132913152",
+    "company_id": null,
+    "draft_id": "1332851598610690048",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1794419418456,
+    "last_message_time": 1794439385973,
     "last_pinned_message_id": null,
-    "draft_id": "1332851598610690048",
     "last_read_id": null,
     "league_id": "1332851598593908736",
     "previous_league_id": "1204162266396639232",
@@ -2965,6 +2965,13 @@
           "status": "Active"
         },
         {
+          "player_id": "12718",
+          "name": "Konata Mumpfield",
+          "position": "WR",
+          "team": "LAR",
+          "status": "Active"
+        },
+        {
           "player_id": "13276",
           "name": "Omar Cooper",
           "position": "WR",
@@ -3107,10 +3114,17 @@
           "status": "Active"
         },
         {
-          "player_id": "4037",
-          "name": "Chris Godwin",
+          "player_id": "11625",
+          "name": "Adonai Mitchell",
           "position": "WR",
-          "team": "TB",
+          "team": "NYJ",
+          "status": "Active"
+        },
+        {
+          "player_id": "12718",
+          "name": "Konata Mumpfield",
+          "position": "WR",
+          "team": "LAR",
           "status": "Active"
         },
         {
@@ -3128,10 +3142,10 @@
           "status": "Active"
         },
         {
-          "player_id": "11625",
-          "name": "Adonai Mitchell",
-          "position": "WR",
-          "team": "NYJ",
+          "player_id": "12491",
+          "name": "Corey Kiner",
+          "position": "RB",
+          "team": "NE",
           "status": "Active"
         },
         {
@@ -3151,13 +3165,6 @@
       ],
       "bench": [
         {
-          "player_id": "10232",
-          "name": "Michael Wilson",
-          "position": "WR",
-          "team": "ARI",
-          "status": "Active"
-        },
-        {
           "player_id": "11581",
           "name": "MarShawn Lloyd",
           "position": "RB",
@@ -3169,13 +3176,6 @@
           "name": "Marvin Harrison",
           "position": "WR",
           "team": "ARI",
-          "status": "Active"
-        },
-        {
-          "player_id": "12491",
-          "name": "Corey Kiner",
-          "position": "RB",
-          "team": "NE",
           "status": "Active"
         },
         {
@@ -3197,6 +3197,13 @@
           "name": "Alvin Kamara",
           "position": "RB",
           "team": "NO",
+          "status": "Active"
+        },
+        {
+          "player_id": "4037",
+          "name": "Chris Godwin",
+          "position": "WR",
+          "team": "TB",
           "status": "Active"
         },
         {
@@ -3252,6 +3259,13 @@
         }
       ],
       "reserve": [
+        {
+          "player_id": "10232",
+          "name": "Michael Wilson",
+          "position": "WR",
+          "team": "ARI",
+          "status": "Active"
+        },
         {
           "player_id": "8142",
           "name": "Alec Pierce",
@@ -3925,6 +3939,13 @@
           "status": "Active"
         },
         {
+          "player_id": "5189",
+          "name": "Eddy Pineiro",
+          "position": "K",
+          "team": "SF",
+          "status": "Active"
+        },
+        {
           "player_id": "SEA",
           "name": "Seattle Seahawks",
           "position": "DEF",
@@ -3980,13 +4001,6 @@
           "name": "Dallas Goedert",
           "position": "TE",
           "team": "PHI",
-          "status": "Active"
-        },
-        {
-          "player_id": "5189",
-          "name": "Eddy Pineiro",
-          "position": "K",
-          "team": "SF",
           "status": "Active"
         },
         {
