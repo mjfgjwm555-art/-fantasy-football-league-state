@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-11-12T03:59:25.154273+00:00",
+  "generated_at_utc": "2026-11-12T12:28:09.306074+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-11-12T03:59:25.154273+00:00",
+    "generated_at_utc": "2026-11-12T12:28:09.306074+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -391,10 +391,10 @@
         "status": "Active"
       },
       {
-        "player_id": "13345",
-        "name": "Jonah Coleman",
+        "player_id": "4034",
+        "name": "Christian McCaffrey",
         "position": "RB",
-        "team": "DEN",
+        "team": "SF",
         "status": "Active"
       },
       {
@@ -419,10 +419,10 @@
         "status": "Active"
       },
       {
-        "player_id": "4034",
-        "name": "Christian McCaffrey",
+        "player_id": "12495",
+        "name": "Ollie Gordon",
         "position": "RB",
-        "team": "SF",
+        "team": "MIA",
         "status": "Active"
       },
       {
@@ -456,17 +456,17 @@
         "status": "Active"
       },
       {
-        "player_id": "12495",
-        "name": "Ollie Gordon",
-        "position": "RB",
-        "team": "MIA",
-        "status": "Active"
-      },
-      {
         "player_id": "13311",
         "name": "Chris Bell",
         "position": "WR",
         "team": "MIA",
+        "status": "Active"
+      },
+      {
+        "player_id": "13345",
+        "name": "Jonah Coleman",
+        "position": "RB",
+        "team": "DEN",
         "status": "Active"
       },
       {
@@ -484,17 +484,17 @@
         "status": "Active"
       },
       {
+        "player_id": "5859",
+        "name": "A.J. Brown",
+        "position": "WR",
+        "team": "NE",
+        "status": "Active"
+      },
+      {
         "player_id": "7021",
         "name": "Rico Dowdle",
         "position": "RB",
         "team": "PIT",
-        "status": "Active"
-      },
-      {
-        "player_id": "7526",
-        "name": "Jaylen Waddle",
-        "position": "WR",
-        "team": "DEN",
         "status": "Active"
       },
       {
@@ -544,10 +544,10 @@
         "status": "Active"
       },
       {
-        "player_id": "5859",
-        "name": "A.J. Brown",
+        "player_id": "7526",
+        "name": "Jaylen Waddle",
         "position": "WR",
-        "team": "NE",
+        "team": "DEN",
         "status": "Active"
       }
     ],
@@ -1168,10 +1168,10 @@
           "status": "Active"
         },
         {
-          "player_id": "13345",
-          "name": "Jonah Coleman",
+          "player_id": "4034",
+          "name": "Christian McCaffrey",
           "position": "RB",
-          "team": "DEN",
+          "team": "SF",
           "status": "Active"
         },
         {
@@ -1196,10 +1196,10 @@
           "status": "Active"
         },
         {
-          "player_id": "4034",
-          "name": "Christian McCaffrey",
+          "player_id": "12495",
+          "name": "Ollie Gordon",
           "position": "RB",
-          "team": "SF",
+          "team": "MIA",
           "status": "Active"
         },
         {
@@ -1233,17 +1233,17 @@
           "status": "Active"
         },
         {
-          "player_id": "12495",
-          "name": "Ollie Gordon",
-          "position": "RB",
-          "team": "MIA",
-          "status": "Active"
-        },
-        {
           "player_id": "13311",
           "name": "Chris Bell",
           "position": "WR",
           "team": "MIA",
+          "status": "Active"
+        },
+        {
+          "player_id": "13345",
+          "name": "Jonah Coleman",
+          "position": "RB",
+          "team": "DEN",
           "status": "Active"
         },
         {
@@ -1261,17 +1261,17 @@
           "status": "Active"
         },
         {
+          "player_id": "5859",
+          "name": "A.J. Brown",
+          "position": "WR",
+          "team": "NE",
+          "status": "Active"
+        },
+        {
           "player_id": "7021",
           "name": "Rico Dowdle",
           "position": "RB",
           "team": "PIT",
-          "status": "Active"
-        },
-        {
-          "player_id": "7526",
-          "name": "Jaylen Waddle",
-          "position": "WR",
-          "team": "DEN",
           "status": "Active"
         },
         {
@@ -1321,10 +1321,10 @@
           "status": "Active"
         },
         {
-          "player_id": "5859",
-          "name": "A.J. Brown",
+          "player_id": "7526",
+          "name": "Jaylen Waddle",
           "position": "WR",
-          "team": "NE",
+          "team": "DEN",
           "status": "Active"
         }
       ],
