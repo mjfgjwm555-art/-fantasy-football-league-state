@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-11-12T20:17:54.927659+00:00",
+  "generated_at_utc": "2026-11-13T01:18:56.341240+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-11-12T20:17:54.927659+00:00",
+    "generated_at_utc": "2026-11-13T01:18:56.341240+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -1549,10 +1549,10 @@
           "status": "Active"
         },
         {
-          "player_id": "6130",
-          "name": "Devin Singletary",
+          "player_id": "5892",
+          "name": "David Montgomery",
           "position": "RB",
-          "team": "NYG",
+          "team": "HOU",
           "status": "Active"
         },
         {
@@ -1642,10 +1642,10 @@
           "status": "Active"
         },
         {
-          "player_id": "5892",
-          "name": "David Montgomery",
+          "player_id": "6130",
+          "name": "Devin Singletary",
           "position": "RB",
-          "team": "HOU",
+          "team": "NYG",
           "status": "Active"
         },
         {
@@ -1958,10 +1958,10 @@
           "status": "Active"
         },
         {
-          "player_id": "12517",
-          "name": "Colston Loveland",
+          "player_id": "3214",
+          "name": "Hunter Henry",
           "position": "TE",
-          "team": "CHI",
+          "team": "NE",
           "status": "Active"
         },
         {
@@ -1972,10 +1972,10 @@
           "status": "Active"
         },
         {
-          "player_id": "4866",
-          "name": "Saquon Barkley",
-          "position": "RB",
-          "team": "PHI",
+          "player_id": "5872",
+          "name": "Deebo Samuel",
+          "position": "WR",
+          "team": "SF",
           "status": "Active"
         },
         {
@@ -2009,10 +2009,10 @@
           "status": "Active"
         },
         {
-          "player_id": "3214",
-          "name": "Hunter Henry",
+          "player_id": "12517",
+          "name": "Colston Loveland",
           "position": "TE",
-          "team": "NE",
+          "team": "CHI",
           "status": "Active"
         },
         {
@@ -2023,10 +2023,10 @@
           "status": "Active"
         },
         {
-          "player_id": "5872",
-          "name": "Deebo Samuel",
-          "position": "WR",
-          "team": "SF",
+          "player_id": "4866",
+          "name": "Saquon Barkley",
+          "position": "RB",
+          "team": "PHI",
           "status": "Active"
         },
         {
@@ -2740,17 +2740,17 @@
           "status": "Active"
         },
         {
-          "player_id": "1479",
-          "name": "Keenan Allen",
+          "player_id": "11783",
+          "name": "Ryan Flournoy",
           "position": "WR",
-          "team": "IND",
+          "team": "DAL",
           "status": "Active"
         },
         {
-          "player_id": "10213",
-          "name": "Tre Tucker",
-          "position": "WR",
-          "team": "LV",
+          "player_id": "10236",
+          "name": "Dalton Kincaid",
+          "position": "TE",
+          "team": "BUF",
           "status": "Active"
         },
         {
@@ -2770,17 +2770,17 @@
       ],
       "bench": [
         {
+          "player_id": "10213",
+          "name": "Tre Tucker",
+          "position": "WR",
+          "team": "LV",
+          "status": "Active"
+        },
+        {
           "player_id": "10219",
           "name": "Chris Rodriguez",
           "position": "RB",
           "team": "JAX",
-          "status": "Active"
-        },
-        {
-          "player_id": "10236",
-          "name": "Dalton Kincaid",
-          "position": "TE",
-          "team": "BUF",
           "status": "Active"
         },
         {
@@ -2798,13 +2798,6 @@
           "status": "Active"
         },
         {
-          "player_id": "11783",
-          "name": "Ryan Flournoy",
-          "position": "WR",
-          "team": "DAL",
-          "status": "Active"
-        },
-        {
           "player_id": "11834",
           "name": "Devaughn Vele",
           "position": "WR",
@@ -2816,6 +2809,13 @@
           "name": "Shedeur Sanders",
           "position": "QB",
           "team": "CLE",
+          "status": "Active"
+        },
+        {
+          "player_id": "1479",
+          "name": "Keenan Allen",
+          "position": "WR",
+          "team": "IND",
           "status": "Active"
         },
         {
