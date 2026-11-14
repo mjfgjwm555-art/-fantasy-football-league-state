@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-11-14T15:50:50.673117+00:00",
+  "generated_at_utc": "2026-11-14T20:20:29.536622+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-11-14T15:50:50.673117+00:00",
+    "generated_at_utc": "2026-11-14T20:20:29.536622+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -1965,10 +1965,10 @@
           "status": "Active"
         },
         {
-          "player_id": "8151",
-          "name": "Kenneth Walker",
-          "position": "RB",
-          "team": "KC",
+          "player_id": "8126",
+          "name": "Wan'Dale Robinson",
+          "position": "WR",
+          "team": "TEN",
           "status": "Active"
         },
         {
@@ -2044,10 +2044,10 @@
           "status": "Active"
         },
         {
-          "player_id": "8126",
-          "name": "Wan'Dale Robinson",
-          "position": "WR",
-          "team": "TEN",
+          "player_id": "8151",
+          "name": "Kenneth Walker",
+          "position": "RB",
+          "team": "KC",
           "status": "Active"
         },
         {
