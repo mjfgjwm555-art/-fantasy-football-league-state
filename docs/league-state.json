@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-11-15T06:25:10.084081+00:00",
+  "generated_at_utc": "2026-11-15T14:11:21.480919+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-11-15T06:25:10.084081+00:00",
+    "generated_at_utc": "2026-11-15T14:11:21.480919+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -83,9 +83,8 @@
       "daily_waivers_last_ran": 9
     },
     "avatar": null,
-    "league_id": "1332851598593908736",
     "company_id": null,
-    "last_message_id": "1426679961279811584",
+    "league_id": "1332851598593908736",
     "sport": "nfl",
     "season_type": "regular",
     "season": "2026",
@@ -145,6 +144,7 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
+    "last_message_id": "1426679961279811584",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -801,10 +801,10 @@
           "status": "Active"
         },
         {
-          "player_id": "1466",
-          "name": "Travis Kelce",
+          "player_id": "12518",
+          "name": "Tyler Warren",
           "position": "TE",
-          "team": "KC",
+          "team": "IND",
           "status": "Active"
         },
         {
@@ -852,10 +852,10 @@
           "status": "Active"
         },
         {
-          "player_id": "12518",
-          "name": "Tyler Warren",
+          "player_id": "1466",
+          "name": "Travis Kelce",
           "position": "TE",
-          "team": "IND",
+          "team": "KC",
           "status": "Active"
         },
         {
@@ -1549,10 +1549,10 @@
           "status": "Active"
         },
         {
-          "player_id": "5892",
-          "name": "David Montgomery",
+          "player_id": "12504",
+          "name": "Kaleb Johnson",
           "position": "RB",
-          "team": "HOU",
+          "team": "PIT",
           "status": "Active"
         },
         {
@@ -1614,13 +1614,6 @@
       ],
       "bench": [
         {
-          "player_id": "12504",
-          "name": "Kaleb Johnson",
-          "position": "RB",
-          "team": "PIT",
-          "status": "Active"
-        },
-        {
           "player_id": "12529",
           "name": "TreVeyon Henderson",
           "position": "RB",
@@ -1639,6 +1632,13 @@
           "name": "Mike Evans",
           "position": "WR",
           "team": "SF",
+          "status": "Active"
+        },
+        {
+          "player_id": "5892",
+          "name": "David Montgomery",
+          "position": "RB",
+          "team": "HOU",
           "status": "Active"
         },
         {
