@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-11-17T12:43:08.658098+00:00",
+  "generated_at_utc": "2026-11-17T21:21:20.017483+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-11-17T12:43:08.658098+00:00",
+    "generated_at_utc": "2026-11-17T21:21:20.017483+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -30,7 +30,7 @@
     },
     "settings": {
       "best_ball": 0,
-      "last_report": 9,
+      "last_report": 10,
       "waiver_budget": 100,
       "disable_adds": 0,
       "divisions": 0,
@@ -85,10 +85,6 @@
     "avatar": null,
     "company_id": null,
     "league_id": "1332851598593908736",
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
-    "shard": 697,
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -144,18 +140,26 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1427860761450926080",
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 697,
+    "sport": "nfl",
+    "last_message_id": "1428467439007453184",
     "draft_id": "1332851598610690048",
-    "last_author_avatar": "613b34adae9fb7799cea62ed1645ba96",
-    "last_author_display_name": "Doctorie",
-    "last_author_id": "731759054447321088",
-    "last_author_is_bot": false,
+    "last_author_avatar": null,
+    "last_author_display_name": "sys",
+    "last_author_id": "166666666666666666",
+    "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1794791043202,
+    "last_message_time": 1794935686403,
     "last_pinned_message_id": null,
-    "last_read_id": null,
     "previous_league_id": "1204162266396639232",
+    "last_read_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
     "roster_positions": [
       "QB",
       "QB",
@@ -179,10 +183,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
@@ -801,10 +801,10 @@
           "status": "Active"
         },
         {
-          "player_id": "12518",
-          "name": "Tyler Warren",
+          "player_id": "1466",
+          "name": "Travis Kelce",
           "position": "TE",
-          "team": "IND",
+          "team": "KC",
           "status": "Active"
         },
         {
@@ -815,10 +815,10 @@
           "status": "Active"
         },
         {
-          "player_id": "12512",
-          "name": "Quinshon Judkins",
+          "player_id": "11584",
+          "name": "Bucky Irving",
           "position": "RB",
-          "team": "CLE",
+          "team": "TB",
           "status": "Active"
         },
         {
@@ -845,17 +845,17 @@
           "status": "Active"
         },
         {
-          "player_id": "11584",
-          "name": "Bucky Irving",
+          "player_id": "12512",
+          "name": "Quinshon Judkins",
           "position": "RB",
-          "team": "TB",
+          "team": "CLE",
           "status": "Active"
         },
         {
-          "player_id": "1466",
-          "name": "Travis Kelce",
+          "player_id": "12518",
+          "name": "Tyler Warren",
           "position": "TE",
-          "team": "KC",
+          "team": "IND",
           "status": "Active"
         },
         {
@@ -2303,24 +2303,24 @@
           "status": "Active"
         },
         {
-          "player_id": "12494",
-          "name": "Kyle McCord",
+          "player_id": "6797",
+          "name": "Justin Herbert",
           "position": "QB",
-          "team": "GB",
+          "team": "LAC",
           "status": "Active"
         },
         {
-          "player_id": "8408",
-          "name": "Jordan Mason",
+          "player_id": "8136",
+          "name": "Rachaad White",
           "position": "RB",
-          "team": "MIN",
+          "team": "WAS",
           "status": "Active"
         },
         {
-          "player_id": "12474",
-          "name": "Woody Marks",
+          "player_id": "7588",
+          "name": "Javonte Williams",
           "position": "RB",
-          "team": "HOU",
+          "team": "DAL",
           "status": "Active"
         },
         {
@@ -2338,10 +2338,10 @@
           "status": "Active"
         },
         {
-          "player_id": "12493",
-          "name": "Oronde Gadsden",
+          "player_id": "10859",
+          "name": "Sam LaPorta",
           "position": "TE",
-          "team": "LAC",
+          "team": "DET",
           "status": "Active"
         },
         {
@@ -2352,10 +2352,10 @@
           "status": "Active"
         },
         {
-          "player_id": "8136",
-          "name": "Rachaad White",
-          "position": "RB",
-          "team": "WAS",
+          "player_id": "12514",
+          "name": "Emeka Egbuka",
+          "position": "WR",
+          "team": "TB",
           "status": "Active"
         },
         {
@@ -2375,10 +2375,10 @@
       ],
       "bench": [
         {
-          "player_id": "10859",
-          "name": "Sam LaPorta",
-          "position": "TE",
-          "team": "DET",
+          "player_id": "12474",
+          "name": "Woody Marks",
+          "position": "RB",
+          "team": "HOU",
           "status": "Active"
         },
         {
@@ -2389,17 +2389,24 @@
           "status": "Active"
         },
         {
-          "player_id": "12509",
-          "name": "Tre' Harris",
-          "position": "WR",
+          "player_id": "12493",
+          "name": "Oronde Gadsden",
+          "position": "TE",
           "team": "LAC",
           "status": "Active"
         },
         {
-          "player_id": "12514",
-          "name": "Emeka Egbuka",
+          "player_id": "12494",
+          "name": "Kyle McCord",
+          "position": "QB",
+          "team": "GB",
+          "status": "Active"
+        },
+        {
+          "player_id": "12509",
+          "name": "Tre' Harris",
           "position": "WR",
-          "team": "TB",
+          "team": "LAC",
           "status": "Active"
         },
         {
@@ -2424,13 +2431,6 @@
           "status": "Active"
         },
         {
-          "player_id": "6797",
-          "name": "Justin Herbert",
-          "position": "QB",
-          "team": "LAC",
-          "status": "Active"
-        },
-        {
           "player_id": "7525",
           "name": "DeVonta Smith",
           "position": "WR",
@@ -2438,10 +2438,10 @@
           "status": "Active"
         },
         {
-          "player_id": "7588",
-          "name": "Javonte Williams",
+          "player_id": "8408",
+          "name": "Jordan Mason",
           "position": "RB",
-          "team": "DAL",
+          "team": "MIN",
           "status": "Active"
         }
       ],
@@ -3883,10 +3883,10 @@
           "status": "Active"
         },
         {
-          "player_id": "5870",
-          "name": "Daniel Jones",
+          "player_id": "11560",
+          "name": "Caleb Williams",
           "position": "QB",
-          "team": "IND",
+          "team": "CHI",
           "status": "Active"
         },
         {
@@ -3904,10 +3904,24 @@
           "status": "Active"
         },
         {
-          "player_id": "8112",
-          "name": "Drake London",
+          "player_id": "11620",
+          "name": "Rome Odunze",
           "position": "WR",
-          "team": "ATL",
+          "team": "CHI",
+          "status": "Active"
+        },
+        {
+          "player_id": "8148",
+          "name": "Jameson Williams",
+          "position": "WR",
+          "team": "DET",
+          "status": "Active"
+        },
+        {
+          "player_id": "5022",
+          "name": "Dallas Goedert",
+          "position": "TE",
+          "team": "PHI",
           "status": "Active"
         },
         {
@@ -3918,24 +3932,10 @@
           "status": "Active"
         },
         {
-          "player_id": "9484",
-          "name": "Tucker Kraft",
-          "position": "TE",
-          "team": "GB",
-          "status": "Active"
-        },
-        {
-          "player_id": "9753",
-          "name": "Zach Charbonnet",
-          "position": "RB",
-          "team": "SEA",
-          "status": "Active"
-        },
-        {
-          "player_id": "8148",
-          "name": "Jameson Williams",
+          "player_id": "5947",
+          "name": "Jakobi Meyers",
           "position": "WR",
-          "team": "DET",
+          "team": "JAX",
           "status": "Active"
         },
         {
@@ -3954,20 +3954,6 @@
         }
       ],
       "bench": [
-        {
-          "player_id": "11560",
-          "name": "Caleb Williams",
-          "position": "QB",
-          "team": "CHI",
-          "status": "Active"
-        },
-        {
-          "player_id": "11620",
-          "name": "Rome Odunze",
-          "position": "WR",
-          "team": "CHI",
-          "status": "Active"
-        },
         {
           "player_id": "11729",
           "name": "Sione Vaki",
@@ -3997,17 +3983,17 @@
           "status": "Active"
         },
         {
-          "player_id": "5022",
-          "name": "Dallas Goedert",
-          "position": "TE",
-          "team": "PHI",
+          "player_id": "5870",
+          "name": "Daniel Jones",
+          "position": "QB",
+          "team": "IND",
           "status": "Active"
         },
         {
-          "player_id": "5947",
-          "name": "Jakobi Meyers",
+          "player_id": "8112",
+          "name": "Drake London",
           "position": "WR",
-          "team": "JAX",
+          "team": "ATL",
           "status": "Active"
         },
         {
@@ -4022,6 +4008,20 @@
           "name": "Khalil Shakir",
           "position": "WR",
           "team": "BUF",
+          "status": "Active"
+        },
+        {
+          "player_id": "9484",
+          "name": "Tucker Kraft",
+          "position": "TE",
+          "team": "GB",
+          "status": "Active"
+        },
+        {
+          "player_id": "9753",
+          "name": "Zach Charbonnet",
+          "position": "RB",
+          "team": "SEA",
           "status": "Active"
         }
       ],
