@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-11-18T11:37:01.788611+00:00",
+  "generated_at_utc": "2026-11-18T19:35:17.028833+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-11-18T11:37:01.788611+00:00",
+    "generated_at_utc": "2026-11-18T19:35:17.028833+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -145,6 +145,7 @@
       "st_ff": 1.0
     },
     "last_message_id": "1428693949962260480",
+    "draft_id": "1332851598610690048",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -153,14 +154,8 @@
     "last_message_text_map": null,
     "last_message_time": 1794989690822,
     "last_pinned_message_id": null,
-    "draft_id": "1332851598610690048",
     "last_read_id": null,
     "previous_league_id": "1204162266396639232",
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "QB",
@@ -184,6 +179,11 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "my_roster": {
@@ -1549,10 +1549,10 @@
           "status": "Active"
         },
         {
-          "player_id": "12504",
-          "name": "Kaleb Johnson",
+          "player_id": "5892",
+          "name": "David Montgomery",
           "position": "RB",
-          "team": "PIT",
+          "team": "HOU",
           "status": "Active"
         },
         {
@@ -1570,20 +1570,6 @@
           "status": "Active"
         },
         {
-          "player_id": "8167",
-          "name": "Christian Watson",
-          "position": "WR",
-          "team": "GB",
-          "status": "Active"
-        },
-        {
-          "player_id": "12506",
-          "name": "Harold Fannin",
-          "position": "TE",
-          "team": "CLE",
-          "status": "Active"
-        },
-        {
           "player_id": "6786",
           "name": "CeeDee Lamb",
           "position": "WR",
@@ -1591,40 +1577,10 @@
           "status": "Active"
         },
         {
-          "player_id": "12501",
-          "name": "Matthew Golden",
-          "position": "WR",
-          "team": "GB",
-          "status": "Active"
-        },
-        {
-          "player_id": "11533",
-          "name": "Brandon Aubrey",
-          "position": "K",
-          "team": "DAL",
-          "status": "Active"
-        },
-        {
-          "player_id": "GB",
-          "name": "Green Bay Packers",
-          "position": "DEF",
-          "team": "GB",
-          "status": null
-        }
-      ],
-      "bench": [
-        {
-          "player_id": "12529",
-          "name": "TreVeyon Henderson",
-          "position": "RB",
-          "team": "NE",
-          "status": "Active"
-        },
-        {
-          "player_id": "13287",
-          "name": "Jeremiyah Love",
-          "position": "RB",
-          "team": "ARI",
+          "player_id": "7600",
+          "name": "Pat Freiermuth",
+          "position": "TE",
+          "team": "PIT",
           "status": "Active"
         },
         {
@@ -1635,10 +1591,61 @@
           "status": "Active"
         },
         {
-          "player_id": "5892",
-          "name": "David Montgomery",
+          "player_id": "9754",
+          "name": "Quentin Johnston",
+          "position": "WR",
+          "team": "LAC",
+          "status": "Active"
+        },
+        {
+          "player_id": "11533",
+          "name": "Brandon Aubrey",
+          "position": "K",
+          "team": "DAL",
+          "status": "Active"
+        },
+        {
+          "player_id": "BUF",
+          "name": "Buffalo Bills",
+          "position": "DEF",
+          "team": "BUF",
+          "status": null
+        }
+      ],
+      "bench": [
+        {
+          "player_id": "12501",
+          "name": "Matthew Golden",
+          "position": "WR",
+          "team": "GB",
+          "status": "Active"
+        },
+        {
+          "player_id": "12504",
+          "name": "Kaleb Johnson",
           "position": "RB",
-          "team": "HOU",
+          "team": "PIT",
+          "status": "Active"
+        },
+        {
+          "player_id": "12506",
+          "name": "Harold Fannin",
+          "position": "TE",
+          "team": "CLE",
+          "status": "Active"
+        },
+        {
+          "player_id": "12533",
+          "name": "Jacory Croskey-Merritt",
+          "position": "RB",
+          "team": "WAS",
+          "status": "Active"
+        },
+        {
+          "player_id": "13287",
+          "name": "Jeremiyah Love",
+          "position": "RB",
+          "team": "ARI",
           "status": "Active"
         },
         {
@@ -1656,13 +1663,6 @@
           "status": "Active"
         },
         {
-          "player_id": "7600",
-          "name": "Pat Freiermuth",
-          "position": "TE",
-          "team": "PIT",
-          "status": "Active"
-        },
-        {
           "player_id": "8161",
           "name": "Malik Willis",
           "position": "QB",
@@ -1670,17 +1670,17 @@
           "status": "Active"
         },
         {
-          "player_id": "9754",
-          "name": "Quentin Johnston",
+          "player_id": "8167",
+          "name": "Christian Watson",
           "position": "WR",
-          "team": "LAC",
+          "team": "GB",
           "status": "Active"
         },
         {
-          "player_id": "BUF",
-          "name": "Buffalo Bills",
+          "player_id": "GB",
+          "name": "Green Bay Packers",
           "position": "DEF",
-          "team": "BUF",
+          "team": "GB",
           "status": null
         }
       ],
@@ -1716,10 +1716,10 @@
           "status": "Active"
         },
         {
-          "player_id": "12533",
-          "name": "Jacory Croskey-Merritt",
+          "player_id": "12529",
+          "name": "TreVeyon Henderson",
           "position": "RB",
-          "team": "WAS",
+          "team": "NE",
           "status": "Active"
         }
       ],
@@ -1951,31 +1951,31 @@
           "status": "Active"
         },
         {
-          "player_id": "13346",
-          "name": "Denzel Boston",
-          "position": "WR",
-          "team": "CLE",
-          "status": "Active"
-        },
-        {
-          "player_id": "3214",
-          "name": "Hunter Henry",
-          "position": "TE",
-          "team": "NE",
-          "status": "Active"
-        },
-        {
-          "player_id": "8126",
-          "name": "Wan'Dale Robinson",
-          "position": "WR",
-          "team": "TEN",
-          "status": "Active"
-        },
-        {
           "player_id": "5872",
           "name": "Deebo Samuel",
           "position": "WR",
           "team": "SF",
+          "status": "Active"
+        },
+        {
+          "player_id": "12517",
+          "name": "Colston Loveland",
+          "position": "TE",
+          "team": "CHI",
+          "status": "Active"
+        },
+        {
+          "player_id": "8151",
+          "name": "Kenneth Walker",
+          "position": "RB",
+          "team": "KC",
+          "status": "Active"
+        },
+        {
+          "player_id": "4866",
+          "name": "Saquon Barkley",
+          "position": "RB",
+          "team": "PHI",
           "status": "Active"
         },
         {
@@ -2009,10 +2009,17 @@
           "status": "Active"
         },
         {
-          "player_id": "12517",
-          "name": "Colston Loveland",
+          "player_id": "13346",
+          "name": "Denzel Boston",
+          "position": "WR",
+          "team": "CLE",
+          "status": "Active"
+        },
+        {
+          "player_id": "3214",
+          "name": "Hunter Henry",
           "position": "TE",
-          "team": "CHI",
+          "team": "NE",
           "status": "Active"
         },
         {
@@ -2020,13 +2027,6 @@
           "name": "Harrison Butker",
           "position": "K",
           "team": "KC",
-          "status": "Active"
-        },
-        {
-          "player_id": "4866",
-          "name": "Saquon Barkley",
-          "position": "RB",
-          "team": "PHI",
           "status": "Active"
         },
         {
@@ -2041,13 +2041,6 @@
           "name": "Cade Otton",
           "position": "TE",
           "team": "TB",
-          "status": "Active"
-        },
-        {
-          "player_id": "8151",
-          "name": "Kenneth Walker",
-          "position": "RB",
-          "team": "KC",
           "status": "Active"
         },
         {
@@ -2088,7 +2081,15 @@
           "status": "Inactive"
         }
       ],
-      "reserve": [],
+      "reserve": [
+        {
+          "player_id": "8126",
+          "name": "Wan'Dale Robinson",
+          "position": "WR",
+          "team": "TEN",
+          "status": "Active"
+        }
+      ],
       "settings": {
         "division": 2,
         "fpts": 1596,
@@ -3944,6 +3945,13 @@
           "position": "K",
           "team": "SF",
           "status": "Active"
+        },
+        {
+          "player_id": "DEN",
+          "name": "Denver Broncos",
+          "position": "DEF",
+          "team": "DEN",
+          "status": null
         }
       ],
       "bench": [
@@ -4016,13 +4024,6 @@
           "position": "RB",
           "team": "SEA",
           "status": "Active"
-        },
-        {
-          "player_id": "DEN",
-          "name": "Denver Broncos",
-          "position": "DEF",
-          "team": "DEN",
-          "status": null
         }
       ],
       "taxi": [
