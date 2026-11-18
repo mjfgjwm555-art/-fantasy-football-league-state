@@ -1,18 +1,18 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-11-17T21:21:20.017483+00:00",
+  "generated_at_utc": "2026-11-18T03:00:17.203191+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-11-17T21:21:20.017483+00:00",
+    "generated_at_utc": "2026-11-18T03:00:17.203191+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
     "week": 11,
     "leg": 11,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -85,6 +85,11 @@
     "avatar": null,
     "company_id": null,
     "league_id": "1332851598593908736",
+    "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
+    "shard": 697,
+    "last_message_id": "1428571052430077952",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -140,26 +145,17 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "shard": 697,
-    "sport": "nfl",
-    "last_message_id": "1428467439007453184",
-    "draft_id": "1332851598610690048",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1794935686403,
+    "last_message_time": 1794960389768,
     "last_pinned_message_id": null,
-    "previous_league_id": "1204162266396639232",
+    "draft_id": "1332851598610690048",
     "last_read_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
+    "previous_league_id": "1204162266396639232",
     "roster_positions": [
       "QB",
       "QB",
@@ -183,6 +179,10 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
@@ -3495,24 +3495,24 @@
           "status": "Active"
         },
         {
-          "player_id": "11586",
-          "name": "Blake Corum",
+          "player_id": "6790",
+          "name": "D'Andre Swift",
           "position": "RB",
-          "team": "LAR",
+          "team": "CHI",
           "status": "Active"
         },
         {
-          "player_id": "11579",
-          "name": "Audric Estime",
+          "player_id": "9511",
+          "name": "Keaton Mitchell",
           "position": "RB",
-          "team": "NO",
+          "team": "LAC",
           "status": "Active"
         },
         {
-          "player_id": "9501",
-          "name": "DeMario Douglas",
+          "player_id": "11637",
+          "name": "Keon Coleman",
           "position": "WR",
-          "team": "NE",
+          "team": "BUF",
           "status": "Active"
         },
         {
@@ -3530,10 +3530,10 @@
           "status": "Active"
         },
         {
-          "player_id": "11637",
-          "name": "Keon Coleman",
+          "player_id": "13333",
+          "name": "Deion Burks",
           "position": "WR",
-          "team": "BUF",
+          "team": "IND",
           "status": "Active"
         },
         {
@@ -3560,6 +3560,20 @@
       ],
       "bench": [
         {
+          "player_id": "11579",
+          "name": "Audric Estime",
+          "position": "RB",
+          "team": "NO",
+          "status": "Active"
+        },
+        {
+          "player_id": "11586",
+          "name": "Blake Corum",
+          "position": "RB",
+          "team": "LAR",
+          "status": "Active"
+        },
+        {
           "player_id": "11647",
           "name": "Kimani Vidal",
           "position": "RB",
@@ -3581,24 +3595,10 @@
           "status": "Active"
         },
         {
-          "player_id": "13333",
-          "name": "Deion Burks",
-          "position": "WR",
-          "team": "IND",
-          "status": "Active"
-        },
-        {
           "player_id": "1373",
           "name": "Geno Smith",
           "position": "QB",
           "team": "NYJ",
-          "status": "Active"
-        },
-        {
-          "player_id": "6790",
-          "name": "D'Andre Swift",
-          "position": "RB",
-          "team": "CHI",
           "status": "Active"
         },
         {
@@ -3616,10 +3616,10 @@
           "status": "Active"
         },
         {
-          "player_id": "9511",
-          "name": "Keaton Mitchell",
-          "position": "RB",
-          "team": "LAC",
+          "player_id": "9501",
+          "name": "DeMario Douglas",
+          "position": "WR",
+          "team": "NE",
           "status": "Active"
         },
         {
@@ -4108,13 +4108,6 @@
           "status": "Active"
         },
         {
-          "player_id": "11618",
-          "name": "Jalen McMillan",
-          "position": "WR",
-          "team": "TB",
-          "status": "Active"
-        },
-        {
           "player_id": "12519",
           "name": "Luther Burden",
           "position": "WR",
@@ -4182,13 +4175,6 @@
           "name": "Chase McLaughlin",
           "position": "K",
           "team": "TB",
-          "status": "Active"
-        },
-        {
-          "player_id": "6768",
-          "name": "Tua Tagovailoa",
-          "position": "QB",
-          "team": "ATL",
           "status": "Active"
         },
         {
@@ -4271,10 +4257,10 @@
       ],
       "starters": [
         {
-          "player_id": "11564",
-          "name": "Drake Maye",
+          "player_id": "13272",
+          "name": "Carson Beck",
           "position": "QB",
-          "team": "NE",
+          "team": "ARI",
           "status": "Active"
         },
         {
@@ -4285,17 +4271,17 @@
           "status": "Active"
         },
         {
-          "player_id": "9509",
-          "name": "Bijan Robinson",
-          "position": "RB",
-          "team": "ATL",
-          "status": "Active"
-        },
-        {
           "player_id": "9221",
           "name": "Jahmyr Gibbs",
           "position": "RB",
           "team": "DET",
+          "status": "Active"
+        },
+        {
+          "player_id": "8228",
+          "name": "Jaylen Warren",
+          "position": "RB",
+          "team": "PIT",
           "status": "Active"
         },
         {
@@ -4306,17 +4292,10 @@
           "status": "Active"
         },
         {
-          "player_id": "11610",
-          "name": "Malik Washington",
+          "player_id": "12519",
+          "name": "Luther Burden",
           "position": "WR",
-          "team": "MIA",
-          "status": "Active"
-        },
-        {
-          "player_id": "11604",
-          "name": "Brock Bowers",
-          "position": "TE",
-          "team": "LV",
+          "team": "CHI",
           "status": "Active"
         },
         {
@@ -4327,10 +4306,17 @@
           "status": "Active"
         },
         {
-          "player_id": "8228",
-          "name": "Jaylen Warren",
-          "position": "RB",
-          "team": "PIT",
+          "player_id": "9482",
+          "name": "Michael Mayer",
+          "position": "TE",
+          "team": "LV",
+          "status": "Active"
+        },
+        {
+          "player_id": "11610",
+          "name": "Malik Washington",
+          "position": "WR",
+          "team": "MIA",
           "status": "Active"
         },
         {
@@ -4350,17 +4336,17 @@
       ],
       "bench": [
         {
-          "player_id": "12519",
-          "name": "Luther Burden",
-          "position": "WR",
-          "team": "CHI",
+          "player_id": "11564",
+          "name": "Drake Maye",
+          "position": "QB",
+          "team": "NE",
           "status": "Active"
         },
         {
-          "player_id": "13272",
-          "name": "Carson Beck",
-          "position": "QB",
-          "team": "ARI",
+          "player_id": "11604",
+          "name": "Brock Bowers",
+          "position": "TE",
+          "team": "LV",
           "status": "Active"
         },
         {
@@ -4385,24 +4371,10 @@
           "status": "Active"
         },
         {
-          "player_id": "6768",
-          "name": "Tua Tagovailoa",
-          "position": "QB",
+          "player_id": "9509",
+          "name": "Bijan Robinson",
+          "position": "RB",
           "team": "ATL",
-          "status": "Active"
-        },
-        {
-          "player_id": "9482",
-          "name": "Michael Mayer",
-          "position": "TE",
-          "team": "LV",
-          "status": "Active"
-        },
-        {
-          "player_id": "9493",
-          "name": "Puka Nacua",
-          "position": "WR",
-          "team": "LAR",
           "status": "Active"
         },
         {
@@ -4445,15 +4417,15 @@
       ],
       "reserve": [
         {
-          "player_id": "11618",
-          "name": "Jalen McMillan",
+          "player_id": "2133",
+          "name": "Davante Adams",
           "position": "WR",
-          "team": "TB",
+          "team": "LAR",
           "status": "Active"
         },
         {
-          "player_id": "2133",
-          "name": "Davante Adams",
+          "player_id": "9493",
+          "name": "Puka Nacua",
           "position": "WR",
           "team": "LAR",
           "status": "Active"
