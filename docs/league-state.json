@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-11-20T00:47:10.159305+00:00",
+  "generated_at_utc": "2026-11-20T07:59:43.709820+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-11-20T00:47:10.159305+00:00",
+    "generated_at_utc": "2026-11-20T07:59:43.709820+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -85,10 +85,6 @@
     "avatar": null,
     "company_id": null,
     "league_id": "1332851598593908736",
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
-    "shard": 697,
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -144,23 +140,22 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1429219793830969344",
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
+    "last_message_id": "1429405954448822272",
+    "shard": 697,
+    "draft_id": "1332851598610690048",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
-    "draft_id": "1332851598610690048",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1795115061770,
+    "last_message_time": 1795159445920,
     "last_pinned_message_id": null,
     "last_read_id": null,
     "previous_league_id": "1204162266396639232",
-    "group_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "QB",
@@ -184,6 +179,11 @@
       "BN",
       "BN"
     ],
+    "group_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "my_roster": {
@@ -1428,6 +1428,13 @@
           "status": "Active"
         },
         {
+          "player_id": "1373",
+          "name": "Geno Smith",
+          "position": "QB",
+          "team": "NYJ",
+          "status": "Active"
+        },
+        {
           "player_id": "2216",
           "name": "Mike Evans",
           "position": "WR",
@@ -1523,13 +1530,6 @@
           "name": "Buffalo Bills",
           "position": "DEF",
           "team": "BUF",
-          "status": null
-        },
-        {
-          "player_id": "GB",
-          "name": "Green Bay Packers",
-          "position": "DEF",
-          "team": "GB",
           "status": null
         }
       ],
@@ -1649,6 +1649,13 @@
           "status": "Active"
         },
         {
+          "player_id": "1373",
+          "name": "Geno Smith",
+          "position": "QB",
+          "team": "NYJ",
+          "status": "Active"
+        },
+        {
           "player_id": "6806",
           "name": "J.K. Dobbins",
           "position": "RB",
@@ -1675,13 +1682,6 @@
           "position": "WR",
           "team": "GB",
           "status": "Active"
-        },
-        {
-          "player_id": "GB",
-          "name": "Green Bay Packers",
-          "position": "DEF",
-          "team": "GB",
-          "status": null
         }
       ],
       "taxi": [
@@ -1734,8 +1734,8 @@
         "ppts_decimal": 96,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 60,
-        "waiver_position": 8,
+        "waiver_budget_used": 76,
+        "waiver_position": 10,
         "wins": 16
       }
     },
@@ -2383,13 +2383,6 @@
           "status": "Active"
         },
         {
-          "player_id": "12489",
-          "name": "RJ Harvey",
-          "position": "RB",
-          "team": "DEN",
-          "status": "Active"
-        },
-        {
           "player_id": "12493",
           "name": "Oronde Gadsden",
           "position": "TE",
@@ -2408,6 +2401,13 @@
           "name": "Tre' Harris",
           "position": "WR",
           "team": "LAC",
+          "status": "Active"
+        },
+        {
+          "player_id": "13302",
+          "name": "Adam Randall",
+          "position": "RB",
+          "team": "BAL",
           "status": "Active"
         },
         {
@@ -2478,10 +2478,10 @@
           "status": "Active"
         },
         {
-          "player_id": "13302",
-          "name": "Adam Randall",
+          "player_id": "12489",
+          "name": "RJ Harvey",
           "position": "RB",
-          "team": "BAL",
+          "team": "DEN",
           "status": "Active"
         }
       ],
@@ -3682,7 +3682,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 74,
-        "waiver_position": 10,
+        "waiver_position": 9,
         "wins": 7
       }
     },
@@ -4472,7 +4472,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 16,
-        "waiver_position": 9,
+        "waiver_position": 8,
         "wins": 19
       }
     }
