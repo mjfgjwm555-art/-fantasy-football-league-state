@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-11-20T16:53:55.185971+00:00",
+  "generated_at_utc": "2026-11-20T22:56:22.202231+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-11-20T16:53:55.185971+00:00",
+    "generated_at_utc": "2026-11-20T22:56:22.202231+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -85,10 +85,6 @@
     "avatar": null,
     "company_id": null,
     "league_id": "1332851598593908736",
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
-    "shard": 697,
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -144,7 +140,11 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1429420108677144576",
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 697,
+    "sport": "nfl",
+    "last_message_id": "1429568382394470400",
     "draft_id": "1332851598610690048",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
@@ -152,10 +152,15 @@
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1795162820551,
+    "last_message_time": 1795198171761,
     "last_pinned_message_id": null,
     "last_read_id": null,
     "previous_league_id": "1204162266396639232",
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "QB",
@@ -179,11 +184,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "my_roster": {
@@ -808,10 +808,10 @@
           "status": "Active"
         },
         {
-          "player_id": "11632",
-          "name": "Malik Nabers",
+          "player_id": "2449",
+          "name": "Stefon Diggs",
           "position": "WR",
-          "team": "NYG",
+          "team": "WAS",
           "status": "Active"
         },
         {
@@ -845,6 +845,13 @@
           "status": "Active"
         },
         {
+          "player_id": "11632",
+          "name": "Malik Nabers",
+          "position": "WR",
+          "team": "NYG",
+          "status": "Active"
+        },
+        {
           "player_id": "12512",
           "name": "Quinshon Judkins",
           "position": "RB",
@@ -856,13 +863,6 @@
           "name": "Tyler Warren",
           "position": "TE",
           "team": "IND",
-          "status": "Active"
-        },
-        {
-          "player_id": "2449",
-          "name": "Stefon Diggs",
-          "position": "WR",
-          "team": "WAS",
           "status": "Active"
         },
         {
@@ -4151,17 +4151,17 @@
           "status": "Active"
         },
         {
-          "player_id": "1837",
-          "name": "Jimmy Garoppolo",
-          "position": "QB",
-          "team": null,
-          "status": "Active"
-        },
-        {
           "player_id": "2133",
           "name": "Davante Adams",
           "position": "WR",
           "team": "LAR",
+          "status": "Active"
+        },
+        {
+          "player_id": "260",
+          "name": "Josh Johnson",
+          "position": "QB",
+          "team": "CIN",
           "status": "Active"
         },
         {
@@ -4372,10 +4372,10 @@
           "status": "Active"
         },
         {
-          "player_id": "1837",
-          "name": "Jimmy Garoppolo",
+          "player_id": "260",
+          "name": "Josh Johnson",
           "position": "QB",
-          "team": null,
+          "team": "CIN",
           "status": "Active"
         },
         {
