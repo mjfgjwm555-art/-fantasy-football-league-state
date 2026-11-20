@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-11-19T18:26:44.968776+00:00",
+  "generated_at_utc": "2026-11-20T00:47:10.159305+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-11-19T18:26:44.968776+00:00",
+    "generated_at_utc": "2026-11-20T00:47:10.159305+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -85,6 +85,10 @@
     "avatar": null,
     "company_id": null,
     "league_id": "1332851598593908736",
+    "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
+    "shard": 697,
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -140,22 +144,23 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "shard": 697,
-    "sport": "nfl",
-    "last_message_id": "1428693949962260480",
+    "last_message_id": "1429219793830969344",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
+    "draft_id": "1332851598610690048",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1794989690822,
+    "last_message_time": 1795115061770,
     "last_pinned_message_id": null,
     "last_read_id": null,
-    "draft_id": "1332851598610690048",
     "previous_league_id": "1204162266396639232",
+    "group_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "QB",
@@ -179,11 +184,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "my_roster": {
@@ -750,10 +750,10 @@
           "status": "Active"
         },
         {
-          "player_id": "NE",
-          "name": "New England Patriots",
+          "player_id": "CHI",
+          "name": "Chicago Bears",
           "position": "DEF",
-          "team": "NE",
+          "team": "CHI",
           "status": null
         }
       ],
@@ -829,10 +829,10 @@
           "status": "Active"
         },
         {
-          "player_id": "NE",
-          "name": "New England Patriots",
+          "player_id": "CHI",
+          "name": "Chicago Bears",
           "position": "DEF",
-          "team": "NE",
+          "team": "CHI",
           "status": null
         }
       ],
@@ -3108,10 +3108,10 @@
           "status": "Active"
         },
         {
-          "player_id": "12469",
-          "name": "Dylan Sampson",
+          "player_id": "4035",
+          "name": "Alvin Kamara",
           "position": "RB",
-          "team": "CLE",
+          "team": "NO",
           "status": "Active"
         },
         {
@@ -3122,10 +3122,10 @@
           "status": "Active"
         },
         {
-          "player_id": "12718",
-          "name": "Konata Mumpfield",
+          "player_id": "4037",
+          "name": "Chris Godwin",
           "position": "WR",
-          "team": "LAR",
+          "team": "TB",
           "status": "Active"
         },
         {
@@ -3143,10 +3143,10 @@
           "status": "Active"
         },
         {
-          "player_id": "12491",
-          "name": "Corey Kiner",
+          "player_id": "9508",
+          "name": "Tyjae Spears",
           "position": "RB",
-          "team": "NE",
+          "team": "TEN",
           "status": "Active"
         },
         {
@@ -3180,6 +3180,27 @@
           "status": "Active"
         },
         {
+          "player_id": "12469",
+          "name": "Dylan Sampson",
+          "position": "RB",
+          "team": "CLE",
+          "status": "Active"
+        },
+        {
+          "player_id": "12491",
+          "name": "Corey Kiner",
+          "position": "RB",
+          "team": "NE",
+          "status": "Active"
+        },
+        {
+          "player_id": "12718",
+          "name": "Konata Mumpfield",
+          "position": "WR",
+          "team": "LAR",
+          "status": "Active"
+        },
+        {
           "player_id": "13285",
           "name": "Malachi Fields",
           "position": "WR",
@@ -3191,20 +3212,6 @@
           "name": "Jacoby Brissett",
           "position": "QB",
           "team": "ARI",
-          "status": "Active"
-        },
-        {
-          "player_id": "4035",
-          "name": "Alvin Kamara",
-          "position": "RB",
-          "team": "NO",
-          "status": "Active"
-        },
-        {
-          "player_id": "4037",
-          "name": "Chris Godwin",
-          "position": "WR",
-          "team": "TB",
           "status": "Active"
         },
         {
@@ -3226,13 +3233,6 @@
           "name": "Anthony Richardson",
           "position": "QB",
           "team": "IND",
-          "status": "Active"
-        },
-        {
-          "player_id": "9508",
-          "name": "Tyjae Spears",
-          "position": "RB",
-          "team": "TEN",
           "status": "Active"
         }
       ],
