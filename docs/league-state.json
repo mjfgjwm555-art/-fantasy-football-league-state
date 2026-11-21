@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-11-21T11:49:31.132223+00:00",
+  "generated_at_utc": "2026-11-21T18:37:36.629434+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-11-21T11:49:31.132223+00:00",
+    "generated_at_utc": "2026-11-21T18:37:36.629434+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -85,10 +85,6 @@
     "avatar": null,
     "company_id": null,
     "league_id": "1332851598593908736",
-    "shard": 697,
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -144,7 +140,11 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1429568382394470400",
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 697,
+    "sport": "nfl",
+    "last_message_id": "1429856986870075392",
     "draft_id": "1332851598610690048",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
@@ -152,7 +152,7 @@
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1795198171761,
+    "last_message_time": 1795266980430,
     "last_pinned_message_id": null,
     "last_read_id": null,
     "previous_league_id": "1204162266396639232",
@@ -2225,13 +2225,6 @@
           "status": "Active"
         },
         {
-          "player_id": "5854",
-          "name": "Drew Lock",
-          "position": "QB",
-          "team": "SEA",
-          "status": "Active"
-        },
-        {
           "player_id": "6797",
           "name": "Justin Herbert",
           "position": "QB",
@@ -2311,10 +2304,10 @@
           "status": "Active"
         },
         {
-          "player_id": "8136",
-          "name": "Rachaad White",
+          "player_id": "13337",
+          "name": "Emmett Johnson",
           "position": "RB",
-          "team": "WAS",
+          "team": "KC",
           "status": "Active"
         },
         {
@@ -2425,17 +2418,17 @@
           "status": "Active"
         },
         {
-          "player_id": "5854",
-          "name": "Drew Lock",
-          "position": "QB",
-          "team": "SEA",
-          "status": "Active"
-        },
-        {
           "player_id": "7525",
           "name": "DeVonta Smith",
           "position": "WR",
           "team": "PHI",
+          "status": "Active"
+        },
+        {
+          "player_id": "8136",
+          "name": "Rachaad White",
+          "position": "RB",
+          "team": "WAS",
           "status": "Active"
         },
         {
@@ -2459,13 +2452,6 @@
           "name": "Mike Washington",
           "position": "RB",
           "team": "LV",
-          "status": "Active"
-        },
-        {
-          "player_id": "13337",
-          "name": "Emmett Johnson",
-          "position": "RB",
-          "team": "KC",
           "status": "Active"
         }
       ],
