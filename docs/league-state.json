@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-11-22T03:29:29.404208+00:00",
+  "generated_at_utc": "2026-11-22T11:52:35.416653+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-11-22T03:29:29.404208+00:00",
+    "generated_at_utc": "2026-11-22T11:52:35.416653+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -85,6 +85,10 @@
     "avatar": null,
     "company_id": null,
     "league_id": "1332851598593908736",
+    "shard": 697,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -140,12 +144,7 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "shard": 697,
-    "sport": "nfl",
     "last_message_id": "1429856986870075392",
-    "draft_id": "1332851598610690048",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -154,6 +153,7 @@
     "last_message_text_map": null,
     "last_message_time": 1795266980430,
     "last_pinned_message_id": null,
+    "draft_id": "1332851598610690048",
     "last_read_id": null,
     "previous_league_id": "1204162266396639232",
     "roster_positions": [
@@ -398,10 +398,10 @@
         "status": "Active"
       },
       {
-        "player_id": "11635",
-        "name": "Ladd McConkey",
+        "player_id": "7526",
+        "name": "Jaylen Waddle",
         "position": "WR",
-        "team": "LAC",
+        "team": "DEN",
         "status": "Active"
       },
       {
@@ -449,6 +449,13 @@
     ],
     "bench": [
       {
+        "player_id": "11635",
+        "name": "Ladd McConkey",
+        "position": "WR",
+        "team": "LAC",
+        "status": "Active"
+      },
+      {
         "player_id": "13311",
         "name": "Chris Bell",
         "position": "WR",
@@ -474,13 +481,6 @@
         "name": "Rico Dowdle",
         "position": "RB",
         "team": "PIT",
-        "status": "Active"
-      },
-      {
-        "player_id": "7526",
-        "name": "Jaylen Waddle",
-        "position": "WR",
-        "team": "DEN",
         "status": "Active"
       },
       {
@@ -1175,10 +1175,10 @@
           "status": "Active"
         },
         {
-          "player_id": "11635",
-          "name": "Ladd McConkey",
+          "player_id": "7526",
+          "name": "Jaylen Waddle",
           "position": "WR",
-          "team": "LAC",
+          "team": "DEN",
           "status": "Active"
         },
         {
@@ -1226,6 +1226,13 @@
       ],
       "bench": [
         {
+          "player_id": "11635",
+          "name": "Ladd McConkey",
+          "position": "WR",
+          "team": "LAC",
+          "status": "Active"
+        },
+        {
           "player_id": "13311",
           "name": "Chris Bell",
           "position": "WR",
@@ -1251,13 +1258,6 @@
           "name": "Rico Dowdle",
           "position": "RB",
           "team": "PIT",
-          "status": "Active"
-        },
-        {
-          "player_id": "7526",
-          "name": "Jaylen Waddle",
-          "position": "WR",
-          "team": "DEN",
           "status": "Active"
         },
         {
@@ -3129,10 +3129,10 @@
           "status": "Active"
         },
         {
-          "player_id": "9508",
-          "name": "Tyjae Spears",
+          "player_id": "7567",
+          "name": "Kenny Gainwell",
           "position": "RB",
-          "team": "TEN",
+          "team": "TB",
           "status": "Active"
         },
         {
@@ -3208,17 +3208,17 @@
           "status": "Active"
         },
         {
-          "player_id": "7567",
-          "name": "Kenny Gainwell",
-          "position": "RB",
-          "team": "TB",
-          "status": "Active"
-        },
-        {
           "player_id": "9229",
           "name": "Anthony Richardson",
           "position": "QB",
           "team": "IND",
+          "status": "Active"
+        },
+        {
+          "player_id": "9508",
+          "name": "Tyjae Spears",
+          "position": "RB",
+          "team": "TEN",
           "status": "Active"
         }
       ],
