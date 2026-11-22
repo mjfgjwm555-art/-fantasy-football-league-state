@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-11-22T11:52:35.416653+00:00",
+  "generated_at_utc": "2026-11-22T18:57:54.530840+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-11-22T11:52:35.416653+00:00",
+    "generated_at_utc": "2026-11-22T18:57:54.530840+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -85,10 +85,6 @@
     "avatar": null,
     "company_id": null,
     "league_id": "1332851598593908736",
-    "shard": 697,
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -144,7 +140,12 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 697,
+    "sport": "nfl",
     "last_message_id": "1429856986870075392",
+    "draft_id": "1332851598610690048",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -153,7 +154,6 @@
     "last_message_text_map": null,
     "last_message_time": 1795266980430,
     "last_pinned_message_id": null,
-    "draft_id": "1332851598610690048",
     "last_read_id": null,
     "previous_league_id": "1204162266396639232",
     "roster_positions": [
@@ -1965,10 +1965,10 @@
           "status": "Active"
         },
         {
-          "player_id": "8151",
-          "name": "Kenneth Walker",
-          "position": "RB",
-          "team": "KC",
+          "player_id": "9480",
+          "name": "Brenton Strange",
+          "position": "TE",
+          "team": "JAX",
           "status": "Active"
         },
         {
@@ -2044,10 +2044,10 @@
           "status": "Active"
         },
         {
-          "player_id": "9480",
-          "name": "Brenton Strange",
-          "position": "TE",
-          "team": "JAX",
+          "player_id": "8151",
+          "name": "Kenneth Walker",
+          "position": "RB",
+          "team": "KC",
           "status": "Active"
         },
         {
@@ -4258,10 +4258,10 @@
       ],
       "starters": [
         {
-          "player_id": "13272",
-          "name": "Carson Beck",
+          "player_id": "260",
+          "name": "Josh Johnson",
           "position": "QB",
-          "team": "ARI",
+          "team": "CIN",
           "status": "Active"
         },
         {
@@ -4358,10 +4358,10 @@
           "status": "Active"
         },
         {
-          "player_id": "260",
-          "name": "Josh Johnson",
+          "player_id": "13272",
+          "name": "Carson Beck",
           "position": "QB",
-          "team": "CIN",
+          "team": "ARI",
           "status": "Active"
         },
         {
