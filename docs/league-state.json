@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-11-25T17:38:31.838075+00:00",
+  "generated_at_utc": "2026-11-26T01:09:51.431556+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-11-25T17:38:31.838075+00:00",
+    "generated_at_utc": "2026-11-26T01:09:51.431556+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -83,12 +83,13 @@
       "daily_waivers_last_ran": 9
     },
     "avatar": null,
-    "company_id": null,
     "league_id": "1332851598593908736",
+    "company_id": null,
     "shard": 697,
     "season": "2026",
     "season_type": "regular",
     "sport": "nfl",
+    "last_message_id": "1431411155896631313",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -144,18 +145,22 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1431268779727294464",
-    "last_author_avatar": null,
-    "last_author_display_name": "sys",
-    "last_author_id": "166666666666666666",
-    "last_author_is_bot": true,
+    "draft_id": "1332851598610690048",
+    "last_author_avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+    "last_author_display_name": "jschultz1414",
+    "last_author_id": "735494799083352064",
+    "last_author_is_bot": false,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1795603578076,
+    "last_message_time": 1795637523204,
     "last_pinned_message_id": null,
-    "draft_id": "1332851598610690048",
     "last_read_id": null,
     "previous_league_id": "1204162266396639232",
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "QB",
@@ -179,11 +184,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "my_roster": {
@@ -808,10 +808,10 @@
           "status": "Active"
         },
         {
-          "player_id": "2449",
-          "name": "Stefon Diggs",
+          "player_id": "11632",
+          "name": "Malik Nabers",
           "position": "WR",
-          "team": "WAS",
+          "team": "NYG",
           "status": "Active"
         },
         {
@@ -845,13 +845,6 @@
           "status": "Active"
         },
         {
-          "player_id": "11632",
-          "name": "Malik Nabers",
-          "position": "WR",
-          "team": "NYG",
-          "status": "Active"
-        },
-        {
           "player_id": "12512",
           "name": "Quinshon Judkins",
           "position": "RB",
@@ -863,6 +856,13 @@
           "name": "Tyler Warren",
           "position": "TE",
           "team": "IND",
+          "status": "Active"
+        },
+        {
+          "player_id": "2449",
+          "name": "Stefon Diggs",
+          "position": "WR",
+          "team": "WAS",
           "status": "Active"
         },
         {
@@ -3538,10 +3538,10 @@
           "status": "Active"
         },
         {
-          "player_id": "LAR",
-          "name": "Los Angeles Rams",
+          "player_id": "NYG",
+          "name": "New York Giants",
           "position": "DEF",
-          "team": "LAR",
+          "team": "NYG",
           "status": null
         }
       ],
@@ -3603,10 +3603,10 @@
           "status": "Active"
         },
         {
-          "player_id": "NYG",
-          "name": "New York Giants",
+          "player_id": "LAR",
+          "name": "Los Angeles Rams",
           "position": "DEF",
-          "team": "NYG",
+          "team": "LAR",
           "status": null
         },
         {
