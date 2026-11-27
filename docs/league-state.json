@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "generated_at_utc": "2026-11-27T11:09:01.715892+00:00",
+  "generated_at_utc": "2026-11-27T19:55:50.668946+00:00",
   "source": "Sleeper API",
   "league_id": "1332851598593908736",
   "user_id": "731759054447321088",
   "freshness": {
-    "generated_at_utc": "2026-11-27T11:09:01.715892+00:00",
+    "generated_at_utc": "2026-11-27T19:55:50.668946+00:00",
     "refresh_target_minutes": 15
   },
   "nfl_state": {
@@ -83,12 +83,13 @@
       "daily_waivers_last_ran": 9
     },
     "avatar": null,
-    "company_id": null,
     "league_id": "1332851598593908736",
+    "company_id": null,
     "shard": 697,
     "season": "2026",
     "season_type": "regular",
     "sport": "nfl",
+    "last_message_id": "1431411155896631313",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 3.0,
@@ -144,7 +145,7 @@
       "pts_allow_7_13": 6.0,
       "st_ff": 1.0
     },
-    "last_message_id": "1431411155896631313",
+    "draft_id": "1332851598610690048",
     "last_author_avatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
     "last_author_display_name": "jschultz1414",
     "last_author_id": "735494799083352064",
@@ -153,9 +154,13 @@
     "last_message_text_map": null,
     "last_message_time": 1795637523204,
     "last_pinned_message_id": null,
-    "draft_id": "1332851598610690048",
     "last_read_id": null,
     "previous_league_id": "1204162266396639232",
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "QB",
@@ -179,11 +184,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "my_roster": {
@@ -1549,10 +1549,10 @@
           "status": "Active"
         },
         {
-          "player_id": "5892",
-          "name": "David Montgomery",
+          "player_id": "12533",
+          "name": "Jacory Croskey-Merritt",
           "position": "RB",
-          "team": "HOU",
+          "team": "WAS",
           "status": "Active"
         },
         {
@@ -1621,13 +1621,6 @@
           "status": "Active"
         },
         {
-          "player_id": "12533",
-          "name": "Jacory Croskey-Merritt",
-          "position": "RB",
-          "team": "WAS",
-          "status": "Active"
-        },
-        {
           "player_id": "13287",
           "name": "Jeremiyah Love",
           "position": "RB",
@@ -1646,6 +1639,13 @@
           "name": "Mike Evans",
           "position": "WR",
           "team": "SF",
+          "status": "Active"
+        },
+        {
+          "player_id": "5892",
+          "name": "David Montgomery",
+          "position": "RB",
+          "team": "HOU",
           "status": "Active"
         },
         {
